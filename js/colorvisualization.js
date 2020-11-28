@@ -10,6 +10,67 @@ if (typeof Uint16Array === 'undefined') Uint16Array = Array;
 if (typeof Uint32Array === 'undefined') Uint32Array = Array;
 if (typeof Float32Array === 'undefined') Float32Array = Array;
 if (typeof Float64Array === 'undefined') Float64Array = Array;
+var NTI1188005 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
+var NTI10716034 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI2215020 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1194653 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194621 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194643 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194633 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194637 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1188044 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI1380043 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1194408 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194728 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI1188015 = {size: 0,kind: 29,base: null,node: null,finalizer: null};
+var NTI1194723 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI1194617 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194619 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1194649 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1188013 = {size: 0,kind: 28,base: null,node: null,finalizer: null};
+var NNI1194649 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194649.node = NNI1194649;
+var NNI1194619 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194619.node = NNI1194619;
+NTI1194723.base = NTI1194617;
+NTI1194728.base = NTI1194617;
+var NNI1194617 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "parent", len: 0, typ: NTI1194723, name: "parent", sons: null}, 
+{kind: 1, offset: "name", len: 0, typ: NTI1188015, name: "name", sons: null}, 
+{kind: 1, offset: "message", len: 0, typ: NTI1188013, name: "msg", sons: null}, 
+{kind: 1, offset: "trace", len: 0, typ: NTI1188013, name: "trace", sons: null}, 
+{kind: 1, offset: "up", len: 0, typ: NTI1194728, name: "up", sons: null}]};
+NTI1194617.node = NNI1194617;
+var NNI1194408 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194408.node = NNI1194408;
+NTI1194617.base = NTI1194408;
+NTI1194619.base = NTI1194617;
+NTI1194649.base = NTI1194619;
+var NNI1380043 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188015, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}, 
+{kind: 1, offset: "Field2", len: 0, typ: NTI1188015, name: "Field2", sons: null}]};
+NTI1380043.node = NNI1380043;
+var NNI1194637 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194637.node = NNI1194637;
+var NNI1194633 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194633.node = NNI1194633;
+NTI1194633.base = NTI1194619;
+NTI1194637.base = NTI1194633;
+var NNI1194643 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194643.node = NNI1194643;
+var NNI1194621 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194621.node = NNI1194621;
+NTI1194621.base = NTI1194617;
+NTI1194643.base = NTI1194621;
+var NNI1194653 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1194653.node = NNI1194653;
+NTI1194653.base = NTI1194619;
+var NNI2215020 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188044, name: "a", sons: null}, 
+{kind: 1, offset: "b", len: 0, typ: NTI1188044, name: "b", sons: null}]};
+NTI2215020.node = NNI2215020;
+var NNI10716034 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "r", len: 0, typ: NTI1188005, name: "r", sons: null}, 
+{kind: 1, offset: "g", len: 0, typ: NTI1188005, name: "g", sons: null}, 
+{kind: 1, offset: "b", len: 0, typ: NTI1188005, name: "b", sons: null}]};
+NTI10716034.node = NNI10716034;
 function toJSStr(s_1455096) {
                     var Tmp5;
             var Tmp7;
@@ -97,6 +158,264 @@ function makeNimstrLit(c_1455062) {
 
   
 }
+function setConstr() {
+        var result = {};
+    for (var i = 0; i < arguments.length; ++i) {
+      var x = arguments[i];
+      if (typeof(x) == "object") {
+        for (var j = x[0]; j <= x[1]; ++j) {
+          result[j] = true;
+        }
+      } else {
+        result[x] = true;
+      }
+    }
+    return result;
+  
+
+  
+}
+var ConstSet1 = setConstr(17, 16, 4, 18, 27, 19, 23, 22, 21);
+function nimCopy(dest_1470023, src_1470024, ti_1470025) {
+  var result_1475219 = null;
+
+    switch (ti_1470025.kind) {
+    case 21:
+    case 22:
+    case 23:
+    case 5:
+      if (!(isFatPointer_1465401(ti_1470025))) {
+      result_1475219 = src_1470024;
+      }
+      else {
+        result_1475219 = [src_1470024[0], src_1470024[1]];
+      }
+      
+      break;
+    case 19:
+            if (dest_1470023 === null || dest_1470023 === undefined) {
+        dest_1470023 = {};
+      }
+      else {
+        for (var key in dest_1470023) { delete dest_1470023[key]; }
+      }
+      for (var key in src_1470024) { dest_1470023[key] = src_1470024[key]; }
+      result_1475219 = dest_1470023;
+    
+      break;
+    case 18:
+    case 17:
+      if (!((ti_1470025.base == null))) {
+      result_1475219 = nimCopy(dest_1470023, src_1470024, ti_1470025.base);
+      }
+      else {
+      if ((ti_1470025.kind == 17)) {
+      result_1475219 = (dest_1470023 === null || dest_1470023 === undefined) ? {m_type: ti_1470025} : dest_1470023;
+      }
+      else {
+        result_1475219 = (dest_1470023 === null || dest_1470023 === undefined) ? {} : dest_1470023;
+      }
+      }
+      nimCopyAux(result_1475219, src_1470024, ti_1470025.node);
+      break;
+    case 24:
+    case 4:
+    case 27:
+    case 16:
+            if (src_1470024 === null) {
+        result_1475219 = null;
+      }
+      else {
+        if (dest_1470023 === null || dest_1470023 === undefined) {
+          dest_1470023 = new Array(src_1470024.length);
+        }
+        else {
+          dest_1470023.length = src_1470024.length;
+        }
+        result_1475219 = dest_1470023;
+        for (var i = 0; i < src_1470024.length; ++i) {
+          result_1475219[i] = nimCopy(result_1475219[i], src_1470024[i], ti_1470025.base);
+        }
+      }
+    
+      break;
+    case 28:
+            if (src_1470024 !== null) {
+        result_1475219 = src_1470024.slice(0);
+      }
+    
+      break;
+    default: 
+      result_1475219 = src_1470024;
+      break;
+    }
+
+  return result_1475219;
+
+}
+function cstrToNimstr(c_1455079) {
+      var ln = c_1455079.length;
+  var result = new Array(ln);
+  var r = 0;
+  for (var i = 0; i < ln; ++i) {
+    var ch = c_1455079.charCodeAt(i);
+
+    if (ch < 128) {
+      result[r] = ch;
+    }
+    else {
+      if (ch < 2048) {
+        result[r] = (ch >> 6) | 192;
+      }
+      else {
+        if (ch < 55296 || ch >= 57344) {
+          result[r] = (ch >> 12) | 224;
+        }
+        else {
+            ++i;
+            ch = 65536 + (((ch & 1023) << 10) | (c_1455079.charCodeAt(i) & 1023));
+            result[r] = (ch >> 18) | 240;
+            ++r;
+            result[r] = ((ch >> 12) & 63) | 128;
+        }
+        ++r;
+        result[r] = ((ch >> 6) & 63) | 128;
+      }
+      ++r;
+      result[r] = (ch & 63) | 128;
+    }
+    ++r;
+  }
+  return result;
+  
+
+  
+}
+function nimFloatToString(a_1460649) {
+  var result_1460650 = null;
+
+        function nimOnlyDigitsOrMinus(n) {
+      return n.toString().match(/^-?\d+$/);
+    }
+    if (Number.isSafeInteger(a_1460649)) result_1460650 =  a_1460649+".0"
+    else {
+      result_1460650 = a_1460649+""
+      if(nimOnlyDigitsOrMinus(result_1460650)){
+        result_1460650 = a_1460649+".0"
+      }
+    }
+  
+
+  return result_1460650;
+
+}
+function arrayConstr(len_1480067, value_1480068, typ_1480069) {
+        var result = new Array(len_1480067);
+    for (var i = 0; i < len_1480067; ++i) result[i] = nimCopy(null, value_1480068, typ_1480069);
+    return result;
+  
+
+  
+}
+function raiseException(e_1420218, ename_1420219) {
+    e_1420218.name = ename_1420219;
+    if ((excHandler == 0)) {
+    unhandledException(e_1420218);
+    }
+    
+    e_1420218.trace = nimCopy(null, rawWriteStackTrace_1410260(), NTI1188013);
+    throw e_1420218;
+
+  
+}
+function chckIndx(i_1480086, a_1480087, b_1480088) {
+      var Tmp1;
+
+  var result_1480089 = 0;
+
+  BeforeRet: do {
+      if (!(a_1480087 <= i_1480086)) Tmp1 = false; else {        Tmp1 = (i_1480086 <= b_1480088);      }    if (Tmp1) {
+    result_1480089 = i_1480086;
+    break BeforeRet;
+    }
+    else {
+    raiseIndexError(i_1480086, a_1480087, b_1480088);
+    }
+    
+  } while (false);
+
+  return result_1480089;
+
+}
+var ConstSet2 = setConstr([48, 57], [65, 70], [97, 102]);
+var ConstSet3 = setConstr([48, 57], [65, 70], [97, 102]);
+var ConstSet4 = setConstr([48, 57], [65, 70], [97, 102]);
+var ConstSet5 = setConstr([48, 57], [65, 70], [97, 102]);
+var ConstSet6 = setConstr([48, 57], [65, 70], [97, 102]);
+var ConstSet7 = setConstr([48, 57], [65, 70], [97, 102]);
+function nimMin(a_1460803, b_1460804) {
+    var Tmp1;
+
+  var result_1460805 = 0;
+
+  BeforeRet: do {
+    if ((a_1460803 <= b_1460804)) {
+    Tmp1 = a_1460803;
+    }
+    else {
+    Tmp1 = b_1460804;
+    }
+    
+    result_1460805 = Tmp1;
+    break BeforeRet;
+  } while (false);
+
+  return result_1460805;
+
+}
+function addInt(a_1460419, b_1460420) {
+        var result = a_1460419 + b_1460420;
+    checkOverflowInt(result);
+    return result;
+  
+
+  
+}
+var ConstSet8 = setConstr(120, 88);
+function subInt(a_1460437, b_1460438) {
+        var result = a_1460437 - b_1460438;
+    checkOverflowInt(result);
+    return result;
+  
+
+  
+}
+function mnewString(len_1460044) {
+        return new Array(len_1460044);
+  
+
+  
+}
+function chckRange(i_1485016, a_1485017, b_1485018) {
+      var Tmp1;
+
+  var result_1485019 = 0;
+
+  BeforeRet: do {
+      if (!(a_1485017 <= i_1485016)) Tmp1 = false; else {        Tmp1 = (i_1485016 <= b_1485018);      }    if (Tmp1) {
+    result_1485019 = i_1485016;
+    break BeforeRet;
+    }
+    else {
+    raiseRangeError();
+    }
+    
+  } while (false);
+
+  return result_1485019;
+
+}
+        var allColors_10716032 = [makeNimstrLit("#f8f9fa"), makeNimstrLit("#d4d4d4"), makeNimstrLit("#c4c4c4"), makeNimstrLit("#999999"), makeNimstrLit("#727272"), makeNimstrLit("#3497e4"), makeNimstrLit("#17a2d2"), makeNimstrLit("#001629"), makeNimstrLit("#e9e9e9"), makeNimstrLit("#212529"), makeNimstrLit("#6fcf97"), makeNimstrLit("#105727"), makeNimstrLit("#f8d7da"), makeNimstrLit("#721c24"), makeNimstrLit("#5a6268"), makeNimstrLit("#dcddde")];
 var globalRaiseHook_1357018 = [null];
 var localRaiseHook_1357023 = [null];
 var outOfMemHook_1357026 = [null];
@@ -109,6 +428,3052 @@ if (!Math.trunc) {
   };
 }
 
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module macros",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+F.line = 155;
+var objectID_2135031 = [0];
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module hashes",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module bitops",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module algorithm",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module tables",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+F.line = 46;
+F.line = 47;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module jsffi",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
 function newSeq_1455128(len_1455131) {
   var result_1455133 = [];
 
@@ -120,10 +3485,669 @@ function newSeq_1455128(len_1455131) {
   return result_1455133;
 
 }
+function isFatPointer_1465401(ti_1465403) {
+  var result_1465404 = false;
+
+  BeforeRet: do {
+    result_1465404 = !((ConstSet1[ti_1465403.base.kind] != undefined));
+    break BeforeRet;
+  } while (false);
+
+  return result_1465404;
+
+}
+function nimCopyAux(dest_1470028, src_1470029, n_1470031) {
+    switch (n_1470031.kind) {
+    case 0:
+      break;
+    case 1:
+            dest_1470028[n_1470031.offset] = nimCopy(dest_1470028[n_1470031.offset], src_1470029[n_1470031.offset], n_1470031.typ);
+    
+      break;
+    case 2:
+          for (var i = 0; i < n_1470031.sons.length; i++) {
+      nimCopyAux(dest_1470028, src_1470029, n_1470031.sons[i]);
+    }
+    
+      break;
+    case 3:
+            dest_1470028[n_1470031.offset] = nimCopy(dest_1470028[n_1470031.offset], src_1470029[n_1470031.offset], n_1470031.typ);
+      for (var i = 0; i < n_1470031.sons.length; ++i) {
+        nimCopyAux(dest_1470028, src_1470029, n_1470031.sons[i][1]);
+      }
+    
+      break;
+    }
+
+  
+}
+function addFloat_1555219(result_1555222, result_1555222_Idx, x_1555223) {
+  var F={procname:"system.addFloat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 2406;
+    result_1555222[result_1555222_Idx].push.apply(result_1555222[result_1555222_Idx], cstrToNimstr(nimFloatToString(x_1555223)));;
+  framePtr = F.prev;
+
+  
+}
+function addQuoted_10757601(s_10757604, s_10757604_Idx, x_10757605) {
+  var F={procname:"addQuoted.addQuoted",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 2859;
+    addFloat_1555219(s_10757604, s_10757604_Idx, x_10757605);
+  framePtr = F.prev;
+
+  
+}
+function HEX24_10757214(x_10757217) {
+  var result_10757218 = [[]];
+
+  var F={procname:"$.$",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system/dollars.nim",line:0};
+  framePtr = F;
+    F.line = 94;
+    result_10757218[0] = nimCopy(null, makeNimstrLit("("), NTI1188013);
+    F.line = 96;
+    var count_10757231 = 0;
+    if ((0 < count_10757231)) {
+    F.line = 98;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(", "));;
+    }
+    
+    F.line = 100;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit("r"));;
+    F.line = 101;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(": "));;
+    F.line = 102;
+    count_10757231 += 1;
+    F.line = 108;
+    addQuoted_10757601(result_10757218, 0, x_10757217.r);
+    if ((0 < count_10757231)) {
+    F.line = 98;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(", "));;
+    }
+    
+    F.line = 100;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit("g"));;
+    F.line = 101;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(": "));;
+    F.line = 102;
+    count_10757231 += 1;
+    F.line = 108;
+    addQuoted_10757601(result_10757218, 0, x_10757217.g);
+    if ((0 < count_10757231)) {
+    F.line = 98;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(", "));;
+    }
+    
+    F.line = 100;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit("b"));;
+    F.line = 101;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(": "));;
+    F.line = 102;
+    count_10757231 += 1;
+    F.line = 108;
+    addQuoted_10757601(result_10757218, 0, x_10757217.b);
+    F.line = 114;
+    result_10757218[0].push.apply(result_10757218[0], makeNimstrLit(")"));;
+  framePtr = F.prev;
+
+  return result_10757218[0];
+
+}
+function add_1357042(x_1357045, x_1357045_Idx, y_1357046) {
+          if (x_1357045[x_1357045_Idx] === null) { x_1357045[x_1357045_Idx] = []; }
+      var off = x_1357045[x_1357045_Idx].length;
+      x_1357045[x_1357045_Idx].length += y_1357046.length;
+      for (var i = 0; i < y_1357046.length; ++i) {
+        x_1357045[x_1357045_Idx][off+i] = y_1357046.charCodeAt(i);
+      }
+    
+
+  
+}
+function auxWriteStackTrace_1380038(f_1380040) {
+          var Tmp3;
+
+  var result_1380041 = [[]];
+
+    var it_1380051 = f_1380040;
+    var i_1380053 = 0;
+    var total_1380055 = 0;
+    var tempFrames_1380062 = arrayConstr(64, {Field0: null, Field1: 0, Field2: null}, NTI1380043);
+    L1: do {
+        L2: while (true) {
+          if (!!((it_1380051 == null))) Tmp3 = false; else {            Tmp3 = (i_1380053 <= 63);          }        if (!Tmp3) break L2;
+          tempFrames_1380062[i_1380053].Field0 = it_1380051.procname;
+          tempFrames_1380062[i_1380053].Field1 = it_1380051.line;
+          tempFrames_1380062[i_1380053].Field2 = it_1380051.filename;
+          i_1380053 += 1;
+          total_1380055 += 1;
+          it_1380051 = it_1380051.prev;
+        }
+    } while(false);
+    L4: do {
+        L5: while (true) {
+        if (!!((it_1380051 == null))) break L5;
+          total_1380055 += 1;
+          it_1380051 = it_1380051.prev;
+        }
+    } while(false);
+    result_1380041[0] = nimCopy(null, [], NTI1188013);
+    if (!((total_1380055 == i_1380053))) {
+    result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("("));;
+    result_1380041[0].push.apply(result_1380041[0], cstrToNimstr(((total_1380055 - i_1380053))+""));;
+    result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(" calls omitted) ...\x0A"));;
+    }
+    
+    L6: do {
+      var j_1395236 = 0;
+      var colontmp__10990114 = 0;
+      colontmp__10990114 = (i_1380053 - 1);
+      var res_10990119 = colontmp__10990114;
+      L7: do {
+          L8: while (true) {
+          if (!(0 <= res_10990119)) break L8;
+            j_1395236 = res_10990119;
+            result_1380041[0].push.apply(result_1380041[0], cstrToNimstr(tempFrames_1380062[j_1395236].Field2));;
+            if ((0 < tempFrames_1380062[j_1395236].Field1)) {
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("("));;
+            result_1380041[0].push.apply(result_1380041[0], cstrToNimstr((tempFrames_1380062[j_1395236].Field1)+""));;
+            if (false) {
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(", "));;
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("0"));;
+            }
+            
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(")"));;
+            }
+            
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(" at "));;
+            add_1357042(result_1380041, 0, tempFrames_1380062[j_1395236].Field0);
+            result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("\x0A"));;
+            res_10990119 -= 1;
+          }
+      } while(false);
+    } while(false);
+
+  return result_1380041[0];
+
+}
+function rawWriteStackTrace_1410260() {
+  var result_1410262 = [];
+
+    if (!((framePtr == null))) {
+    result_1410262 = nimCopy(null, (makeNimstrLit("Traceback (most recent call last)\x0A") || []).concat(auxWriteStackTrace_1380038(framePtr) || []), NTI1188013);
+    }
+    else {
+      result_1410262 = nimCopy(null, makeNimstrLit("No stack traceback available\x0A"), NTI1188013);
+    }
+    
+
+  return result_1410262;
+
+}
+function unhandledException(e_1415059) {
+    var buf_1415060 = [[]];
+    if (!(((e_1415059.message).length == 0))) {
+    buf_1415060[0].push.apply(buf_1415060[0], makeNimstrLit("Error: unhandled exception: "));;
+    buf_1415060[0].push.apply(buf_1415060[0], e_1415059.message);;
+    }
+    else {
+    buf_1415060[0].push.apply(buf_1415060[0], makeNimstrLit("Error: unhandled exception"));;
+    }
+    
+    buf_1415060[0].push.apply(buf_1415060[0], makeNimstrLit(" ["));;
+    add_1357042(buf_1415060, 0, e_1415059.name);
+    buf_1415060[0].push.apply(buf_1415060[0], makeNimstrLit("]\x0A"));;
+    buf_1415060[0].push.apply(buf_1415060[0], rawWriteStackTrace_1410260());;
+    var cbuf_1420201 = toJSStr(buf_1415060[0]);
+    framePtr = null;
+      if (typeof(Error) !== "undefined") {
+    throw new Error(cbuf_1420201);
+  }
+  else {
+    throw cbuf_1420201;
+  }
+  
+
+  
+}
+function raiseIndexError(i_1440047, a_1440048, b_1440049) {
+    var Tmp1;
+
+    if ((b_1440049 < a_1440048)) {
+    Tmp1 = makeNimstrLit("index out of bounds, the container is empty");
+    }
+    else {
+    Tmp1 = (makeNimstrLit("index ") || []).concat(cstrToNimstr((i_1440047)+"") || [],makeNimstrLit(" not in ") || [],cstrToNimstr((a_1440048)+"") || [],makeNimstrLit(" .. ") || [],cstrToNimstr((b_1440049)+"") || []);
+    }
+    
+    raiseException({message: nimCopy(null, Tmp1, NTI1188013), parent: null, m_type: NTI1194649, name: null, trace: [], up: null}, "IndexDefect");
+
+  
+}
+function raiseOverflow() {
+    raiseException({message: makeNimstrLit("over- or underflow"), parent: null, m_type: NTI1194637, name: null, trace: [], up: null}, "OverflowDefect");
+
+  
+}
+function checkOverflowInt(a_1460403) {
+        if (a_1460403 > 2147483647 || a_1460403 < -2147483648) raiseOverflow();
+  
+
+  
+}
+function parseHex_10170019(s_10170022, number_10170024, number_10170024_Idx, start_10170025, maxLen_10170026) {
+    var Tmp1;
+
+  var result_10170027 = 0;
+
+  var F={procname:"parseHex.parseHex",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+  framePtr = F;
+    F.line = 187;
+    var i_10170028 = start_10170025;
+    F.line = 188;
+    var output_10170029 = 0;
+    F.line = 189;
+    var foundDigit_10170030 = false;
+    F.line = 190;
+    if ((maxLen_10170026 == 0)) {
+    Tmp1 = (s_10170022).length;
+    }
+    else {
+    Tmp1 = addInt(i_10170028, maxLen_10170026);
+    }
+    
+    var last_10170031 = nimMin((s_10170022).length, Tmp1);
+    if ((((addInt(i_10170028, 1) < last_10170031) && (s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)] == 48)) && (ConstSet8[s_10170022[chckIndx(addInt(i_10170028, 1), 0, (s_10170022).length-1)]] != undefined))) {
+    F.line = 191;
+    i_10170028 = addInt(i_10170028, 2);
+    }
+    else {
+    if (((i_10170028 < last_10170031) && (s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)] == 35))) {
+    F.line = 192;
+    i_10170028 = addInt(i_10170028, 1);
+    }
+    }
+    L2: do {
+      F.line = 193;
+        L3: while (true) {
+        if (!(i_10170028 < last_10170031)) break L3;
+          F.line = 194;
+          switch (s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)]) {
+          case 95:
+            break;
+          case 48:
+          case 49:
+          case 50:
+          case 51:
+          case 52:
+          case 53:
+          case 54:
+          case 55:
+          case 56:
+          case 57:
+            F.line = 197;
+            output_10170029 = ((output_10170029 << 4) | subInt(s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)], 48));
+            F.line = 198;
+            foundDigit_10170030 = true;
+            break;
+          case 97:
+          case 98:
+          case 99:
+          case 100:
+          case 101:
+          case 102:
+            F.line = 200;
+            output_10170029 = ((output_10170029 << 4) | addInt(subInt(s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)], 97), 10));
+            F.line = 201;
+            foundDigit_10170030 = true;
+            break;
+          case 65:
+          case 66:
+          case 67:
+          case 68:
+          case 69:
+          case 70:
+            F.line = 203;
+            output_10170029 = ((output_10170029 << 4) | addInt(subInt(s_10170022[chckIndx(i_10170028, 0, (s_10170022).length-1)], 65), 10));
+            F.line = 204;
+            foundDigit_10170030 = true;
+            break;
+          default: 
+            F.line = 205;
+            break L2;
+            break;
+          }
+          F.line = 206;
+          i_10170028 = addInt(i_10170028, 1);
+        }
+    } while(false);
+    if (foundDigit_10170030) {
+    F.line = 208;
+    number_10170024[number_10170024_Idx] = output_10170029;
+    F.line = 209;
+    result_10170027 = subInt(i_10170028, start_10170025);
+    }
+    
+  framePtr = F.prev;
+
+  return result_10170027;
+
+}
+function nsuParseHexInt(s_10170017) {
+      var Tmp1;
+
+  var result_10170018 = [0];
+
+  var F={procname:"strutils.parseHexInt",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+  framePtr = F;
+    F.line = 1213;
+    result_10170018[0] = 0;
+    F.line = 1214;
+    var L_10205030 = parseHex_10170019(s_10170017, result_10170018, 0, 0, 0);
+      if (!((L_10205030 == (s_10170017).length))) Tmp1 = true; else {        Tmp1 = (L_10205030 == 0);      }    if (Tmp1) {
+    F.line = 1216;
+    raiseException({message: (makeNimstrLit("invalid hex integer: ") || []).concat(s_10170017 || []), parent: null, m_type: NTI1194643, name: null, trace: [], up: null}, "ValueError");
+    }
+    
+  framePtr = F.prev;
+
+  return result_10170018[0];
+
+}
+function raiseRangeError() {
+    raiseException({message: makeNimstrLit("value out of range"), parent: null, m_type: NTI1194653, name: null, trace: [], up: null}, "RangeDefect");
+
+  
+}
+function HEX5BHEX5D_3740283(s_3740287, x_3740289) {
+  var result_3740290 = [];
+
+  var F={procname:"[].[]",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 2492;
+    var a_3740401 = x_3740289.a;
+    F.line = 2493;
+    var L_3740601 = addInt(subInt(x_3740289.b, a_3740401), 1);
+    F.line = 2494;
+    result_3740290 = nimCopy(null, mnewString(chckRange(L_3740601, 0, 2147483647)), NTI1188013);
+    L1: do {
+      F.line = 2495;
+      var i_3740609 = 0;
+      F.line = 106;
+      var i_10990134 = 0;
+      L2: do {
+        F.line = 107;
+          L3: while (true) {
+          if (!(i_10990134 < L_3740601)) break L3;
+            F.line = 2495;
+            i_3740609 = i_10990134;
+            F.line = 2495;
+            result_3740290[chckIndx(i_3740609, 0, (result_3740290).length-1)] = s_3740287[chckIndx(addInt(i_3740609, a_3740401), 0, (s_3740287).length-1)];
+            F.line = 109;
+            i_10990134 = addInt(i_10990134, 1);
+          }
+      } while(false);
+    } while(false);
+  framePtr = F.prev;
+
+  return result_3740290;
+
+}
+function HEX2EHEX2E_3740220(a_3740225, b_3740227) {
+  var result_3740229 = ({a: 0, b: 0});
+
+  var F={procname:".....",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 481;
+    nimCopy(result_3740229, {a: a_3740225, b: b_3740227}, NTI2215020);
+  framePtr = F.prev;
+
+  return result_3740229;
+
+}
+function hexToRGB_10716066(s_10716068) {
+    var Tmp1;
+      var Tmp2;
+      var Tmp3;
+      var Tmp4;
+      var Tmp5;
+      var Tmp6;
+      var Tmp7;
+      var Tmp8;
+
+  var result_10716069 = ({r: 0.0, g: 0.0, b: 0.0});
+
+  var F={procname:"colorvisualization.hexToRGB",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+    F.line = 44;
+      if (!(((s_10716068).length == 7))) Tmp8 = true; else {        Tmp8 = !((s_10716068[chckIndx(0, 0, (s_10716068).length-1)] == 35));      }      if (Tmp8) Tmp7 = true; else {        Tmp7 = !((ConstSet2[s_10716068[chckIndx(1, 0, (s_10716068).length-1)]] != undefined));      }      if (Tmp7) Tmp6 = true; else {        Tmp6 = !((ConstSet3[s_10716068[chckIndx(2, 0, (s_10716068).length-1)]] != undefined));      }      if (Tmp6) Tmp5 = true; else {        Tmp5 = !((ConstSet4[s_10716068[chckIndx(3, 0, (s_10716068).length-1)]] != undefined));      }      if (Tmp5) Tmp4 = true; else {        Tmp4 = !((ConstSet5[s_10716068[chckIndx(4, 0, (s_10716068).length-1)]] != undefined));      }      if (Tmp4) Tmp3 = true; else {        Tmp3 = !((ConstSet6[s_10716068[chckIndx(5, 0, (s_10716068).length-1)]] != undefined));      }      if (Tmp3) Tmp2 = true; else {        Tmp2 = !((ConstSet7[s_10716068[chckIndx(6, 0, (s_10716068).length-1)]] != undefined));      }    if (Tmp2) {
+    Tmp1 = {r: 0.0, g: 0.0, b: 0.0};
+    }
+    else {
+    Tmp1 = {r: (nsuParseHexInt(HEX5BHEX5D_3740283(s_10716068, HEX2EHEX2E_3740220(1, 2))) / 2.5600000000000000e+02), g: (nsuParseHexInt(HEX5BHEX5D_3740283(s_10716068, HEX2EHEX2E_3740220(3, 4))) / 2.5600000000000000e+02), b: (nsuParseHexInt(HEX5BHEX5D_3740283(s_10716068, HEX2EHEX2E_3740220(5, 6))) / 2.5600000000000000e+02)};
+    }
+    
+    nimCopy(result_10716069, Tmp1, NTI10716034);
+  framePtr = F.prev;
+
+  return result_10716069;
+
+}
+function toFloat_1216659(i_1216661) {
+  var result_1216662 = 0.0;
+
+  var F={procname:"system.toFloat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 1425;
+    result_1216662 = i_1216661;
+  framePtr = F.prev;
+
+  return result_1216662;
+
+}
+function HEX2F_1555648(x_1555650, y_1555651) {
+  var result_1555652 = 0.0;
+
+  var F={procname:"system./",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 2432;
+    result_1555652 = (toFloat_1216659(x_1555650) / toFloat_1216659(y_1555651));
+  framePtr = F.prev;
+
+  return result_1555652;
+
+}
+function innerHEX60gensym30_10850001() {
+  var result_10850003 = null;
+
+  var F={procname:"colorvisualization.inner`gensym30",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 430;
+    var a_10850004 = null;
+    F.line = 431;
+    a_10850004 = {};
+    F.line = 441;
+    a_10850004.color = 65280;
+    F.line = 450;
+    result_10850003 = a_10850004;
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_10850003;
+
+}
+var Tmp7;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
-F.line = 5;
-rawEcho(makeNimstrLit("Hello, World!"));
+F.line = 60;
+rawEcho(HEX24_10757214(hexToRGB_10716066(makeNimstrLit("#222222"))));
+F.line = 63;
+var appCalculator_10759416 = [document.getElementById("app-calculator")];
+F.line = 64;
+var table_10759417 = [document.createElement("table")];
+F.line = 65;
+var tr_10759418 = [document.createElement("tr")];
+F.line = 66;
+var td_10759419 = [document.createElement("td")];
+F.line = 68;
+var tdRGBOld_10759420 = [td_10759419[0].cloneNode(false)];
+F.line = 69;
+var tdRGBNew_10759421 = [td_10759419[0].cloneNode(false)];
+F.line = 70;
+var tdHSLOld_10759422 = [td_10759419[0].cloneNode(false)];
+F.line = 71;
+var tdHSLNew_10759423 = [td_10759419[0].cloneNode(false)];
+F.line = 72;
+var tdColorOld_10759424 = [td_10759419[0].cloneNode(false)];
+F.line = 73;
+var tdColorNew_10759425 = [td_10759419[0].cloneNode(false)];
+F.line = 75;
+var trRGBOld_10759426 = [tr_10759418[0].cloneNode(false)];
+F.line = 76;
+var trRGBNew_10759427 = [tr_10759418[0].cloneNode(false)];
+F.line = 77;
+var trHSLOld_10759428 = [tr_10759418[0].cloneNode(false)];
+F.line = 78;
+var trHSLNew_10759429 = [tr_10759418[0].cloneNode(false)];
+F.line = 79;
+var trColorOld_10759430 = [tr_10759418[0].cloneNode(false)];
+F.line = 80;
+var trColorNew_10759431 = [tr_10759418[0].cloneNode(false)];
+F.line = 82;
+var rows_10759434 = [[trRGBOld_10759426[0], trHSLOld_10759428[0], trColorOld_10759430[0], trColorNew_10759431[0], trHSLNew_10759429[0], trRGBNew_10759427[0]]];
+F.line = 91;
+tdRGBOld_10759420[0].innerText = "Old RGB";
+F.line = 92;
+tdRGBNew_10759421[0].innerText = "New RGB";
+F.line = 93;
+tdHSLOld_10759422[0].innerText = "Old HSL";
+F.line = 94;
+tdHSLNew_10759423[0].innerText = "New HSL";
+F.line = 95;
+tdColorOld_10759424[0].innerText = "Old color";
+F.line = 96;
+tdColorNew_10759425[0].innerText = "New color";
+F.line = 98;
+trRGBOld_10759426[0].appendChild(tdRGBOld_10759420[0]);
+F.line = 99;
+trRGBNew_10759427[0].appendChild(tdRGBNew_10759421[0]);
+F.line = 100;
+trHSLOld_10759428[0].appendChild(tdHSLOld_10759422[0]);
+F.line = 101;
+trHSLNew_10759429[0].appendChild(tdHSLNew_10759423[0]);
+F.line = 102;
+trColorOld_10759430[0].appendChild(tdColorOld_10759424[0]);
+F.line = 103;
+trColorNew_10759431[0].appendChild(tdColorNew_10759425[0]);
+L1: do {
+  F.line = 105;
+  var color_10759480 = [[]];
+  F.line = 32;
+  var i_10990085 = 0;
+  if ((i_10990085 <= 15)) {
+  L2: do {
+    F.line = 34;
+      L3: while (true) {
+      if (!true) break L3;
+        F.line = 105;
+        color_10759480[0] = allColors_10716032[chckIndx(i_10990085, 0, (allColors_10716032).length-1)];
+        F.line = 107;
+        var oldRGB_10759481 = [td_10759419[0].cloneNode(false)];
+        F.line = 108;
+        oldRGB_10759481[0].innerText = toJSStr(color_10759480[0]);
+        F.line = 109;
+        trRGBOld_10759426[0].appendChild(oldRGB_10759481[0]);
+        if ((15 <= i_10990085)) {
+        F.line = 36;
+        break L2;
+        }
+        
+        F.line = 37;
+        i_10990085 = addInt(i_10990085, 1);
+      }
+  } while(false);
+  }
+  
+} while(false);
+L4: do {
+  F.line = 111;
+  var tr_10759542 = [null];
+  F.line = 32;
+  var i_10990092 = 0;
+  if ((i_10990092 <= 5)) {
+  L5: do {
+    F.line = 34;
+      L6: while (true) {
+      if (!true) break L6;
+        F.line = 111;
+        tr_10759542[0] = rows_10759434[0][chckIndx(i_10990092, 0, (rows_10759434[0]).length-1)];
+        F.line = 112;
+        table_10759417[0].appendChild(tr_10759542[0]);
+        if ((5 <= i_10990092)) {
+        F.line = 36;
+        break L5;
+        }
+        
+        F.line = 37;
+        i_10990092 = addInt(i_10990092, 1);
+      }
+  } while(false);
+  }
+  
+} while(false);
+F.line = 114;
+appCalculator_10759416[0].appendChild(table_10759417[0]);
+F.line = 118;
+var Width_10759546 = [640];
+F.line = 119;
+var Height_10759549 = [400];
+F.line = 121;
+(Tmp7 = document.getElementsByTagName("h1"), Tmp7)[chckIndx(0, 0, (Tmp7).length-1)].innerText = "Color visualization HSL";
+F.line = 123;
+var appCanvas_10759550 = [document.getElementById("app-canvas")];
+F.line = 124;
+var scene_10760008 = [(new THREE.Scene)];
+F.line = 125;
+var camera_10805012 = [(new THREE.PerspectiveCamera((75), (HEX2F_1555648(Width_10759546[0], Height_10759549[0])), (1.0000000000000001e-01), (1000)))];
+F.line = 126;
+var renderer_10810008 = [(new THREE.WebGLRenderer)];
+renderer_10810008[0].setSize((Width_10759546[0]), (Height_10759549[0]));
+F.line = 128;
+appCanvas_10759550[0].appendChild((renderer_10810008[0].domElement));
+F.line = 131;
+var geometry_10845008 = [(new THREE.BoxGeometry())];
+F.line = 132;
+var material_10875009 = [(new THREE.MeshBasicMaterial((innerHEX60gensym30_10850001())))];
+F.line = 133;
+var cube_10900010 = [(new THREE.Mesh((geometry_10845008[0]), (material_10875009[0])))];
+scene_10760008[0].add((cube_10900010[0]));
+camera_10805012[0].position.set((0), (0), (5));
+camera_10805012[0].lookAt((0), (0), (0));
+framePtr = F.prev;
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+function animate_10990140(time_10990142) {
+  var F={procname:"colorvisualization.animate",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+    F.line = 140;
+    window.requestAnimationFrame(animate_10990140);
+    F.line = 141;
+    cube_10900010[0].rotation.x = ((cube_10900010[0].rotation.x) + 1.0000000000000000e-02);
+    F.line = 142;
+    cube_10900010[0].rotation.y = ((cube_10900010[0].rotation.y) + 1.0000000000000000e-02);
+    renderer_10810008[0].render((scene_10760008[0]), (camera_10805012[0]));
+  framePtr = F.prev;
+
+  
+}
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+F.line = 145;
+animate_10990140(0.0);
 framePtr = F.prev;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
