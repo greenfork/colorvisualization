@@ -35,6 +35,24 @@ const
     colorButtonSecondary,
     colorButtonDisabled,
   ]
+  colorsTable = {
+    "colorLight": "#f8f9fa",
+    "colorLightMedium": "#d4d4d4",
+    "colorMedium": "#c4c4c4",
+    "colorMediumDark": "#999999",
+    "colorDark": "#727272",
+    "colorClickableBlue": "#3497e4",
+    "colorDecorativeBlue": "#17a2d2",
+    "colorNavbarBackground": "#001629",
+    "colorNavbarText": "#e9e9e9",
+    "colorTypographyBlack": "#212529",
+    "colorSuccessBackground": "#6fcf97",
+    "colorSuccessText": "#105727",
+    "colorWarningBackground": "#f8d7da",
+    "colorWarningText": "#721c24",
+    "colorButtonSecondary": "#5a6268",
+    "colorButtonDisabled": "#dcddde",
+  }
 
 type
   RGB = object
@@ -107,6 +125,14 @@ for color in allColors:
     oldRGB = td.cloneNode(false)
   oldRGB.innerText = color
   trRGBOld.appendChild(oldRGB)
+
+var nameTr = tr.cloneNode(false)
+nameTr.appendChild(td.cloneNode(false))
+for (name, _) in colorsTable:
+  var nameTd = td.cloneNode(false)
+  nameTd.innerText = name
+  nameTr.appendChild(nameTd)
+table.appendChild(nameTr)
 
 for tr in rows:
   table.appendChild(tr)
