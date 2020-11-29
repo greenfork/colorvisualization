@@ -126,6 +126,8 @@ block palette:
       "New RGB",
     ]
     nameTr = tr.cloneNode(false)
+  paletteHtmlTable.id = "palette-table"
+
   nameTr.appendChild(td.cloneNode(false))
   for s in stats:
     var td = td.cloneNode(false)
@@ -177,15 +179,28 @@ block contrastPairs:
     newBgTr = tr.cloneNode(false)
     newFgTr = tr.cloneNode(false)
     newContrastTr = tr.cloneNode(false)
-    oldFirstTd = td.cloneNode(false)
-    newFirstTd = td.cloneNode(false)
-  oldFirstTd.innerText = "Old"
-  newFirstTd.innerText = "New"
-  oldFirstTd.setAttr("rowspan", "3")
-  newFirstTd.setAttr("rowspan", "3")
+    oldFirstBgTd = td.cloneNode(false)
+    oldFirstFgTd = td.cloneNode(false)
+    oldFirstContrastTd = td.cloneNode(false)
+    newFirstBgTd = td.cloneNode(false)
+    newFirstFgTd = td.cloneNode(false)
+    newFirstContrastTd = td.cloneNode(false)
+  contrastPairsHtmlTable.id = "contrast-pairs-table"
+
+  oldFirstBgTd.innerText = "Old background"
+  oldFirstFgTd.innerText = "Old foreground"
+  oldFirstContrastTd.innerText = "Old contrast"
+  newFirstBgTd.innerText = "New background"
+  newFirstFgTd.innerText = "New foreground"
+  newFirstContrastTd.innerText = "New contrast"
+
   nameTr.appendChild(td.cloneNode(false))
-  oldBgTr.appendChild(oldFirstTd)
-  newBgTr.appendChild(newFirstTd)
+  oldBgTr.appendChild(oldFirstBgTd)
+  oldFgTr.appendChild(oldFirstFgTd)
+  oldContrastTr.appendChild(oldFirstContrastTd)
+  newBgTr.appendChild(newFirstBgTd)
+  newFgTr.appendChild(newFirstFgTd)
+  newContrastTr.appendChild(newFirstContrastTd)
 
   func tableFind(t: openArray[(string, (string, HSL))], key: string): (string, HSL) =
     for index, elem in t.pairs():
@@ -206,6 +221,7 @@ block contrastPairs:
       newBgTd = td.cloneNode(false)
       newFgTd = td.cloneNode(false)
       newContrastTd = td.cloneNode(false)
+
     nameTd.innerText = name
     oldBgTd.style.backgroundColor = oldBgHexColor
     oldFgTd.style.backgroundColor = oldFgHexColor
