@@ -55,7 +55,7 @@ func hexToRGB(s: string): RGB =
       b: parseHexInt(s[5..6]).float / 256
     )
 
-func RGBtoHSL(c: RGB): HSL =
+func toHSL(c: RGB): HSL =
   var
     maxValue = max([c.r, c.g, c.b])
     minValue = min([c.r, c.g, c.b])
@@ -79,10 +79,10 @@ func RGBtoHSL(c: RGB): HSL =
     result.h = round(result.h, 1)
     result.s = round(result.s, 3)
     result.l = round(result.l, 3)
-assert RGBtoHSL(RGB(r: 0.0, g: 0.5, b: 0.0)) == HSL(h: 120, s: 1.0, l: 0.25)
-assert RGBtoHSL(RGB(r: 0.5, g: 1.0, b: 1.0)) == HSL(h: 180, s: 1.0, l: 0.75)
-assert RGBtoHSL(RGB(r: 0.116, g: 0.675, b: 0.255)) == HSL(h: 134.9, s: 0.707, l: 0.396)
-assert RGBtoHSL(RGB(r: 0.941, g: 0.785, b: 0.053)) == HSL(h: 49.5, s: 0.893, l: 0.497)
+assert toHSL(RGB(r: 0.0, g: 0.5, b: 0.0)) == HSL(h: 120, s: 1.0, l: 0.25)
+assert toHSL(RGB(r: 0.5, g: 1.0, b: 1.0)) == HSL(h: 180, s: 1.0, l: 0.75)
+assert toHSL(RGB(r: 0.116, g: 0.675, b: 0.255)) == HSL(h: 134.9, s: 0.707, l: 0.396)
+assert toHSL(RGB(r: 0.941, g: 0.785, b: 0.053)) == HSL(h: 49.5, s: 0.893, l: 0.497)
 
 var
   appCalculator = document.getElementById("app-calculator")
@@ -110,7 +110,7 @@ table.appendChild(nameTr)
 for (name, color) in colorsTable:
   let
     rgb = hexToRGB(color)
-    hsl = RGBtoHSL(rgb)
+    hsl = rgb.toHSL
   var
     tr = tr.cloneNode(false)
     td1 = td.cloneNode(false)
