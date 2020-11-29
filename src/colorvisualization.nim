@@ -28,10 +28,10 @@ const
     "colorButtonDisabled": ("#dcddde", HSL(h: 210.0, s: 0.029, l: 0.863)),
   }
   contrastPairsTable = {
-    "colorNavbarBackground": "colorNavbarText",
-    "colorLight": "colorTypographyBlack",
-    "colorSuccessBackground": "colorSuccessText",
-    "colorWarningBackground": "colorWarningText",
+    "navbar": ("colorNavbarBackground", "colorNavbarText"),
+    "body": ("colorLight", "colorTypographyBlack"),
+    "success": ("colorSuccessBackground", "colorSuccessText"),
+    "warning": ("colorWarningBackground", "colorWarningText"),
   }
 
 func toHex(c: RGB): string =
@@ -64,6 +64,7 @@ func hexToRGB(s: string): RGB =
       b: parseHexInt(s[5..6]).float / 256
     )
 
+# https://stackoverflow.com/questions/2353211/hsl-to-rgb-color-conversion
 func toHSL(c: RGB): HSL =
   var
     maxValue = max([c.r, c.g, c.b])
@@ -93,6 +94,7 @@ assert toHSL(RGB(r: 0.5, g: 1.0, b: 1.0)) == HSL(h: 180, s: 1.0, l: 0.75)
 assert toHSL(RGB(r: 0.116, g: 0.675, b: 0.255)) == HSL(h: 134.9, s: 0.707, l: 0.396)
 assert toHSL(RGB(r: 0.941, g: 0.785, b: 0.053)) == HSL(h: 49.5, s: 0.893, l: 0.497)
 
+# https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB_alternative
 func toRGB(c: HSL): RGB =
   func f(n: float): float =
     let k = (n + c.h / 30.0) mod 12
@@ -165,6 +167,69 @@ block palette:
 
   appCalculator.appendChild(paletteHtmlTable)
 
+block contrastPairs:
+  var
+    contrastPairsHtmlTable = table.cloneNode(false)
+    nameTr = tr.cloneNode(false)
+    oldBgTr = tr.cloneNode(false)
+    oldFgTr = tr.cloneNode(false)
+    oldContrastTr = tr.cloneNode(false)
+    newBgTr = tr.cloneNode(false)
+    newFgTr = tr.cloneNode(false)
+    newContrastTr = tr.cloneNode(false)
+    oldFirstTd = td.cloneNode(false)
+    newFirstTd = td.cloneNode(false)
+  oldFirstTd.innerText = "Old"
+  newFirstTd.innerText = "New"
+  oldFirstTd.setAttr("rowspan", "3")
+  newFirstTd.setAttr("rowspan", "3")
+  nameTr.appendChild(td.cloneNode(false))
+  oldBgTr.appendChild(oldFirstTd)
+  newBgTr.appendChild(newFirstTd)
+
+  func tableFind(t: openArray[(string, (string, HSL))], key: string): (string, HSL) =
+    for index, elem in t.pairs():
+      if elem[0] == key: return elem[1]
+
+  for (name, colorNames) in contrastPairsTable:
+    let
+      (bgName, fgName) = colorNames
+      (oldBgHexColor, newBgHSLColor) = colorsTable.tableFind(bgName)
+      (oldfgHexColor, newfgHSLColor) = colorsTable.tableFind(fgName)
+      newBgHexColor = newBgHSLColor.toRGB.toHex
+      newFgHexColor = newFgHSLColor.toRGB.toHex
+    var
+      nameTd = td.cloneNode(false)
+      oldBgTd = td.cloneNode(false)
+      oldFgTd = td.cloneNode(false)
+      oldContrastTd = td.cloneNode(false)
+      newBgTd = td.cloneNode(false)
+      newFgTd = td.cloneNode(false)
+      newContrastTd = td.cloneNode(false)
+    nameTd.innerText = name
+    oldBgTd.style.backgroundColor = oldBgHexColor
+    oldFgTd.style.backgroundColor = oldFgHexColor
+    oldContrastTd.innerText = "0"
+    newBgTd.style.backgroundColor = newBgHexColor
+    newFgTd.style.backgroundColor = newFgHexColor
+    newContrastTd.innerText = "0"
+
+    nameTr.appendChild(nameTd)
+    oldBgTr.appendChild(oldBgTd)
+    oldFgTr.appendChild(oldFgTd)
+    oldContrastTr.appendChild(oldContrastTd)
+    newBgTr.appendChild(newBgTd)
+    newFgTr.appendChild(newFgTd)
+    newContrastTr.appendChild(newContrastTd)
+
+  contrastPairsHtmlTable.appendChild(nameTr)
+  contrastPairsHtmlTable.appendChild(oldBgTr)
+  contrastPairsHtmlTable.appendChild(oldFgTr)
+  contrastPairsHtmlTable.appendChild(oldContrastTr)
+  contrastPairsHtmlTable.appendChild(newBgTr)
+  contrastPairsHtmlTable.appendChild(newFgTr)
+  contrastPairsHtmlTable.appendChild(newContrastTr)
+  appCalculator.appendChild(contrastPairsHtmlTable)
 
 # Animation
 ###########
