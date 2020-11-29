@@ -47,7 +47,7 @@ func hexToRGB(s: string): RGB =
      s[4] notin HexDigits or
      s[5] notin HexDigits or
      s[6] notin HexDigits:
-    RGB(r: 0.0, g: 0.0, b: 0.0)
+    assert false; RGB(r: 0.0, g: 0.0, b: 0.0)
   else:
     RGB(
       r: parseHexInt(s[1..2]).float / 256,
