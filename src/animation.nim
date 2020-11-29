@@ -7,7 +7,6 @@ var Three {.importjs: "THREE".}: JsObject
 var Width = 640
 var Height = 400
 
-document.getElementsByTagName("h1")[0].innerText = "Color visualization HSL".cstring
 var
   appCanvas = document.getElementById("app-canvas")
   scene = jsNew Three.Scene
