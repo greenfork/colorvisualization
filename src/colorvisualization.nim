@@ -1,5 +1,5 @@
 import dom, strutils, strformat
-from math import round, `mod`, pow
+from math import round, `mod`, pow, sqrt
 
 type
   RGB = object
@@ -219,6 +219,22 @@ assert toXYZ(LaB(l: 46.053, a: -51.554, b: 49.76)) == XYZ(x: 7.654, y: 15.308, z
 assert toXYZ(LaB(l: 93.142, a: -35.327, b: -10.902)) == XYZ(x: 62.637, y: 83.292, z: 107.384)
 assert toXYZ(LaB(l: 61.83, a: -57.943, b: 44.02)) == XYZ(x: 16.254, y: 30.204, z: 9.978)
 assert toXYZ(LaB(l: 81.804, a: -0.685, b: 81.571)) == XYZ(x: 56.691, y: 59.937, z: 8.98)
+
+# http://www.easyrgb.com/en/math.php
+# Euclidian distance
+func deltaE(m, p: LaB): float =
+  let
+    ld = m.l - p.l
+    ad = m.a - p.a
+    bd = m.b - p.b
+  sqrt(ld*ld + ad*ad + bd*bd).round(1)
+
+func deltaE(m, p: RGB): float = deltaE(m.toXYZ.toLaB, p.toXYZ.toLaB)
+
+assert deltaE(RGB(r: 0.0, g: 1.0, b: 0.0), RGB(r: 158.308 / 256, g: 172.905 / 256, b: 44.3 / 256)) == 72
+assert deltaE(RGB(r: 0.0, g: 1.0, b: 0.0), RGB(r: 168.464 / 256, g: 180.085 / 256, b: 51.277 / 256)) == 72
+assert deltaE(RGB(r: 0.0, g: 1.0, b: 0.0), RGB(r: 50.184 / 256, g: 160.045 / 256, b: 93.612 / 256)) == 75.9
+assert deltaE(RGB(r: 0.0, g: 1.0, b: 0.0), RGB(r: 134.26 / 256, g: 155.458 / 256, b: 44.293 / 256)) == 75.5
 
 var
   appCalculator = document.getElementById("app-calculator")
