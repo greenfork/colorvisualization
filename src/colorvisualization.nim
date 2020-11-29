@@ -1,5 +1,5 @@
 import dom, jsffi, strutils, strformat
-from math import round
+from math import round, `mod`
 
 const
   colorsTable = {
@@ -83,6 +83,19 @@ assert toHSL(RGB(r: 0.0, g: 0.5, b: 0.0)) == HSL(h: 120, s: 1.0, l: 0.25)
 assert toHSL(RGB(r: 0.5, g: 1.0, b: 1.0)) == HSL(h: 180, s: 1.0, l: 0.75)
 assert toHSL(RGB(r: 0.116, g: 0.675, b: 0.255)) == HSL(h: 134.9, s: 0.707, l: 0.396)
 assert toHSL(RGB(r: 0.941, g: 0.785, b: 0.053)) == HSL(h: 49.5, s: 0.893, l: 0.497)
+
+func toRGB(c: HSL): RGB =
+  func f(n: float): float =
+    let k = (n + c.h / 30.0) mod 12
+    c.l - c.s * min(c.l, 1 - c.l) * max(-1, min(k - 3, min(9 - k, 1.0)))
+
+  result.r = f(0.0).round(3)
+  result.g = f(8.0).round(3)
+  result.b = f(4.0).round(3)
+assert toRGB(HSL(h: 120, s: 1.0, l: 0.25)) == RGB(r: 0.0, g: 0.5, b: 0.0)
+assert toRGB(HSL(h: 180, s: 1.0, l: 0.75)) == RGB(r: 0.5, g: 1.0, b: 1.0)
+assert toRGB(HSL(h: 134.9, s: 0.707, l: 0.396)) == RGB(r: 0.116, g: 0.676, b: 0.255)
+assert toRGB(HSL(h: 49.5, s: 0.893, l: 0.497)) == RGB(r: 0.941, g: 0.785, b: 0.053)
 
 var
   appCalculator = document.getElementById("app-calculator")
