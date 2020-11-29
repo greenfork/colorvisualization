@@ -3,18 +3,32 @@ from math import round, `mod`, pow
 
 type
   RGB = object
-    r, g, b: float
+    r, g, b: range[0.0..1.0]
   HSL = object
     h: range[0.0..360.0]
-    s, l: float
+    s, l: range[0.0..1.0]
+  WhitePoint = enum # only d65 is currently used
+    d65, d55, d50, a, c, e, icc
+  ReferenceValue = object
+    x, y, z: float
+    wp: WhitePoint
   XYZ = object
     x, y, z: float
-  WhitePoint = enum
-    d65, d50
+    wp: WhitePoint
   LaB = object
-    l: range[0..100]
+    l: range[0.0..100.0]
     a, b: float
-    whitePoint: WhitePoint
+    wp: WhitePoint
+
+func findReferenceValues(wp: WhitePoint): ReferenceValue =
+  const
+    # https://www.mathworks.com/help/images/ref/whitepoint.html
+    # With normalization Y = 100.
+    referenceValues = [
+      ReferenceValue(wp: WhitePoint.d65, x: 95.047, y: 100.0, z: 108.883),
+    ]
+  for rv in referenceValues:
+    if rv.wp == wp: return rv
 
 const
   colorsTable = {
@@ -131,6 +145,7 @@ func toXYZ(c: RGB): XYZ =
   result.x = r * 0.4124 + g * 0.3576 + b * 0.1805
   result.y = r * 0.2126 + g * 0.7152 + b * 0.0722
   result.z = r * 0.0193 + g * 0.1192 + b * 0.9505
+  result.wp = WhitePoint.d65
 
 # http://www.easyrgb.com/en/math.php
 func toRGB(c: XYZ): RGB =
@@ -145,13 +160,37 @@ func toRGB(c: XYZ): RGB =
   result.g = g
   result.b = b
 
-# https://en.wikipedia.org/wiki/CIELAB_color_space#Converting_between_CIELAB_and_CIEXYZ_coordinates
+# http://www.easyrgb.com/en/math.php
 func toLaB(c: XYZ): LaB =
-  discard
+  let rv = findReferenceValues(c.wp)
+  var
+    x = c.x / rv.x
+    y = c.y / rv.y
+    z = c.z / rv.z
+  x = if x > 0.008856: pow(x, 1.0 / 3.0) else: 7.787 * x + 16.0 / 116.0
+  y = if y > 0.008856: pow(y, 1.0 / 3.0) else: 7.787 * y + 16.0 / 116.0
+  z = if z > 0.008856: pow(z, 1.0 / 3.0) else: 7.787 * z + 16.0 / 116.0
+  result.l = 116 * y - 16
+  result.a = 500 * (x - y)
+  result.b = 200 * (y - z)
 
-# https://en.wikipedia.org/wiki/CIELAB_color_space#Converting_between_CIELAB_and_CIEXYZ_coordinates
+# http://www.easyrgb.com/en/math.php
 func toXYZ(c: LaB): XYZ =
-  discard
+  let rv = findReferenceValues(c.wp)
+  var
+    y = (c.l + 16) / 116.0
+    x = c.a / 500.0 + y
+    z = y - c.b / 200.0
+  let
+    cubicY = pow(y, 3)
+    cubicX = pow(x, 3)
+    cubicZ = pow(z, 3)
+  y = if cubicY > 0.008856: cubicY else: (y - 16.0 / 116.0) / 7.787
+  x = if cubicY > 0.008856: cubicX else: (x - 16.0 / 116.0) / 7.787
+  z = if cubicY > 0.008856: cubicZ else: (z - 16.0 / 116.0) / 7.787
+  result.x = x * rv.x
+  result.y = y * rv.y
+  result.z = z * rv.z
 
 var
   appCalculator = document.getElementById("app-calculator")
