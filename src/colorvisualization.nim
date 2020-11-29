@@ -1,5 +1,5 @@
 import dom, strutils, strformat
-from math import round, `mod`
+from math import round, `mod`, pow
 
 type
   RGB = object
@@ -7,6 +7,8 @@ type
   HSL = object
     h: range[0.0..360.0]
     s, l: float
+  XYZ = object
+    x, y, z: float
 
 const
   colorsTable = {
@@ -107,6 +109,35 @@ assert toRGB(HSL(h: 120, s: 1.0, l: 0.25)) == RGB(r: 0.0, g: 0.5, b: 0.0)
 assert toRGB(HSL(h: 180, s: 1.0, l: 0.75)) == RGB(r: 0.5, g: 1.0, b: 1.0)
 assert toRGB(HSL(h: 134.9, s: 0.707, l: 0.396)) == RGB(r: 0.116, g: 0.676, b: 0.255)
 assert toRGB(HSL(h: 49.5, s: 0.893, l: 0.497)) == RGB(r: 0.941, g: 0.785, b: 0.053)
+
+# http://www.easyrgb.com/en/math.php
+func toXYZ(c: RGB): XYZ =
+  var
+    r = c.r
+    g = c.g
+    b = c.b
+  r = if r > 0.04045: pow(((r + 0.055) / 1.055), 2.4) else: r / 12.92
+  g = if g > 0.04045: pow(((g + 0.055) / 1.055), 2.4) else: g / 12.92
+  b = if b > 0.04045: pow(((b + 0.055) / 1.055), 2.4) else: b / 12.92
+  r *= 100
+  g *= 100
+  b *= 100
+  result.x = r * 0.4124 + g * 0.3576 + b * 0.1805
+  result.y = r * 0.2126 + g * 0.7152 + b * 0.0722
+  result.z = r * 0.0193 + g * 0.1192 + b * 0.9505
+
+# http://www.easyrgb.com/en/math.php
+func toRGB(c: XYZ): RGB =
+  var
+    r = c.x *  3.2406 + c.y * -1.5372 + c.z * -0.4986
+    g = c.x * -0.9689 + c.y *  1.8758 + c.z *  0.0415
+    b = c.x *  0.0557 + c.y * -0.2040 + c.z *  1.0570
+  r = if r > 0.0031308: 1.055 * pow(r, (1 / 2.4)) - 0.055 else: 12.92 * r
+  g = if g > 0.0031308: 1.055 * pow(g, (1 / 2.4)) - 0.055 else: 12.92 * g
+  b = if b > 0.0031308: 1.055 * pow(b, (1 / 2.4)) - 0.055 else: 12.92 * b
+  result.r = r
+  result.g = g
+  result.b = b
 
 var
   appCalculator = document.getElementById("app-calculator")
