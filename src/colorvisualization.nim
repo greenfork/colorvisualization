@@ -9,6 +9,12 @@ type
     s, l: float
   XYZ = object
     x, y, z: float
+  WhitePoint = enum
+    d65, d50
+  LaB = object
+    l: range[0..100]
+    a, b: float
+    whitePoint: WhitePoint
 
 const
   colorsTable = {
@@ -138,6 +144,14 @@ func toRGB(c: XYZ): RGB =
   result.r = r
   result.g = g
   result.b = b
+
+# https://en.wikipedia.org/wiki/CIELAB_color_space#Converting_between_CIELAB_and_CIEXYZ_coordinates
+func toLaB(c: XYZ): LaB =
+  discard
+
+# https://en.wikipedia.org/wiki/CIELAB_color_space#Converting_between_CIELAB_and_CIEXYZ_coordinates
+func toXYZ(c: LaB): XYZ =
+  discard
 
 var
   appCalculator = document.getElementById("app-calculator")
