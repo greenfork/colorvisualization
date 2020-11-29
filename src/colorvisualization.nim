@@ -67,7 +67,7 @@ func `$`(c: RGB): string =
   fmt"{c.r:>5.3f}, {c.g:>5.3f}, {c.b:>5.3f}".replace(" ", "&nbsp;")
 
 func `$`(c: HSL): string =
-  fmt"{c.h.float:>5.1f}°, {c.s:>5.3f}, {c.l:>5.3f}".replace(" ", "&nbsp;")
+  fmt"{c.h.float:>5.1f}°, {c.s.float:>5.3f}, {c.l.float:>5.3f}".replace(" ", "&nbsp;")
 
 func hexToRGB(s: string): RGB =
   if s.len != 7 or
@@ -133,9 +133,9 @@ assert toRGB(HSL(h: 49.5, s: 0.893, l: 0.497)) == RGB(r: 0.941, g: 0.785, b: 0.0
 # http://www.easyrgb.com/en/math.php
 func toXYZ(c: RGB): XYZ =
   var
-    r = c.r
-    g = c.g
-    b = c.b
+    r = c.r.float
+    g = c.g.float
+    b = c.b.float
   r = if r > 0.04045: pow(((r + 0.055) / 1.055), 2.4) else: r / 12.92
   g = if g > 0.04045: pow(((g + 0.055) / 1.055), 2.4) else: g / 12.92
   b = if b > 0.04045: pow(((b + 0.055) / 1.055), 2.4) else: b / 12.92
@@ -145,20 +145,34 @@ func toXYZ(c: RGB): XYZ =
   result.x = r * 0.4124 + g * 0.3576 + b * 0.1805
   result.y = r * 0.2126 + g * 0.7152 + b * 0.0722
   result.z = r * 0.0193 + g * 0.1192 + b * 0.9505
+  result.x = round(result.x, 3)
+  result.y = round(result.y, 3)
+  result.z = round(result.z, 3)
   result.wp = WhitePoint.d65
+assert toXYZ(RGB(r: 0.0, g: 0.5, b: 0.0)) == XYZ(x: 7.654, y: 15.308, z: 2.551)
+assert toXYZ(RGB(r: 0.5, g: 1.0, b: 1.0)) == XYZ(x: 62.637, y: 83.291, z: 107.383)
+assert toXYZ(RGB(r: 0.116, g: 0.675, b: 0.255)) == XYZ(x: 16.254, y: 30.204, z: 9.978)
+assert toXYZ(RGB(r: 0.941, g: 0.785, b: 0.053)) == XYZ(x: 56.691, y: 59.937, z: 8.98)
 
 # http://www.easyrgb.com/en/math.php
 func toRGB(c: XYZ): RGB =
   var
-    r = c.x *  3.2406 + c.y * -1.5372 + c.z * -0.4986
-    g = c.x * -0.9689 + c.y *  1.8758 + c.z *  0.0415
-    b = c.x *  0.0557 + c.y * -0.2040 + c.z *  1.0570
+    x = c.x / 100.0
+    y = c.y / 100.0
+    z = c.z / 100.0
+    r = x *  3.2406 + y * -1.5372 + z * -0.4986
+    g = x * -0.9689 + y *  1.8758 + z *  0.0415
+    b = x *  0.0557 + y * -0.2040 + z *  1.0570
   r = if r > 0.0031308: 1.055 * pow(r, (1 / 2.4)) - 0.055 else: 12.92 * r
   g = if g > 0.0031308: 1.055 * pow(g, (1 / 2.4)) - 0.055 else: 12.92 * g
   b = if b > 0.0031308: 1.055 * pow(b, (1 / 2.4)) - 0.055 else: 12.92 * b
-  result.r = r
-  result.g = g
-  result.b = b
+  result.r = r.round(3)
+  result.g = g.round(3)
+  result.b = b.round(3)
+assert toRGB(XYZ(x: 7.654, y: 15.308, z: 2.551)) == RGB(r: 0.0, g: 0.5, b: 0.0)
+assert toRGB(XYZ(x: 62.637, y: 83.291, z: 107.383)) == RGB(r: 0.5, g: 1.0, b: 1.0)
+assert toRGB(XYZ(x: 16.254, y: 30.204, z: 9.978)) == RGB(r: 0.116, g: 0.675, b: 0.255)
+assert toRGB(XYZ(x: 56.691, y: 59.937, z: 8.98)) == RGB(r: 0.941, g: 0.785, b: 0.053)
 
 # http://www.easyrgb.com/en/math.php
 func toLaB(c: XYZ): LaB =
@@ -173,6 +187,13 @@ func toLaB(c: XYZ): LaB =
   result.l = 116 * y - 16
   result.a = 500 * (x - y)
   result.b = 200 * (y - z)
+  result.l = round(result.l, 3)
+  result.a = round(result.a, 3)
+  result.b = round(result.b, 3)
+assert toLaB(XYZ(x: 7.654, y: 15.308, z: 2.551)) == LaB(l: 46.053, a: -51.554, b: 49.76)
+assert toLaB(XYZ(x: 62.637, y: 83.291, z: 107.383)) == LaB(l: 93.142, a: -35.327, b: -10.902)
+assert toLaB(XYZ(x: 16.254, y: 30.204, z: 9.978)) == LaB(l: 61.83, a: -57.943, b: 44.02)
+assert toLaB(XYZ(x: 56.691, y: 59.937, z: 8.98)) == LaB(l: 81.804, a: -0.685, b: 81.571)
 
 # http://www.easyrgb.com/en/math.php
 func toXYZ(c: LaB): XYZ =
@@ -191,6 +212,13 @@ func toXYZ(c: LaB): XYZ =
   result.x = x * rv.x
   result.y = y * rv.y
   result.z = z * rv.z
+  result.x = round(result.x, 3)
+  result.y = round(result.y, 3)
+  result.z = round(result.z, 3)
+assert toXYZ(LaB(l: 46.053, a: -51.554, b: 49.76)) == XYZ(x: 7.654, y: 15.308, z: 2.551)
+assert toXYZ(LaB(l: 93.142, a: -35.327, b: -10.902)) == XYZ(x: 62.637, y: 83.292, z: 107.384)
+assert toXYZ(LaB(l: 61.83, a: -57.943, b: 44.02)) == XYZ(x: 16.254, y: 30.204, z: 9.978)
+assert toXYZ(LaB(l: 81.804, a: -0.685, b: 81.571)) == XYZ(x: 56.691, y: 59.937, z: 8.98)
 
 var
   appCalculator = document.getElementById("app-calculator")
