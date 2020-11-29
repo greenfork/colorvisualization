@@ -1,26 +1,6 @@
 import dom, jsffi, strutils, strformat
 from math import round, `mod`
 
-const
-  colorsTable = {
-    "colorLight": "#f8f9fa",
-    "colorLightMedium": "#d4d4d4",
-    "colorMedium": "#c4c4c4",
-    "colorMediumDark": "#999999",
-    "colorDark": "#727272",
-    "colorClickableBlue": "#3497e4",
-    "colorDecorativeBlue": "#17a2d2",
-    "colorNavbarBackground": "#001629",
-    "colorNavbarText": "#e9e9e9",
-    "colorTypographyBlack": "#212529",
-    "colorSuccessBackground": "#6fcf97",
-    "colorSuccessText": "#105727",
-    "colorWarningBackground": "#f8d7da",
-    "colorWarningText": "#721c24",
-    "colorButtonSecondary": "#5a6268",
-    "colorButtonDisabled": "#dcddde",
-  }
-
 type
   RGB = object
     r, g, b: float
@@ -28,12 +8,41 @@ type
     h: range[0.0..360.0]
     s, l: float
 
-func `$`(c: RGB): string =
+const
+  colorsTable = {
+    "colorLight": ("#f8f9fa", HSL(h: 210.0, s: 0.143, l: 0.973)),
+    "colorLightMedium": ("#d4d4d4", HSL(l: 0.828)),
+    "colorMedium": ("#c4c4c4", HSL(l: 0.766)),
+    "colorMediumDark": ("#999999", HSL(l: 0.598)),
+    "colorDark": ("#727272", HSL(l: 0.445)),
+    "colorClickableBlue": ("#3497e4", HSL(h: 206.3, s: 0.759, l: 0.547)),
+    "colorDecorativeBlue": ("#17a2d2", HSL(h: 195.4, s: 0.803, l: 0.455)),
+    "colorNavbarBackground": ("#001629", HSL(h: 207.8, s: 1.0, l: 0.08)),
+    "colorNavbarText": ("#e9e9e9", HSL(l: 0.91)),
+    "colorTypographyBlack": ("#212529", HSL(h: 210.0, s: 0.108, l: 0.145)),
+    "colorSuccessBackground": ("#6fcf97", HSL(h: 145.0, s: 0.495, l: 0.621)),
+    "colorSuccessText": ("#105727", HSL(h: 139.4, s: 0.689, l: 0.201)),
+    "colorWarningBackground": ("#f8d7da", HSL(h: 354.5, s: 0.673, l: 0.904)),
+    "colorWarningText": ("#721c24", HSL(h: 354.4, s: 0.606, l: 0.277)),
+    "colorButtonSecondary": ("#5a6268", HSL(h: 205.7, s: 0.072, l: 0.379)),
+    "colorButtonDisabled": ("#dcddde", HSL(h: 210.0, s: 0.029, l: 0.863)),
+  }
+  contrastPairsTable = {
+    "colorNavbarBackground": "colorNavbarText",
+    "colorLight": "colorTypographyBlack",
+    "colorSuccessBackground": "colorSuccessText",
+    "colorWarningBackground": "colorWarningText",
+  }
+
+func toHex(c: RGB): string =
   let
     r = int(c.r * 256)
     g = int(c.g * 256)
     b = int(c.b * 256)
   fmt"#{toHex(r, 2)}{toHex(g, 2)}{toHex(b, 2)}"
+
+func `$`(c: RGB): string =
+  fmt"{c.r:>5.3f}, {c.g:>5.3f}, {c.b:>5.3f}".replace(" ", "&nbsp;")
 
 func `$`(c: HSL): string =
   fmt"{c.h.float:>5.1f}°, {c.s:>5.3f}, {c.l:>5.3f}".replace(" ", "&nbsp;")
@@ -103,51 +112,58 @@ var
   tr = document.createElement("tr")
   td = document.createElement("td")
 
-  stats = [
-    "Old RGB",
-    "Old HSL",
-    "Old color",
-    "New color",
-    "New HSL",
-    "New RGB",
-  ]
-
-block:
-  var nameTr = tr.cloneNode(false)
+block palette:
+  var
+    paletteHtmlTable = table.cloneNode(false)
+    stats = [
+      "Old RGB",
+      "Old HSL",
+      "Old color",
+      "New color",
+      "New HSL",
+      "New RGB",
+    ]
+    nameTr = tr.cloneNode(false)
   nameTr.appendChild(td.cloneNode(false))
   for s in stats:
     var td = td.cloneNode(false)
     td.innerText = s
     nameTr.appendChild(td)
-  table.appendChild(nameTr)
+  paletteHtmlTable.appendChild(nameTr)
 
-for (name, color) in colorsTable:
-  let
-    rgb = hexToRGB(color)
-    hsl = rgb.toHSL
-  var
-    tr = tr.cloneNode(false)
-    td1 = td.cloneNode(false)
-    td2 = td.cloneNode(false)
-    td3 = td.cloneNode(false)
-    td4 = td.cloneNode(false)
-    td5 = td.cloneNode(false)
-    td6 = td.cloneNode(false)
-    td7 = td.cloneNode(false)
-  td1.innerText = name
-  td2.innerText = color
-  td3.innerHtml = $hsl
-  td4.style.backgroundColor = color
-  tr.appendChild(td1)
-  tr.appendChild(td2)
-  tr.appendChild(td3)
-  tr.appendChild(td4)
-  tr.appendChild(td5)
-  tr.appendChild(td6)
-  tr.appendChild(td7)
-  table.appendChild(tr)
+  for (name, colors) in colorsTable:
+    let
+      (oldHexColor, newHSLColor) = colors
+      oldRGB = hexToRGB(oldHexColor)
+      oldHSL = oldRGB.toHSL
+      newHSL = newHSLColor
+      newRGB = newHSL.toRGB()
+    var
+      tr = tr.cloneNode(false)
+      td1 = td.cloneNode(false)
+      td2 = td.cloneNode(false)
+      td3 = td.cloneNode(false)
+      td4 = td.cloneNode(false)
+      td5 = td.cloneNode(false)
+      td6 = td.cloneNode(false)
+      td7 = td.cloneNode(false)
+    td1.innerText = name
+    td2.innerText = oldHexColor
+    td3.innerHtml = $oldHSL
+    td4.style.backgroundColor = oldHexColor
+    td5.style.backgroundColor = newRGB.toHex()
+    td6.innerHtml = $newHSL
+    td7.innerText = newRGB.toHex()
+    tr.appendChild(td1)
+    tr.appendChild(td2)
+    tr.appendChild(td3)
+    tr.appendChild(td4)
+    tr.appendChild(td5)
+    tr.appendChild(td6)
+    tr.appendChild(td7)
+    paletteHtmlTable.appendChild(tr)
 
-appCalculator.appendChild(table)
+  appCalculator.appendChild(paletteHtmlTable)
 
 
 # Animation
