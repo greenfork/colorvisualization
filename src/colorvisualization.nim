@@ -99,13 +99,14 @@ var
     "New RGB",
   ]
 
-var nameTr = tr.cloneNode(false)
-nameTr.appendChild(td.cloneNode(false))
-for s in stats:
-  var td = td.cloneNode(false)
-  td.innerText = s
-  nameTr.appendChild(td)
-table.appendChild(nameTr)
+block:
+  var nameTr = tr.cloneNode(false)
+  nameTr.appendChild(td.cloneNode(false))
+  for s in stats:
+    var td = td.cloneNode(false)
+    td.innerText = s
+    nameTr.appendChild(td)
+  table.appendChild(nameTr)
 
 for (name, color) in colorsTable:
   let

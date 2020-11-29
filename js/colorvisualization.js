@@ -3723,13 +3723,13 @@ function auxWriteStackTrace_1380038(f_1380040) {
     
     L6: do {
       var j_1395236 = 0;
-      var colontmp__11195137 = 0;
-      colontmp__11195137 = (i_1380053 - 1);
-      var res_11195142 = colontmp__11195137;
+      var colontmp__11195138 = 0;
+      colontmp__11195138 = (i_1380053 - 1);
+      var res_11195143 = colontmp__11195138;
       L7: do {
           L8: while (true) {
-          if (!(0 <= res_11195142)) break L8;
-            j_1395236 = res_11195142;
+          if (!(0 <= res_11195143)) break L8;
+            j_1395236 = res_11195143;
             result_1380041[0].push.apply(result_1380041[0], cstrToNimstr(tempFrames_1380062[j_1395236].Field2));;
             if ((0 < tempFrames_1380062[j_1395236].Field1)) {
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("("));;
@@ -3745,7 +3745,7 @@ function auxWriteStackTrace_1380038(f_1380040) {
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(" at "));;
             add_1357042(result_1380041, 0, tempFrames_1380062[j_1395236].Field0);
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("\x0A"));;
-            res_11195142 -= 1;
+            res_11195143 -= 1;
           }
       } while(false);
     } while(false);
@@ -3835,18 +3835,18 @@ function max_10905156(x_10905160) {
     result_10905161 = x_10905160[chckIndx(0, 0, (x_10905160).length-1)];
     L1: do {
       var i_10905175 = 0;
-      var colontmp__11195119 = 0;
-      colontmp__11195119 = ((x_10905160).length-1);
-      var res_11195120 = 1;
+      var colontmp__11195120 = 0;
+      colontmp__11195120 = ((x_10905160).length-1);
+      var res_11195121 = 1;
       L2: do {
           L3: while (true) {
-          if (!(res_11195120 <= colontmp__11195119)) break L3;
-            i_10905175 = res_11195120;
+          if (!(res_11195121 <= colontmp__11195120)) break L3;
+            i_10905175 = res_11195121;
             if ((result_10905161 < x_10905160[chckIndx(i_10905175, 0, (x_10905160).length-1)])) {
             result_10905161 = x_10905160[chckIndx(i_10905175, 0, (x_10905160).length-1)];
             }
             
-            res_11195120 = addInt(res_11195120, 1);
+            res_11195121 = addInt(res_11195121, 1);
           }
       } while(false);
     } while(false);
@@ -3860,18 +3860,18 @@ function min_10905193(x_10905197) {
     result_10905198 = x_10905197[chckIndx(0, 0, (x_10905197).length-1)];
     L1: do {
       var i_10905212 = 0;
-      var colontmp__11195151 = 0;
-      colontmp__11195151 = ((x_10905197).length-1);
-      var res_11195152 = 1;
+      var colontmp__11195152 = 0;
+      colontmp__11195152 = ((x_10905197).length-1);
+      var res_11195153 = 1;
       L2: do {
           L3: while (true) {
-          if (!(res_11195152 <= colontmp__11195151)) break L3;
-            i_10905212 = res_11195152;
+          if (!(res_11195153 <= colontmp__11195152)) break L3;
+            i_10905212 = res_11195153;
             if ((x_10905197[chckIndx(i_10905212, 0, (x_10905197).length-1)] < result_10905198)) {
             result_10905198 = x_10905197[chckIndx(i_10905212, 0, (x_10905197).length-1)];
             }
             
-            res_11195152 = addInt(res_11195152, 1);
+            res_11195153 = addInt(res_11195153, 1);
           }
       } while(false);
     } while(false);
@@ -4161,17 +4161,17 @@ function HEX5BHEX5D_3740283(s_3740287, x_3740289) {
       F.line = 2495;
       var i_3740609 = 0;
       F.line = 106;
-      var i_11195175 = 0;
+      var i_11195176 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_11195175 < L_3740601)) break L3;
+          if (!(i_11195176 < L_3740601)) break L3;
             F.line = 2495;
-            i_3740609 = i_11195175;
+            i_3740609 = i_11195176;
             F.line = 2495;
             result_3740290[chckIndx(i_3740609, 0, (result_3740290).length-1)] = s_3740287[chckIndx(addInt(i_3740609, a_3740401), 0, (s_3740287).length-1)];
             F.line = 109;
-            i_11195175 = addInt(i_11195175, 1);
+            i_11195176 = addInt(i_11195176, 1);
           }
       } while(false);
     } while(false);
@@ -4241,17 +4241,17 @@ function nsuFindChar(s_10415216, sub_10415217, start_10415218, last_10415219) {
       F.line = 1991;
       var i_10415606 = 0;
       F.line = 66;
-      var colontmp__11195192 = 0;
+      var colontmp__11195193 = 0;
       F.line = 1991;
-      colontmp__11195192 = start_10415218;
+      colontmp__11195193 = start_10415218;
       F.line = 77;
-      var res_11195193 = colontmp__11195192;
+      var res_11195194 = colontmp__11195193;
       L3: do {
         F.line = 78;
           L4: while (true) {
-          if (!(res_11195193 <= last_10415223)) break L4;
+          if (!(res_11195194 <= last_10415223)) break L4;
             F.line = 1991;
-            i_10415606 = res_11195193;
+            i_10415606 = res_11195194;
             if ((sub_10415217 == s_10415216[chckIndx(i_10415606, 0, (s_10415216).length-1)])) {
             F.line = 1992;
             result_10415221 = i_10415606;
@@ -4259,7 +4259,7 @@ function nsuFindChar(s_10415216, sub_10415217, start_10415218, last_10415219) {
             }
             
             F.line = 80;
-            res_11195193 = addInt(res_11195193, 1);
+            res_11195194 = addInt(res_11195194, 1);
           }
       } while(false);
     } while(false);
@@ -4287,21 +4287,21 @@ function substr_1571022(s_1571024, first_1571025, last_1571026) {
       F.line = 3005;
       var i_1571039 = 0;
       F.line = 66;
-      var colontmp__11195199 = 0;
+      var colontmp__11195200 = 0;
       F.line = 3005;
-      colontmp__11195199 = subInt(L_1571030, 1);
+      colontmp__11195200 = subInt(L_1571030, 1);
       F.line = 77;
-      var res_11195200 = 0;
+      var res_11195201 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_11195200 <= colontmp__11195199)) break L3;
+          if (!(res_11195201 <= colontmp__11195200)) break L3;
             F.line = 3005;
-            i_1571039 = res_11195200;
+            i_1571039 = res_11195201;
             F.line = 3006;
             result_1571027[chckIndx(i_1571039, 0, (result_1571027).length-1)] = s_1571024[chckIndx(addInt(i_1571039, first_1571028), 0, (s_1571024).length-1)];
             F.line = 80;
-            res_11195200 = addInt(res_11195200, 1);
+            res_11195201 = addInt(res_11195201, 1);
           }
       } while(false);
     } while(false);
@@ -4357,21 +4357,21 @@ function nsuInitSkipTable(a_10410081, sub_10410082) {
       F.line = 1928;
       var i_10410101 = 0;
       F.line = 104;
-      var colontmp__11195207 = 0;
+      var colontmp__11195208 = 0;
       F.line = 1928;
-      colontmp__11195207 = subInt(m_10410083, 1);
+      colontmp__11195208 = subInt(m_10410083, 1);
       F.line = 106;
-      var i_11195208 = 0;
+      var i_11195209 = 0;
       L4: do {
         F.line = 107;
           L5: while (true) {
-          if (!(i_11195208 < colontmp__11195207)) break L5;
+          if (!(i_11195209 < colontmp__11195208)) break L5;
             F.line = 1928;
-            i_10410101 = i_11195208;
+            i_10410101 = i_11195209;
             F.line = 1929;
             a_10410081[chckIndx(sub_10410082[chckIndx(i_10410101, 0, (sub_10410082).length-1)], 0, (a_10410081).length-1)] = subInt(subInt(m_10410083, 1), i_10410101);
             F.line = 109;
-            i_11195208 = addInt(i_11195208, 1);
+            i_11195209 = addInt(i_11195209, 1);
           }
       } while(false);
     } while(false);
@@ -4593,17 +4593,17 @@ function HEX5BHEX5D_6190068(s_6190072, x_6190074) {
       F.line = 2495;
       var i_6190409 = 0;
       F.line = 106;
-      var i_11195227 = 0;
+      var i_11195228 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_11195227 < L_6190401)) break L3;
+          if (!(i_11195228 < L_6190401)) break L3;
             F.line = 2495;
-            i_6190409 = i_11195227;
+            i_6190409 = i_11195228;
             F.line = 2495;
             result_6190075[chckIndx(i_6190409, 0, (result_6190075).length-1)] = s_6190072[chckIndx(addInt(i_6190409, a_6190201), 0, (s_6190072).length-1)];
             F.line = 109;
-            i_11195227 = addInt(i_11195227, 1);
+            i_11195228 = addInt(i_11195228, 1);
           }
       } while(false);
     } while(false);
@@ -4754,24 +4754,24 @@ function nsuformatBiggestFloat(f_10555221, format_10555222, precision_10555227, 
       F.line = 2465;
       var i_10555410 = 0;
       F.line = 104;
-      var colontmp__11195232 = 0;
+      var colontmp__11195233 = 0;
       F.line = 2465;
-      colontmp__11195232 = (result_10555229).length;
+      colontmp__11195233 = (result_10555229).length;
       F.line = 106;
-      var i_11195233 = 0;
+      var i_11195234 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_11195233 < colontmp__11195232)) break L3;
+          if (!(i_11195234 < colontmp__11195233)) break L3;
             F.line = 2465;
-            i_10555410 = i_11195233;
+            i_10555410 = i_11195234;
             if ((ConstSet16[result_10555229[chckIndx(i_10555410, 0, (result_10555229).length-1)]] != undefined)) {
             F.line = 2468;
             result_10555229[chckIndx(i_10555410, 0, (result_10555229).length-1)] = decimalSep_10555228;
             }
             
             F.line = 109;
-            i_11195233 = addInt(i_11195233, 1);
+            i_11195234 = addInt(i_11195234, 1);
           }
       } while(false);
     } while(false);
@@ -4826,21 +4826,21 @@ function nsuRepeatChar(c_10240124, count_10240125) {
       F.line = 1383;
       var i_10240135 = 0;
       F.line = 66;
-      var colontmp__11195238 = 0;
+      var colontmp__11195239 = 0;
       F.line = 1383;
-      colontmp__11195238 = subInt(count_10240125, 1);
+      colontmp__11195239 = subInt(count_10240125, 1);
       F.line = 77;
-      var res_11195239 = 0;
+      var res_11195240 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_11195239 <= colontmp__11195238)) break L3;
+          if (!(res_11195240 <= colontmp__11195239)) break L3;
             F.line = 1383;
-            i_10240135 = res_11195239;
+            i_10240135 = res_11195240;
             F.line = 1383;
             result_10240126[chckIndx(i_10240135, 0, (result_10240126).length-1)] = c_10240124;
             F.line = 80;
-            res_11195239 = addInt(res_11195239, 1);
+            res_11195240 = addInt(res_11195240, 1);
           }
       } while(false);
     } while(false);
@@ -5073,21 +5073,21 @@ function nsuToUpperAsciiStr(s_9735037) {
       F.line = 217;
       var iHEX60gensym11_9740009 = 0;
       F.line = 66;
-      var colontmp__11195264 = 0;
+      var colontmp__11195265 = 0;
       F.line = 217;
-      colontmp__11195264 = subInt((s_9735037).length, 1);
+      colontmp__11195265 = subInt((s_9735037).length, 1);
       F.line = 77;
-      var res_11195265 = 0;
+      var res_11195266 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_11195265 <= colontmp__11195264)) break L3;
+          if (!(res_11195266 <= colontmp__11195265)) break L3;
             F.line = 266;
-            iHEX60gensym11_9740009 = res_11195265;
+            iHEX60gensym11_9740009 = res_11195266;
             F.line = 218;
             result_9735038[chckIndx(iHEX60gensym11_9740009, 0, (result_9735038).length-1)] = nsuToUpperAsciiChar(s_9735037[chckIndx(iHEX60gensym11_9740009, 0, (s_9735037).length-1)]);
             F.line = 80;
-            res_11195265 = addInt(res_11195265, 1);
+            res_11195266 = addInt(res_11195266, 1);
           }
       } while(false);
     } while(false);
@@ -5283,7 +5283,7 @@ function innerHEX60gensym44_11055001() {
   return result_11055003;
 
 }
-var Tmp7;
+var Tmp8;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
 if (!(HEX3DHEX3D_10925003(toHSL_10905149({r: 0.0, g: 5.0000000000000000e-01, b: 0.0}), {h: 120, s: 1.0000000000000000e+00, l: 2.5000000000000000e-01}))) {
@@ -5316,138 +5316,140 @@ F.line = 91;
 var td_10960204 = [document.createElement("td")];
 F.line = 93;
 var stats_10960207 = [[makeNimstrLit("Old RGB"), makeNimstrLit("Old HSL"), makeNimstrLit("Old color"), makeNimstrLit("New color"), makeNimstrLit("New HSL"), makeNimstrLit("New RGB")]];
-F.line = 102;
-var nameTr_10960208 = [tr_10960203[0].cloneNode(false)];
-F.line = 103;
-nameTr_10960208[0].appendChild(td_10960204[0].cloneNode(false));
 L1: do {
+  F.line = 103;
+  var nameTr_10960208 = [tr_10960203[0].cloneNode(false)];
   F.line = 104;
-  var s_10960269 = [[]];
-  F.line = 32;
-  var i_11195108 = 0;
-  if ((i_11195108 <= 5)) {
+  nameTr_10960208[0].appendChild(td_10960204[0].cloneNode(false));
   L2: do {
-    F.line = 34;
-      L3: while (true) {
-      if (!true) break L3;
-        F.line = 104;
-        s_10960269[0] = stats_10960207[0][chckIndx(i_11195108, 0, (stats_10960207[0]).length-1)];
-        F.line = 105;
-        var td_10960270 = [td_10960204[0].cloneNode(false)];
-        F.line = 106;
-        td_10960270[0].innerText = toJSStr(s_10960269[0]);
-        F.line = 107;
-        nameTr_10960208[0].appendChild(td_10960270[0]);
-        if ((5 <= i_11195108)) {
-        F.line = 36;
-        break L2;
+    F.line = 105;
+    var s_10960269 = [[]];
+    F.line = 32;
+    var i_11195109 = 0;
+    if ((i_11195109 <= 5)) {
+    L3: do {
+      F.line = 34;
+        L4: while (true) {
+        if (!true) break L4;
+          F.line = 105;
+          s_10960269[0] = stats_10960207[0][chckIndx(i_11195109, 0, (stats_10960207[0]).length-1)];
+          F.line = 106;
+          var td_10960270 = [td_10960204[0].cloneNode(false)];
+          F.line = 107;
+          td_10960270[0].innerText = toJSStr(s_10960269[0]);
+          F.line = 108;
+          nameTr_10960208[0].appendChild(td_10960270[0]);
+          if ((5 <= i_11195109)) {
+          F.line = 36;
+          break L3;
+          }
+          
+          F.line = 37;
+          i_11195109 = addInt(i_11195109, 1);
         }
-        
-        F.line = 37;
-        i_11195108 = addInt(i_11195108, 1);
-      }
+    } while(false);
+    }
+    
   } while(false);
-  }
-  
+  F.line = 109;
+  table_10960202[0].appendChild(nameTr_10960208[0]);
 } while(false);
-F.line = 108;
-table_10960202[0].appendChild(nameTr_10960208[0]);
-L4: do {
-  F.line = 110;
+L5: do {
+  F.line = 111;
   var name_10960331 = [[]];
-  F.line = 110;
+  F.line = 111;
   var color_10960332 = [[]];
   F.line = 32;
-  var i_11195115 = 0;
-  if ((i_11195115 <= 15)) {
-  L5: do {
+  var i_11195116 = 0;
+  if ((i_11195116 <= 15)) {
+  L6: do {
     F.line = 34;
-      L6: while (true) {
-      if (!true) break L6;
-        F.line = 110;
-        name_10960331[0] = colorsTable_10841045[chckIndx(i_11195115, 0, (colorsTable_10841045).length-1)]["Field0"];
+      L7: while (true) {
+      if (!true) break L7;
+        F.line = 111;
+        name_10960331[0] = colorsTable_10841045[chckIndx(i_11195116, 0, (colorsTable_10841045).length-1)]["Field0"];
         F.line = 35;
-        color_10960332[0] = colorsTable_10841045[chckIndx(i_11195115, 0, (colorsTable_10841045).length-1)]["Field1"];
-        F.line = 112;
-        var rgb_10960333 = hexToRGB_10865121(color_10960332[0]);
+        color_10960332[0] = colorsTable_10841045[chckIndx(i_11195116, 0, (colorsTable_10841045).length-1)]["Field1"];
         F.line = 113;
+        var rgb_10960333 = hexToRGB_10865121(color_10960332[0]);
+        F.line = 114;
         var hsl_10960334 = toHSL_10905149(rgb_10960333);
-        F.line = 115;
-        var tr_10960335 = [tr_10960203[0].cloneNode(false)];
         F.line = 116;
-        var td1_10960336 = [td_10960204[0].cloneNode(false)];
+        var tr_10960335 = [tr_10960203[0].cloneNode(false)];
         F.line = 117;
-        var td2_10960337 = [td_10960204[0].cloneNode(false)];
+        var td1_10960336 = [td_10960204[0].cloneNode(false)];
         F.line = 118;
-        var td3_10960338 = [td_10960204[0].cloneNode(false)];
+        var td2_10960337 = [td_10960204[0].cloneNode(false)];
         F.line = 119;
-        var td4_10960339 = [td_10960204[0].cloneNode(false)];
+        var td3_10960338 = [td_10960204[0].cloneNode(false)];
         F.line = 120;
-        var td5_10960340 = [td_10960204[0].cloneNode(false)];
+        var td4_10960339 = [td_10960204[0].cloneNode(false)];
         F.line = 121;
-        var td6_10960341 = [td_10960204[0].cloneNode(false)];
+        var td5_10960340 = [td_10960204[0].cloneNode(false)];
         F.line = 122;
-        var td7_10960342 = [td_10960204[0].cloneNode(false)];
+        var td6_10960341 = [td_10960204[0].cloneNode(false)];
         F.line = 123;
-        td1_10960336[0].innerText = toJSStr(name_10960331[0]);
+        var td7_10960342 = [td_10960204[0].cloneNode(false)];
         F.line = 124;
-        td2_10960337[0].innerText = toJSStr(color_10960332[0]);
+        td1_10960336[0].innerText = toJSStr(name_10960331[0]);
         F.line = 125;
-        td3_10960338[0].innerHTML = toJSStr(HEX24_10845018(hsl_10960334));
+        td2_10960337[0].innerText = toJSStr(color_10960332[0]);
         F.line = 126;
-        td4_10960339[0].style.backgroundColor = toJSStr(color_10960332[0]);
+        td3_10960338[0].innerHTML = toJSStr(HEX24_10845018(hsl_10960334));
         F.line = 127;
-        tr_10960335[0].appendChild(td1_10960336[0]);
+        td4_10960339[0].style.backgroundColor = toJSStr(color_10960332[0]);
         F.line = 128;
-        tr_10960335[0].appendChild(td2_10960337[0]);
+        tr_10960335[0].appendChild(td1_10960336[0]);
         F.line = 129;
-        tr_10960335[0].appendChild(td3_10960338[0]);
+        tr_10960335[0].appendChild(td2_10960337[0]);
         F.line = 130;
-        tr_10960335[0].appendChild(td4_10960339[0]);
+        tr_10960335[0].appendChild(td3_10960338[0]);
         F.line = 131;
-        tr_10960335[0].appendChild(td5_10960340[0]);
+        tr_10960335[0].appendChild(td4_10960339[0]);
         F.line = 132;
-        tr_10960335[0].appendChild(td6_10960341[0]);
+        tr_10960335[0].appendChild(td5_10960340[0]);
         F.line = 133;
-        tr_10960335[0].appendChild(td7_10960342[0]);
+        tr_10960335[0].appendChild(td6_10960341[0]);
         F.line = 134;
+        tr_10960335[0].appendChild(td7_10960342[0]);
+        F.line = 135;
         table_10960202[0].appendChild(tr_10960335[0]);
-        if ((15 <= i_11195115)) {
+        if ((15 <= i_11195116)) {
         F.line = 36;
-        break L5;
+        break L6;
         }
         
         F.line = 37;
-        i_11195115 = addInt(i_11195115, 1);
+        i_11195116 = addInt(i_11195116, 1);
       }
   } while(false);
   }
   
 } while(false);
-F.line = 136;
+F.line = 137;
 appCalculator_10960201[0].appendChild(table_10960202[0]);
-F.line = 144;
-var Width_10960346 = [640];
 F.line = 145;
+var Width_10960346 = [640];
+F.line = 146;
 var Height_10960349 = [400];
-F.line = 147;
-(Tmp7 = document.getElementsByTagName("h1"), Tmp7)[chckIndx(0, 0, (Tmp7).length-1)].innerText = "Color visualization HSL";
-F.line = 149;
-var appCanvas_10960350 = [document.getElementById("app-canvas")];
+F.line = 148;
+(Tmp8 = document.getElementsByTagName("h1"), Tmp8)[chckIndx(0, 0, (Tmp8).length-1)].innerText = "Color visualization HSL";
 F.line = 150;
-var scene_10965008 = [(new THREE.Scene)];
+var appCanvas_10960350 = [document.getElementById("app-canvas")];
 F.line = 151;
-var camera_11010012 = [(new THREE.PerspectiveCamera((75), (HEX2F_1555648(Width_10960346[0], Height_10960349[0])), (1.0000000000000001e-01), (1000)))];
+var scene_10965008 = [(new THREE.Scene)];
 F.line = 152;
+var camera_11010012 = [(new THREE.PerspectiveCamera((75), (HEX2F_1555648(Width_10960346[0], Height_10960349[0])), (1.0000000000000001e-01), (1000)))];
+F.line = 153;
 var renderer_11015008 = [(new THREE.WebGLRenderer)];
 renderer_11015008[0].setSize((Width_10960346[0]), (Height_10960349[0]));
-F.line = 154;
+F.line = 155;
 appCanvas_10960350[0].appendChild((renderer_11015008[0].domElement));
-F.line = 157;
-var geometry_11050008 = [(new THREE.BoxGeometry())];
 F.line = 158;
-var material_11080009 = [(new THREE.MeshBasicMaterial((innerHEX60gensym44_11055001())))];
+var geometry_11050008 = [(new THREE.BoxGeometry())];
 F.line = 159;
+var material_11080009 = [(new THREE.MeshBasicMaterial((innerHEX60gensym44_11055001())))];
+F.line = 160;
 var cube_11105010 = [(new THREE.Mesh((geometry_11050008[0]), (material_11080009[0])))];
 scene_10965008[0].add((cube_11105010[0]));
 camera_11010012[0].position.set((0), (0), (5));
@@ -5456,14 +5458,14 @@ framePtr = F.prev;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-function animate_11195271(time_11195273) {
+function animate_11195272(time_11195274) {
   var F={procname:"colorvisualization.animate",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 166;
-    window.requestAnimationFrame(animate_11195271);
     F.line = 167;
-    cube_11105010[0].rotation.x = ((cube_11105010[0].rotation.x) + 1.0000000000000000e-02);
+    window.requestAnimationFrame(animate_11195272);
     F.line = 168;
+    cube_11105010[0].rotation.x = ((cube_11105010[0].rotation.x) + 1.0000000000000000e-02);
+    F.line = 169;
     cube_11105010[0].rotation.y = ((cube_11105010[0].rotation.y) + 1.0000000000000000e-02);
     renderer_11015008[0].render((scene_10965008[0]), (camera_11010012[0]));
   framePtr = F.prev;
@@ -5472,8 +5474,8 @@ function animate_11195271(time_11195273) {
 }
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
-F.line = 171;
-animate_11195271(0.0);
+F.line = 172;
+animate_11195272(0.0);
 framePtr = F.prev;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
