@@ -54,6 +54,7 @@ const
     "body": ("colorLight", "colorTypographyBlack"),
     "success": ("colorSuccessBackground", "colorSuccessText"),
     "warning": ("colorWarningBackground", "colorWarningText"),
+    "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
   }
 
 func toHex*(c: RGB): string =
@@ -207,6 +208,23 @@ func deltaE*(m, p: LaB): float =
 
 func deltaE*(m, p: RGB): float = deltaE(m.toXYZ.toLaB, p.toXYZ.toLaB)
 
+func luminance(c: RGB): float =
+  let
+    r = if c.r > 0.3928: pow((c.r + 0.055) / 1.055, 2.4) else: c.r / 12.92
+    g = if c.g > 0.3928: pow((c.g + 0.055) / 1.055, 2.4) else: c.g / 12.92
+    b = if c.b > 0.3928: pow((c.b + 0.055) / 1.055, 2.4) else: c.b / 12.92
+  0.2126 * r + 0.7152 * g + 0.0722 * b
+
+# https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
+func contrastRatio(m, p: RGB): float =
+  let
+    luminance1 = m.luminance
+    luminance2 = p.luminance
+  result =
+    if luminance1 > luminance2: (luminance1 + 0.05) / (luminance2 + 0.05)
+    else: (luminance2 + 0.05) / (luminance1 + 0.05)
+  result = result.round(1)
+
 when isMainModule:
   var
     appCalculator = document.getElementById("app-calculator")
@@ -325,10 +343,12 @@ when isMainModule:
       nameTd.innerText = name
       oldBgTd.style.backgroundColor = oldBgHexColor
       oldFgTd.style.backgroundColor = oldFgHexColor
-      oldContrastTd.innerText = "0"
+      oldContrastTd.innerText =
+        $contrastRatio(oldBgHexColor.hexToRGB, oldFgHexColor.hexToRGB)
       newBgTd.style.backgroundColor = newBgHexColor
       newFgTd.style.backgroundColor = newFgHexColor
-      newContrastTd.innerText = "0"
+      newContrastTd.innerText =
+        $contrastRatio(newBgHexColor.hexToRGB, newFgHexColor.hexToRGB)
 
       nameTr.appendChild(nameTd)
       oldBgTr.appendChild(oldBgTd)
