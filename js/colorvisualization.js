@@ -10,16 +10,19 @@ if (typeof Uint16Array === 'undefined') Uint16Array = Array;
 if (typeof Uint32Array === 'undefined') Uint32Array = Array;
 if (typeof Float32Array === 'undefined') Float32Array = Array;
 if (typeof Float64Array === 'undefined') Float64Array = Array;
-var NTI10715189 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI10715186 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI10715185 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI10720193 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI10720190 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI10720189 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI10541258 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI5635232 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI5890011 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1194635 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI10541032 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI1188005 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
+var NTI10541034 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI10541028 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI10541039 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
-var NTI2335020 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI2140020 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1194653 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1194621 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1194643 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -89,14 +92,27 @@ NTI1194643.base = NTI1194621;
 var NNI1194653 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1194653.node = NNI1194653;
 NTI1194653.base = NTI1194619;
-var NNI2335020 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188044, name: "a", sons: null}, 
+var NNI2140020 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188044, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI1188044, name: "b", sons: null}]};
-NTI2335020.node = NNI2335020;
+NTI2140020.node = NNI2140020;
 NTI10541039.base = NTI1188009;
 var NNI10541028 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "r", len: 0, typ: NTI10541039, name: "r", sons: null}, 
 {kind: 1, offset: "g", len: 0, typ: NTI10541039, name: "g", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI10541039, name: "b", sons: null}]};
 NTI10541028.node = NNI10541028;
+var NNI10541032 = {kind: 2, offset: 0, typ: null, name: null, len: 7, sons: {"0": {kind: 1, offset: 0, typ: NTI10541032, name: "d65", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI10541032, name: "d55", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI10541032, name: "d50", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI10541032, name: "a", len: 0, sons: null}, 
+"4": {kind: 1, offset: 4, typ: NTI10541032, name: "c", len: 0, sons: null}, 
+"5": {kind: 1, offset: 5, typ: NTI10541032, name: "e", len: 0, sons: null}, 
+"6": {kind: 1, offset: 6, typ: NTI10541032, name: "icc", len: 0, sons: null}}};
+NTI10541032.node = NNI10541032;
+var NNI10541034 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188005, name: "x", sons: null}, 
+{kind: 1, offset: "y", len: 0, typ: NTI1188005, name: "y", sons: null}, 
+{kind: 1, offset: "z", len: 0, typ: NTI1188005, name: "z", sons: null}, 
+{kind: 1, offset: "wp", len: 0, typ: NTI10541032, name: "wp", sons: null}]};
+NTI10541034.node = NNI10541034;
 var NNI1194635 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1194635.node = NNI1194635;
 NTI1194635.base = NTI1194633;
@@ -106,15 +122,15 @@ NTI5890011.node = NNI5890011;
 var NNI10541258 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI1188013, name: "Field1", sons: null}]};
 NTI10541258.node = NNI10541258;
-var NNI10715186 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
+var NNI10720190 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI10541030, name: "Field1", sons: null}]};
-NTI10715186.node = NNI10715186;
-var NNI10715185 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI10715186, name: "Field1", sons: null}]};
-NTI10715185.node = NNI10715185;
-var NNI10715189 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
+NTI10720190.node = NNI10720190;
+var NNI10720189 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI10720190, name: "Field1", sons: null}]};
+NTI10720189.node = NNI10720189;
+var NNI10720193 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188013, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI10541030, name: "Field1", sons: null}]};
-NTI10715189.node = NNI10715189;
+NTI10720193.node = NNI10720193;
 function makeNimstrLit(c_1455062) {
       var ln = c_1455062.length;
   var result = new Array(ln);
@@ -371,7 +387,7 @@ function addInt(a_1460419, b_1460420) {
 
   
 }
-          var colorsTable_10541255 = [{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 2.1000000000000000e+02, s: 1.4299999999999999e-01, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}];
+          var colorsTable_10541255 = [{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}];
 var ConstSet2 = setConstr([48, 57], [65, 70], [97, 102]);
 var ConstSet3 = setConstr([48, 57], [65, 70], [97, 102]);
 var ConstSet4 = setConstr([48, 57], [65, 70], [97, 102]);
@@ -432,6 +448,7 @@ function chckRange(i_1485016, a_1485017, b_1485018) {
   return result_1485019;
 
 }
+            var referenceValues_10541080 = [{x: 9.5046999999999997e+01, y: 1.0000000000000000e+02, z: 1.0888300000000000e+02, wp: 0}];
 function nimMax(a_1460821, b_1460822) {
     var Tmp1;
 
@@ -1060,124 +1077,7 @@ framePtr = F.prev;
 var F={procname:"module dom",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
@@ -1948,6 +1848,336 @@ framePtr = F.prev;
 var F={procname:"module math",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strformat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module parseutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strformat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
 var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
@@ -2069,207 +2299,6 @@ var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.chooseni
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module strutils",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
@@ -2761,10 +2790,7 @@ framePtr = F.prev;
 var F={procname:"module strformat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strformat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module strformat",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/strformat.nim",line:0};
+var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
@@ -2907,13 +2933,13 @@ function auxWriteStackTrace_1380038(f_1380040) {
     
     L6: do {
       var j_1395236 = 0;
-      var colontmp__10715507 = 0;
-      colontmp__10715507 = (i_1380053 - 1);
-      var res_10715512 = colontmp__10715507;
+      var colontmp__10720507 = 0;
+      colontmp__10720507 = (i_1380053 - 1);
+      var res_10720512 = colontmp__10720507;
       L7: do {
           L8: while (true) {
-          if (!(0 <= res_10715512)) break L8;
-            j_1395236 = res_10715512;
+          if (!(0 <= res_10720512)) break L8;
+            j_1395236 = res_10720512;
             result_1380041[0].push.apply(result_1380041[0], cstrToNimstr(tempFrames_1380062[j_1395236].Field2));;
             if ((0 < tempFrames_1380062[j_1395236].Field1)) {
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("("));;
@@ -2929,7 +2955,7 @@ function auxWriteStackTrace_1380038(f_1380040) {
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit(" at "));;
             add_1357042(result_1380041, 0, tempFrames_1380062[j_1395236].Field0);
             result_1380041[0].push.apply(result_1380041[0], makeNimstrLit("\x0A"));;
-            res_10715512 -= 1;
+            res_10720512 -= 1;
           }
       } while(false);
     } while(false);
@@ -3179,17 +3205,17 @@ function HEX5BHEX5D_3440283(s_3440287, x_3440289) {
       F.line = 2495;
       var i_3440609 = 0;
       F.line = 106;
-      var i_10715537 = 0;
+      var i_10720537 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_10715537 < L_3440601)) break L3;
+          if (!(i_10720537 < L_3440601)) break L3;
             F.line = 2495;
-            i_3440609 = i_10715537;
+            i_3440609 = i_10720537;
             F.line = 2495;
             result_3440290[chckIndx(i_3440609, 0, (result_3440290).length-1)] = s_3440287[chckIndx(addInt(i_3440609, a_3440401), 0, (s_3440287).length-1)];
             F.line = 109;
-            i_10715537 = addInt(i_10715537, 1);
+            i_10720537 = addInt(i_10720537, 1);
           }
       } while(false);
     } while(false);
@@ -3204,13 +3230,13 @@ function HEX2EHEX2E_3440220(a_3440225, b_3440227) {
   var F={procname:".....",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
   framePtr = F;
     F.line = 481;
-    nimCopy(result_3440229, {a: a_3440225, b: b_3440227}, NTI2335020);
+    nimCopy(result_3440229, {a: a_3440225, b: b_3440227}, NTI2140020);
   framePtr = F.prev;
 
   return result_3440229;
 
 }
-function hexToRGB_10570106(s_10570108) {
+function hexToRGB_10575051(s_10575053) {
     var Tmp1;
       var Tmp2;
       var Tmp3;
@@ -3220,208 +3246,402 @@ function hexToRGB_10570106(s_10570108) {
       var Tmp7;
       var Tmp8;
 
-  var result_10570109 = ({r: 0.0, g: 0.0, b: 0.0});
+  var result_10575054 = ({r: 0.0, g: 0.0, b: 0.0});
 
   var F={procname:"colorvisualization.hexToRGB",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 74;
-      if (!(((s_10570108).length == 7))) Tmp8 = true; else {        Tmp8 = !((s_10570108[chckIndx(0, 0, (s_10570108).length-1)] == 35));      }      if (Tmp8) Tmp7 = true; else {        Tmp7 = !((ConstSet2[s_10570108[chckIndx(1, 0, (s_10570108).length-1)]] != undefined));      }      if (Tmp7) Tmp6 = true; else {        Tmp6 = !((ConstSet3[s_10570108[chckIndx(2, 0, (s_10570108).length-1)]] != undefined));      }      if (Tmp6) Tmp5 = true; else {        Tmp5 = !((ConstSet4[s_10570108[chckIndx(3, 0, (s_10570108).length-1)]] != undefined));      }      if (Tmp5) Tmp4 = true; else {        Tmp4 = !((ConstSet5[s_10570108[chckIndx(4, 0, (s_10570108).length-1)]] != undefined));      }      if (Tmp4) Tmp3 = true; else {        Tmp3 = !((ConstSet6[s_10570108[chckIndx(5, 0, (s_10570108).length-1)]] != undefined));      }      if (Tmp3) Tmp2 = true; else {        Tmp2 = !((ConstSet7[s_10570108[chckIndx(6, 0, (s_10570108).length-1)]] != undefined));      }    if (Tmp2) {
+    F.line = 79;
+      if (!(((s_10575053).length == 7))) Tmp8 = true; else {        Tmp8 = !((s_10575053[chckIndx(0, 0, (s_10575053).length-1)] == 35));      }      if (Tmp8) Tmp7 = true; else {        Tmp7 = !((ConstSet2[s_10575053[chckIndx(1, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp7) Tmp6 = true; else {        Tmp6 = !((ConstSet3[s_10575053[chckIndx(2, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp6) Tmp5 = true; else {        Tmp5 = !((ConstSet4[s_10575053[chckIndx(3, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp5) Tmp4 = true; else {        Tmp4 = !((ConstSet5[s_10575053[chckIndx(4, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp4) Tmp3 = true; else {        Tmp3 = !((ConstSet6[s_10575053[chckIndx(5, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp3) Tmp2 = true; else {        Tmp2 = !((ConstSet7[s_10575053[chckIndx(6, 0, (s_10575053).length-1)]] != undefined));      }    if (Tmp2) {
     if (true) {
-    F.line = 82;
-    failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(82, 12) `false` "));
+    F.line = 87;
+    failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(87, 12) `false` "));
     }
     
     Tmp1 = {r: 0.0, g: 0.0, b: 0.0};
     }
     else {
-    Tmp1 = {r: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10570108, HEX2EHEX2E_3440220(1, 2))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039), g: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10570108, HEX2EHEX2E_3440220(3, 4))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039), b: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10570108, HEX2EHEX2E_3440220(5, 6))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039)};
+    Tmp1 = {r: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10575053, HEX2EHEX2E_3440220(1, 2))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039), g: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10575053, HEX2EHEX2E_3440220(3, 4))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039), b: nimCopy(null, chckRange((nsuParseHexInt(HEX5BHEX5D_3440283(s_10575053, HEX2EHEX2E_3440220(5, 6))) / 2.5600000000000000e+02), 0.0, 1.0000000000000000e+00), NTI10541039)};
     }
     
-    nimCopy(result_10570109, Tmp1, NTI10541028);
+    nimCopy(result_10575054, Tmp1, NTI10541028);
   framePtr = F.prev;
 
-  return result_10570109;
+  return result_10575054;
 
 }
-function max_10620350(x_10620354) {
-  var result_10620355 = 0.0;
+function max_10625350(x_10625354) {
+  var result_10625355 = 0.0;
 
-    result_10620355 = x_10620354[chckIndx(0, 0, (x_10620354).length-1)];
+    result_10625355 = x_10625354[chckIndx(0, 0, (x_10625354).length-1)];
     L1: do {
-      var i_10620369 = 0;
-      var colontmp__10715543 = 0;
-      colontmp__10715543 = ((x_10620354).length-1);
-      var res_10715544 = 1;
+      var i_10625369 = 0;
+      var colontmp__10720543 = 0;
+      colontmp__10720543 = ((x_10625354).length-1);
+      var res_10720544 = 1;
       L2: do {
           L3: while (true) {
-          if (!(res_10715544 <= colontmp__10715543)) break L3;
-            i_10620369 = res_10715544;
-            if ((result_10620355 < x_10620354[chckIndx(i_10620369, 0, (x_10620354).length-1)])) {
-            result_10620355 = x_10620354[chckIndx(i_10620369, 0, (x_10620354).length-1)];
+          if (!(res_10720544 <= colontmp__10720543)) break L3;
+            i_10625369 = res_10720544;
+            if ((result_10625355 < x_10625354[chckIndx(i_10625369, 0, (x_10625354).length-1)])) {
+            result_10625355 = x_10625354[chckIndx(i_10625369, 0, (x_10625354).length-1)];
             }
             
-            res_10715544 = addInt(res_10715544, 1);
+            res_10720544 = addInt(res_10720544, 1);
           }
       } while(false);
     } while(false);
 
-  return result_10620355;
+  return result_10625355;
 
 }
-function min_10620387(x_10620391) {
-  var result_10620392 = 0.0;
+function min_10625387(x_10625391) {
+  var result_10625392 = 0.0;
 
-    result_10620392 = x_10620391[chckIndx(0, 0, (x_10620391).length-1)];
+    result_10625392 = x_10625391[chckIndx(0, 0, (x_10625391).length-1)];
     L1: do {
-      var i_10620406 = 0;
-      var colontmp__10715550 = 0;
-      colontmp__10715550 = ((x_10620391).length-1);
-      var res_10715551 = 1;
+      var i_10625406 = 0;
+      var colontmp__10720550 = 0;
+      colontmp__10720550 = ((x_10625391).length-1);
+      var res_10720551 = 1;
       L2: do {
           L3: while (true) {
-          if (!(res_10715551 <= colontmp__10715550)) break L3;
-            i_10620406 = res_10715551;
-            if ((x_10620391[chckIndx(i_10620406, 0, (x_10620391).length-1)] < result_10620392)) {
-            result_10620392 = x_10620391[chckIndx(i_10620406, 0, (x_10620391).length-1)];
+          if (!(res_10720551 <= colontmp__10720550)) break L3;
+            i_10625406 = res_10720551;
+            if ((x_10625391[chckIndx(i_10625406, 0, (x_10625391).length-1)] < result_10625392)) {
+            result_10625392 = x_10625391[chckIndx(i_10625406, 0, (x_10625391).length-1)];
             }
             
-            res_10715551 = addInt(res_10715551, 1);
+            res_10720551 = addInt(res_10720551, 1);
           }
       } while(false);
     } while(false);
 
-  return result_10620392;
+  return result_10625392;
 
 }
-function HEX2AHEX3D_10635201(x_10635205, x_10635205_Idx, y_10635206) {
+function HEX2AHEX3D_10640201(x_10640205, x_10640205_Idx, y_10640206) {
   var F={procname:"*=.*=",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
   framePtr = F;
     F.line = 2655;
-    x_10635205[x_10635205_Idx] = chckRange((x_10635205[x_10635205_Idx] * y_10635206), 0.0, 3.6000000000000000e+02);
+    x_10640205[x_10640205_Idx] = chckRange((x_10640205[x_10640205_Idx] * y_10640206), 0.0, 3.6000000000000000e+02);
   framePtr = F.prev;
 
   
 }
-function round_10635221(x_10635224, places_10635225) {
-  var result_10635226 = 0.0;
+function round_10640221(x_10640224, places_10640225) {
+  var result_10640226 = 0.0;
 
-    if ((places_10635225 == 0)) {
-    result_10635226 = Math.round(x_10635224);
+    if ((places_10640225 == 0)) {
+    result_10640226 = Math.round(x_10640224);
     }
     else {
-      var mult_10635227 = Math.pow(1.0000000000000000e+01, places_10635225);
-      result_10635226 = (Math.round((x_10635224 * mult_10635227)) / mult_10635227);
+      var mult_10640227 = Math.pow(1.0000000000000000e+01, places_10640225);
+      result_10640226 = (Math.round((x_10640224 * mult_10640227)) / mult_10640227);
     }
     
 
-  return result_10635226;
+  return result_10640226;
 
 }
-function round_10635241(x_10635244, places_10635245) {
-  var result_10635246 = 0.0;
+function round_10640241(x_10640244, places_10640245) {
+  var result_10640246 = 0.0;
 
-    if ((places_10635245 == 0)) {
-    result_10635246 = Math.round(x_10635244);
+    if ((places_10640245 == 0)) {
+    result_10640246 = Math.round(x_10640244);
     }
     else {
-      var mult_10635247 = Math.pow(1.0000000000000000e+01, places_10635245);
-      result_10635246 = (Math.round((x_10635244 * mult_10635247)) / mult_10635247);
+      var mult_10640247 = Math.pow(1.0000000000000000e+01, places_10640245);
+      result_10640246 = (Math.round((x_10640244 * mult_10640247)) / mult_10640247);
     }
     
 
-  return result_10635246;
+  return result_10640246;
 
 }
-function toHSL_10620343(c_10620345) {
+function toHSL_10625343(c_10625345) {
       var Tmp1;
       var Tmp2;
       var Tmp3;
 
-  var result_10620346 = ({h: 0.0, s: 0.0, l: 0.0});
+  var result_10625346 = ({h: 0.0, s: 0.0, l: 0.0});
 
   var F={procname:"colorvisualization.toHSL",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 93;
-    var maxValue_10620383 = max_10620350([nimCopy(null, c_10620345.r, NTI10541039), nimCopy(null, c_10620345.g, NTI10541039), nimCopy(null, c_10620345.b, NTI10541039)]);
-    F.line = 94;
-    var minValue_10620420 = min_10620387([nimCopy(null, c_10620345.r, NTI10541039), nimCopy(null, c_10620345.g, NTI10541039), nimCopy(null, c_10620345.b, NTI10541039)]);
-    F.line = 95;
-    result_10620346.l = chckRange(((minValue_10620420 + maxValue_10620383) / 2.0000000000000000e+00), 0.0, 1.0000000000000000e+00);
-    if ((maxValue_10620383 == minValue_10620420)) {
-    F.line = 97;
-    result_10620346.s = 0;
     F.line = 98;
-    result_10620346.h = 0;
+    var maxValue_10625383 = max_10625350([nimCopy(null, c_10625345.r, NTI10541039), nimCopy(null, c_10625345.g, NTI10541039), nimCopy(null, c_10625345.b, NTI10541039)]);
+    F.line = 99;
+    var minValue_10625420 = min_10625387([nimCopy(null, c_10625345.r, NTI10541039), nimCopy(null, c_10625345.g, NTI10541039), nimCopy(null, c_10625345.b, NTI10541039)]);
+    F.line = 100;
+    result_10625346.l = chckRange(((minValue_10625420 + maxValue_10625383) / 2.0000000000000000e+00), 0.0, 1.0000000000000000e+00);
+    if ((maxValue_10625383 == minValue_10625420)) {
+    F.line = 102;
+    result_10625346.s = 0;
+    F.line = 103;
+    result_10625346.h = 0;
     }
     else {
-      F.line = 100;
-      var chroma_10620421 = (maxValue_10620383 - minValue_10620420);
-      F.line = 102;
-      if ((5.0000000000000000e-01 <= result_10620346.l)) {
-      Tmp1 = (chroma_10620421 / ((2.0000000000000000e+00 - maxValue_10620383) - minValue_10620420));
+      F.line = 105;
+      var chroma_10625421 = (maxValue_10625383 - minValue_10625420);
+      F.line = 107;
+      if ((5.0000000000000000e-01 <= result_10625346.l)) {
+      Tmp1 = (chroma_10625421 / ((2.0000000000000000e+00 - maxValue_10625383) - minValue_10625420));
       }
       else {
-      Tmp1 = (chroma_10620421 / (maxValue_10620383 + minValue_10620420));
+      Tmp1 = (chroma_10625421 / (maxValue_10625383 + minValue_10625420));
       }
       
-      result_10620346.s = chckRange(Tmp1, 0.0, 1.0000000000000000e+00);
-      F.line = 107;
-      if ((maxValue_10620383 == c_10620345.r)) {
-      if ((c_10620345.g < c_10620345.b)) {
+      result_10625346.s = chckRange(Tmp1, 0.0, 1.0000000000000000e+00);
+      F.line = 112;
+      if ((maxValue_10625383 == c_10625345.r)) {
+      if ((c_10625345.g < c_10625345.b)) {
       Tmp3 = 6.0000000000000000e+00;
       }
       else {
       Tmp3 = 0.0;
       }
       
-      Tmp2 = (((c_10620345.g - c_10620345.b) / chroma_10620421) + Tmp3);
+      Tmp2 = (((c_10625345.g - c_10625345.b) / chroma_10625421) + Tmp3);
       }
       else {
-      if ((maxValue_10620383 == c_10620345.g)) {
-      Tmp2 = (((c_10620345.b - c_10620345.r) / chroma_10620421) + 2.0000000000000000e+00);
+      if ((maxValue_10625383 == c_10625345.g)) {
+      Tmp2 = (((c_10625345.b - c_10625345.r) / chroma_10625421) + 2.0000000000000000e+00);
       }
       else {
-      if ((maxValue_10620383 == c_10620345.b)) {
-      Tmp2 = (((c_10620345.r - c_10620345.g) / chroma_10620421) + 4.0000000000000000e+00);
+      if ((maxValue_10625383 == c_10625345.b)) {
+      Tmp2 = (((c_10625345.r - c_10625345.g) / chroma_10625421) + 4.0000000000000000e+00);
       }
       else {
         if (true) {
-        F.line = 110;
-        failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(110, 20) `false` "));
+        F.line = 115;
+        failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(115, 20) `false` "));
         }
         
       Tmp2 = 0.0;
       }
       }}
-      result_10620346.h = chckRange(Tmp2, 0.0, 3.6000000000000000e+02);
-      F.line = 111;
-      HEX2AHEX3D_10635201(result_10620346, "h", 60);
-      F.line = 112;
-      result_10620346.h = round_10635221(chckRange(result_10620346.h, 0.0, 3.6000000000000000e+02), 1);
-      F.line = 113;
-      result_10620346.s = round_10635241(chckRange(result_10620346.s, 0.0, 1.0000000000000000e+00), 3);
-      F.line = 114;
-      result_10620346.l = round_10635241(chckRange(result_10620346.l, 0.0, 1.0000000000000000e+00), 3);
+      result_10625346.h = chckRange(Tmp2, 0.0, 3.6000000000000000e+02);
+      F.line = 116;
+      HEX2AHEX3D_10640201(result_10625346, "h", 60);
+      F.line = 117;
+      result_10625346.h = round_10640221(chckRange(result_10625346.h, 0.0, 3.6000000000000000e+02), 1);
+      F.line = 118;
+      result_10625346.s = round_10640241(chckRange(result_10625346.s, 0.0, 1.0000000000000000e+00), 3);
+      F.line = 119;
+      result_10625346.l = round_10640241(chckRange(result_10625346.l, 0.0, 1.0000000000000000e+00), 3);
     }
     
   framePtr = F.prev;
 
-  return result_10620346;
+  return result_10625346;
 
 }
-function round_10635332(x_10635335, places_10635336) {
-  var result_10635337 = 0.0;
+function findReferenceValues_10541072(wp_10541074) {
+  var result_10541075 = ({x: 0.0, y: 0.0, z: 0.0, wp: 0});
 
-    if ((places_10635336 == 0)) {
-    result_10635337 = Math.round(x_10635335);
+  var F={procname:"colorvisualization.findReferenceValues",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    L1: do {
+      F.line = 32;
+      var rv_10541141 = ({x: 0.0, y: 0.0, z: 0.0, wp: 0});
+      F.line = 32;
+      var i_10720561 = 0;
+      if ((i_10720561 <= 0)) {
+      L2: do {
+        F.line = 34;
+          L3: while (true) {
+          if (!true) break L3;
+            F.line = 32;
+            nimCopy(rv_10541141, referenceValues_10541080[chckIndx(i_10720561, 0, (referenceValues_10541080).length-1)], NTI10541034);
+            if ((rv_10541141.wp == wp_10541074)) {
+            F.line = 33;
+            nimCopy(result_10541075, rv_10541141, NTI10541034);
+            break BeforeRet;
+            }
+            
+            if ((0 <= i_10720561)) {
+            F.line = 36;
+            break L2;
+            }
+            
+            F.line = 37;
+            i_10720561 = addInt(i_10720561, 1);
+          }
+      } while(false);
+      }
+      
+    } while(false);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_10541075;
+
+}
+function round_10685004(x_10685007, places_10685008) {
+  var result_10685009 = 0.0;
+
+    if ((places_10685008 == 0)) {
+    result_10685009 = Math.round(x_10685007);
     }
     else {
-      var mult_10635338 = Math.pow(1.0000000000000000e+01, places_10635336);
-      result_10635337 = (Math.round((x_10635335 * mult_10635338)) / mult_10635338);
+      var mult_10685010 = Math.pow(1.0000000000000000e+01, places_10685008);
+      result_10685009 = (Math.round((x_10685007 * mult_10685010)) / mult_10685010);
     }
     
 
-  return result_10635337;
+  return result_10685009;
+
+}
+function round_10640332(x_10640335, places_10640336) {
+  var result_10640337 = 0.0;
+
+    if ((places_10640336 == 0)) {
+    result_10640337 = Math.round(x_10640335);
+    }
+    else {
+      var mult_10640338 = Math.pow(1.0000000000000000e+01, places_10640336);
+      result_10640337 = (Math.round((x_10640335 * mult_10640338)) / mult_10640338);
+    }
+    
+
+  return result_10640337;
+
+}
+function toLab_10670029(c_10670031) {
+    var Tmp1;
+    var Tmp2;
+    var Tmp3;
+
+  var result_10670032 = ({l: 0.0, a: 0.0, b: 0.0, wp: 0});
+
+  var F={procname:"colorvisualization.toLab",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+    F.line = 169;
+    var rv_10670033 = findReferenceValues_10541072(c_10670031.wp);
+    F.line = 171;
+    var x_10670034 = (c_10670031.x / rv_10670033.x);
+    F.line = 172;
+    var y_10670035 = (c_10670031.y / rv_10670033.y);
+    F.line = 173;
+    var z_10670036 = (c_10670031.z / rv_10670033.z);
+    F.line = 174;
+    if ((8.8559999999999993e-03 < x_10670034)) {
+    Tmp1 = Math.pow(x_10670034, 3.3333333333333331e-01);
+    }
+    else {
+    Tmp1 = ((7.7869999999999999e+00 * x_10670034) + 1.3793103448275862e-01);
+    }
+    
+    x_10670034 = Tmp1;
+    F.line = 175;
+    if ((8.8559999999999993e-03 < y_10670035)) {
+    Tmp2 = Math.pow(y_10670035, 3.3333333333333331e-01);
+    }
+    else {
+    Tmp2 = ((7.7869999999999999e+00 * y_10670035) + 1.3793103448275862e-01);
+    }
+    
+    y_10670035 = Tmp2;
+    F.line = 176;
+    if ((8.8559999999999993e-03 < z_10670036)) {
+    Tmp3 = Math.pow(z_10670036, 3.3333333333333331e-01);
+    }
+    else {
+    Tmp3 = ((7.7869999999999999e+00 * z_10670036) + 1.3793103448275862e-01);
+    }
+    
+    z_10670036 = Tmp3;
+    F.line = 177;
+    result_10670032.l = chckRange(((1.1600000000000000e+02 * y_10670035) - 1.6000000000000000e+01), 0.0, 1.0000000000000000e+02);
+    F.line = 178;
+    result_10670032.a = (5.0000000000000000e+02 * (x_10670034 - y_10670035));
+    F.line = 179;
+    result_10670032.b = (2.0000000000000000e+02 * (y_10670035 - z_10670036));
+    F.line = 180;
+    result_10670032.l = round_10685004(chckRange(result_10670032.l, 0.0, 1.0000000000000000e+02), 3);
+    F.line = 181;
+    result_10670032.a = round_10640332(result_10670032.a, 3);
+    F.line = 182;
+    result_10670032.b = round_10640332(result_10670032.b, 3);
+  framePtr = F.prev;
+
+  return result_10670032;
+
+}
+function HEX2AHEX3D_10290001(x_10290005, x_10290005_Idx, y_10290006) {
+  var F={procname:"*=.*=",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 2655;
+    x_10290005[x_10290005_Idx] = (x_10290005[x_10290005_Idx] * y_10290006);
+  framePtr = F.prev;
+
+  
+}
+function toXYZ_10640375(c_10640377) {
+    var Tmp1;
+    var Tmp2;
+    var Tmp3;
+
+  var result_10640378 = ({x: 0.0, y: 0.0, z: 0.0, wp: 0});
+
+  var F={procname:"colorvisualization.toXYZ",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+    F.line = 134;
+    var r_10640379 = [c_10640377.r];
+    F.line = 135;
+    var g_10640380 = [c_10640377.g];
+    F.line = 136;
+    var b_10640381 = [c_10640377.b];
+    F.line = 137;
+    if ((4.0450000000000000e-02 < r_10640379[0])) {
+    Tmp1 = Math.pow(((r_10640379[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    }
+    else {
+    Tmp1 = (r_10640379[0] / 1.2920000000000000e+01);
+    }
+    
+    r_10640379[0] = Tmp1;
+    F.line = 138;
+    if ((4.0450000000000000e-02 < g_10640380[0])) {
+    Tmp2 = Math.pow(((g_10640380[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    }
+    else {
+    Tmp2 = (g_10640380[0] / 1.2920000000000000e+01);
+    }
+    
+    g_10640380[0] = Tmp2;
+    F.line = 139;
+    if ((4.0450000000000000e-02 < b_10640381[0])) {
+    Tmp3 = Math.pow(((b_10640381[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    }
+    else {
+    Tmp3 = (b_10640381[0] / 1.2920000000000000e+01);
+    }
+    
+    b_10640381[0] = Tmp3;
+    F.line = 140;
+    HEX2AHEX3D_10290001(r_10640379, 0, 1.0000000000000000e+02);
+    F.line = 141;
+    HEX2AHEX3D_10290001(g_10640380, 0, 1.0000000000000000e+02);
+    F.line = 142;
+    HEX2AHEX3D_10290001(b_10640381, 0, 1.0000000000000000e+02);
+    F.line = 143;
+    result_10640378.x = (((r_10640379[0] * 4.1239999999999999e-01) + (g_10640380[0] * 3.5759999999999997e-01)) + (b_10640381[0] * 1.8049999999999999e-01));
+    F.line = 144;
+    result_10640378.y = (((r_10640379[0] * 2.1260000000000001e-01) + (g_10640380[0] * 7.1519999999999995e-01)) + (b_10640381[0] * 7.2200000000000000e-02));
+    F.line = 145;
+    result_10640378.z = (((r_10640379[0] * 1.9300000000000001e-02) + (g_10640380[0] * 1.1920000000000000e-01)) + (b_10640381[0] * 9.5050000000000001e-01));
+    F.line = 146;
+    result_10640378.x = round_10640332(result_10640378.x, 3);
+    F.line = 147;
+    result_10640378.y = round_10640332(result_10640378.y, 3);
+    F.line = 148;
+    result_10640378.z = round_10640332(result_10640378.z, 3);
+    F.line = 149;
+    result_10640378.wp = 0;
+  framePtr = F.prev;
+
+  return result_10640378;
 
 }
 function min_1270014(x_1270016, y_1270017) {
@@ -3460,36 +3680,36 @@ function max_1280014(x_1280016, y_1280017) {
   return result_1280018;
 
 }
-function toRGB_10635309(c_10635311) {
-    c_10635311 = nimCopy(null, c_10635311, NTI10541030);
-    function f_10635313(n_10635315) {
-      var result_10635316 = 0.0;
+function toRGB_10640309(c_10640311) {
+    c_10640311 = nimCopy(null, c_10640311, NTI10541030);
+    function f_10640313(n_10640315) {
+      var result_10640316 = 0.0;
 
       var F={procname:"toRGB.f",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
       framePtr = F;
-        F.line = 119;
-        F.line = 119;
-        var k_10635317 = (n_10635315 + (c_10635311.h / 3.0000000000000000e+01)) % 1.2000000000000000e+01;
-        result_10635316 = (c_10635311.l - ((c_10635311.s * min_1270014(c_10635311.l, (1.0000000000000000e+00 - c_10635311.l))) * max_1280014(-1.0000000000000000e+00, min_1270014((k_10635317 - 3.0000000000000000e+00), min_1270014((9.0000000000000000e+00 - k_10635317), 1.0000000000000000e+00)))));
+        F.line = 124;
+        F.line = 124;
+        var k_10640317 = (n_10640315 + (c_10640311.h / 3.0000000000000000e+01)) % 1.2000000000000000e+01;
+        result_10640316 = (c_10640311.l - ((c_10640311.s * min_1270014(c_10640311.l, (1.0000000000000000e+00 - c_10640311.l))) * max_1280014(-1.0000000000000000e+00, min_1270014((k_10640317 - 3.0000000000000000e+00), min_1270014((9.0000000000000000e+00 - k_10640317), 1.0000000000000000e+00)))));
       framePtr = F.prev;
 
-      return result_10635316;
+      return result_10640316;
 
     }
 
-  var result_10635312 = ({r: 0.0, g: 0.0, b: 0.0});
+  var result_10640312 = ({r: 0.0, g: 0.0, b: 0.0});
 
   var F={procname:"colorvisualization.toRGB",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 122;
-    result_10635312.r = chckRange(round_10635332(f_10635313(0.0), 3), 0.0, 1.0000000000000000e+00);
-    F.line = 123;
-    result_10635312.g = chckRange(round_10635332(f_10635313(8.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
-    F.line = 124;
-    result_10635312.b = chckRange(round_10635332(f_10635313(4.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
+    F.line = 127;
+    result_10640312.r = chckRange(round_10640332(f_10640313(0.0), 3), 0.0, 1.0000000000000000e+00);
+    F.line = 128;
+    result_10640312.g = chckRange(round_10640332(f_10640313(8.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
+    F.line = 129;
+    result_10640312.b = chckRange(round_10640332(f_10640313(4.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
   framePtr = F.prev;
 
-  return result_10635312;
+  return result_10640312;
 
 }
 function nsuFindChar(s_10115216, sub_10115217, start_10115218, last_10115219) {
@@ -3513,17 +3733,17 @@ function nsuFindChar(s_10115216, sub_10115217, start_10115218, last_10115219) {
       F.line = 1991;
       var i_10115606 = 0;
       F.line = 66;
-      var colontmp__10715572 = 0;
+      var colontmp__10720582 = 0;
       F.line = 1991;
-      colontmp__10715572 = start_10115218;
+      colontmp__10720582 = start_10115218;
       F.line = 77;
-      var res_10715573 = colontmp__10715572;
+      var res_10720583 = colontmp__10720582;
       L3: do {
         F.line = 78;
           L4: while (true) {
-          if (!(res_10715573 <= last_10115223)) break L4;
+          if (!(res_10720583 <= last_10115223)) break L4;
             F.line = 1991;
-            i_10115606 = res_10715573;
+            i_10115606 = res_10720583;
             if ((sub_10115217 == s_10115216[chckIndx(i_10115606, 0, (s_10115216).length-1)])) {
             F.line = 1992;
             result_10115221 = i_10115606;
@@ -3531,7 +3751,7 @@ function nsuFindChar(s_10115216, sub_10115217, start_10115218, last_10115219) {
             }
             
             F.line = 80;
-            res_10715573 = addInt(res_10715573, 1);
+            res_10720583 = addInt(res_10720583, 1);
           }
       } while(false);
     } while(false);
@@ -3559,21 +3779,21 @@ function substr_1571022(s_1571024, first_1571025, last_1571026) {
       F.line = 3005;
       var i_1571039 = 0;
       F.line = 66;
-      var colontmp__10715579 = 0;
+      var colontmp__10720589 = 0;
       F.line = 3005;
-      colontmp__10715579 = subInt(L_1571030, 1);
+      colontmp__10720589 = subInt(L_1571030, 1);
       F.line = 77;
-      var res_10715580 = 0;
+      var res_10720590 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_10715580 <= colontmp__10715579)) break L3;
+          if (!(res_10720590 <= colontmp__10720589)) break L3;
             F.line = 3005;
-            i_1571039 = res_10715580;
+            i_1571039 = res_10720590;
             F.line = 3006;
             result_1571027[chckIndx(i_1571039, 0, (result_1571027).length-1)] = s_1571024[chckIndx(addInt(i_1571039, first_1571028), 0, (s_1571024).length-1)];
             F.line = 80;
-            res_10715580 = addInt(res_10715580, 1);
+            res_10720590 = addInt(res_10720590, 1);
           }
       } while(false);
     } while(false);
@@ -3629,21 +3849,21 @@ function nsuInitSkipTable(a_10110081, sub_10110082) {
       F.line = 1928;
       var i_10110101 = 0;
       F.line = 104;
-      var colontmp__10715587 = 0;
+      var colontmp__10720597 = 0;
       F.line = 1928;
-      colontmp__10715587 = subInt(m_10110083, 1);
+      colontmp__10720597 = subInt(m_10110083, 1);
       F.line = 106;
-      var i_10715588 = 0;
+      var i_10720598 = 0;
       L4: do {
         F.line = 107;
           L5: while (true) {
-          if (!(i_10715588 < colontmp__10715587)) break L5;
+          if (!(i_10720598 < colontmp__10720597)) break L5;
             F.line = 1928;
-            i_10110101 = i_10715588;
+            i_10110101 = i_10720598;
             F.line = 1929;
             a_10110081[chckIndx(sub_10110082[chckIndx(i_10110101, 0, (sub_10110082).length-1)], 0, (a_10110081).length-1)] = subInt(subInt(m_10110083, 1), i_10110101);
             F.line = 109;
-            i_10715588 = addInt(i_10715588, 1);
+            i_10720598 = addInt(i_10720598, 1);
           }
       } while(false);
     } while(false);
@@ -3796,58 +4016,58 @@ function raiseDivByZero() {
 
   
 }
-function parseSaturatedNatural_2015017(s_2015019, b_2015021, b_2015021_Idx, start_2015022) {
+function parseSaturatedNatural_2480017(s_2480019, b_2480021, b_2480021_Idx, start_2480022) {
       var Tmp1;
           var Tmp4;
 
-  var result_2015024 = 0;
+  var result_2480024 = 0;
 
   var F={procname:"parseutils.parseSaturatedNatural",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
   framePtr = F;
     F.line = 490;
-    var i_2015025 = start_2015022;
-    if (((i_2015025 < (s_2015019).length) && (s_2015019[chckIndx(i_2015025, 0, (s_2015019).length-1)] == 43))) {
+    var i_2480025 = start_2480022;
+    if (((i_2480025 < (s_2480019).length) && (s_2480019[chckIndx(i_2480025, 0, (s_2480019).length-1)] == 43))) {
     F.line = 491;
-    i_2015025 = addInt(i_2015025, 1);
+    i_2480025 = addInt(i_2480025, 1);
     }
     
-      if (!(i_2015025 < (s_2015019).length)) Tmp1 = false; else {        Tmp1 = (ConstSet13[s_2015019[chckIndx(i_2015025, 0, (s_2015019).length-1)]] != undefined);      }    if (Tmp1) {
+      if (!(i_2480025 < (s_2480019).length)) Tmp1 = false; else {        Tmp1 = (ConstSet13[s_2480019[chckIndx(i_2480025, 0, (s_2480019).length-1)]] != undefined);      }    if (Tmp1) {
     F.line = 493;
-    b_2015021[b_2015021_Idx] = 0;
+    b_2480021[b_2480021_Idx] = 0;
     L2: do {
       F.line = 494;
         L3: while (true) {
-          if (!(i_2015025 < (s_2015019).length)) Tmp4 = false; else {            Tmp4 = (ConstSet14[s_2015019[chckIndx(i_2015025, 0, (s_2015019).length-1)]] != undefined);          }        if (!Tmp4) break L3;
+          if (!(i_2480025 < (s_2480019).length)) Tmp4 = false; else {            Tmp4 = (ConstSet14[s_2480019[chckIndx(i_2480025, 0, (s_2480019).length-1)]] != undefined);          }        if (!Tmp4) break L3;
           F.line = 495;
-          var c_2025016 = subInt(s_2015019[chckIndx(i_2015025, 0, (s_2015019).length-1)], 48);
-          if ((b_2015021[b_2015021_Idx] <= divInt(subInt(2147483647, c_2025016), 10))) {
+          var c_2490016 = subInt(s_2480019[chckIndx(i_2480025, 0, (s_2480019).length-1)], 48);
+          if ((b_2480021[b_2480021_Idx] <= divInt(subInt(2147483647, c_2490016), 10))) {
           F.line = 497;
-          b_2015021[b_2015021_Idx] = addInt(mulInt(b_2015021[b_2015021_Idx], 10), c_2025016);
+          b_2480021[b_2480021_Idx] = addInt(mulInt(b_2480021[b_2480021_Idx], 10), c_2490016);
           }
           else {
             F.line = 499;
-            b_2015021[b_2015021_Idx] = 2147483647;
+            b_2480021[b_2480021_Idx] = 2147483647;
           }
           
           F.line = 500;
-          i_2015025 = addInt(i_2015025, 1);
+          i_2480025 = addInt(i_2480025, 1);
           L5: do {
             F.line = 501;
               L6: while (true) {
-              if (!((i_2015025 < (s_2015019).length) && (s_2015019[chckIndx(i_2015025, 0, (s_2015019).length-1)] == 95))) break L6;
+              if (!((i_2480025 < (s_2480019).length) && (s_2480019[chckIndx(i_2480025, 0, (s_2480019).length-1)] == 95))) break L6;
                 F.line = 501;
-                i_2015025 = addInt(i_2015025, 1);
+                i_2480025 = addInt(i_2480025, 1);
               }
           } while(false);
         }
     } while(false);
     F.line = 502;
-    result_2015024 = subInt(i_2015025, start_2015022);
+    result_2480024 = subInt(i_2480025, start_2480022);
     }
     
   framePtr = F.prev;
 
-  return result_2015024;
+  return result_2480024;
 
 }
 function HEX5BHEX5D_5890068(s_5890072, x_5890074) {
@@ -3865,17 +4085,17 @@ function HEX5BHEX5D_5890068(s_5890072, x_5890074) {
       F.line = 2495;
       var i_5890409 = 0;
       F.line = 106;
-      var i_10715607 = 0;
+      var i_10720617 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_10715607 < L_5890401)) break L3;
+          if (!(i_10720617 < L_5890401)) break L3;
             F.line = 2495;
-            i_5890409 = i_10715607;
+            i_5890409 = i_10720617;
             F.line = 2495;
             result_5890075[chckIndx(i_5890409, 0, (result_5890075).length-1)] = s_5890072[chckIndx(addInt(i_5890409, a_5890201), 0, (s_5890072).length-1)];
             F.line = 109;
-            i_10715607 = addInt(i_10715607, 1);
+            i_10720617 = addInt(i_10720617, 1);
           }
       } while(false);
     } while(false);
@@ -3951,14 +4171,14 @@ function parseStandardFormatSpecifier_10425322(s_10425324, start_10425325, ignor
     }
     
     F.line = 448;
-    var parsedLength_10445015 = parseSaturatedNatural_2015017(s_10425324, result_10425328, "minimumWidth", i_10425331);
+    var parsedLength_10445015 = parseSaturatedNatural_2480017(s_10425324, result_10425328, "minimumWidth", i_10425331);
     F.line = 449;
     i_10425331 = addInt(i_10425331, parsedLength_10445015);
     if (((i_10425331 < (s_10425324).length) && (s_10425324[chckIndx(i_10425331, 0, (s_10425324).length-1)] == 46))) {
     F.line = 451;
     i_10425331 = addInt(i_10425331, 1);
     F.line = 452;
-    var parsedLengthB_10445029 = parseSaturatedNatural_2015017(s_10425324, result_10425328, "precision", i_10425331);
+    var parsedLengthB_10445029 = parseSaturatedNatural_2480017(s_10425324, result_10425328, "precision", i_10425331);
     F.line = 453;
     i_10425331 = addInt(i_10425331, parsedLengthB_10445029);
     }
@@ -4026,24 +4246,24 @@ function nsuformatBiggestFloat(f_10255221, format_10255222, precision_10255227, 
       F.line = 2465;
       var i_10255410 = 0;
       F.line = 104;
-      var colontmp__10715612 = 0;
+      var colontmp__10720622 = 0;
       F.line = 2465;
-      colontmp__10715612 = (result_10255229).length;
+      colontmp__10720622 = (result_10255229).length;
       F.line = 106;
-      var i_10715613 = 0;
+      var i_10720623 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_10715613 < colontmp__10715612)) break L3;
+          if (!(i_10720623 < colontmp__10720622)) break L3;
             F.line = 2465;
-            i_10255410 = i_10715613;
+            i_10255410 = i_10720623;
             if ((ConstSet16[result_10255229[chckIndx(i_10255410, 0, (result_10255229).length-1)]] != undefined)) {
             F.line = 2468;
             result_10255229[chckIndx(i_10255410, 0, (result_10255229).length-1)] = decimalSep_10255228;
             }
             
             F.line = 109;
-            i_10715613 = addInt(i_10715613, 1);
+            i_10720623 = addInt(i_10720623, 1);
           }
       } while(false);
     } while(false);
@@ -4098,21 +4318,21 @@ function nsuRepeatChar(c_9940124, count_9940125) {
       F.line = 1383;
       var i_9940135 = 0;
       F.line = 66;
-      var colontmp__10715618 = 0;
+      var colontmp__10720628 = 0;
       F.line = 1383;
-      colontmp__10715618 = subInt(count_9940125, 1);
+      colontmp__10720628 = subInt(count_9940125, 1);
       F.line = 77;
-      var res_10715619 = 0;
+      var res_10720629 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_10715619 <= colontmp__10715618)) break L3;
+          if (!(res_10720629 <= colontmp__10720628)) break L3;
             F.line = 1383;
-            i_9940135 = res_10715619;
+            i_9940135 = res_10720629;
             F.line = 1383;
             result_9940126[chckIndx(i_9940135, 0, (result_9940126).length-1)] = c_9940124;
             F.line = 80;
-            res_10715619 = addInt(res_10715619, 1);
+            res_10720629 = addInt(res_10720629, 1);
           }
       } while(false);
     } while(false);
@@ -4208,60 +4428,60 @@ function validateUtf8_2805244(s_2805246) {
   return result_2805247;
 
 }
-function nucruneLen(s_2564025) {
-  var result_2564026 = 0;
+function nucruneLen(s_2562025) {
+  var result_2562026 = 0;
 
   var F={procname:"unicode.runeLen",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
   framePtr = F;
     F.line = 42;
-    result_2564026 = 0;
+    result_2562026 = 0;
     F.line = 43;
-    var i_2564028 = 0;
+    var i_2562028 = 0;
     L1: do {
       F.line = 44;
         L2: while (true) {
-        if (!(i_2564028 < (s_2564025).length)) break L2;
-          if ((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] <= 127)) {
+        if (!(i_2562028 < (s_2562025).length)) break L2;
+          if ((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] <= 127)) {
           F.line = 45;
-          i_2564028 = addInt(i_2564028, 1);
+          i_2562028 = addInt(i_2562028, 1);
           }
           else {
-          if ((((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] >>> 0) >>> 5) == 6)) {
+          if ((((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] >>> 0) >>> 5) == 6)) {
           F.line = 46;
-          i_2564028 = addInt(i_2564028, 2);
+          i_2562028 = addInt(i_2562028, 2);
           }
           else {
-          if ((((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] >>> 0) >>> 4) == 14)) {
+          if ((((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] >>> 0) >>> 4) == 14)) {
           F.line = 47;
-          i_2564028 = addInt(i_2564028, 3);
+          i_2562028 = addInt(i_2562028, 3);
           }
           else {
-          if ((((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] >>> 0) >>> 3) == 30)) {
+          if ((((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] >>> 0) >>> 3) == 30)) {
           F.line = 48;
-          i_2564028 = addInt(i_2564028, 4);
+          i_2562028 = addInt(i_2562028, 4);
           }
           else {
-          if ((((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] >>> 0) >>> 2) == 62)) {
+          if ((((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] >>> 0) >>> 2) == 62)) {
           F.line = 49;
-          i_2564028 = addInt(i_2564028, 5);
+          i_2562028 = addInt(i_2562028, 5);
           }
           else {
-          if ((((s_2564025[chckIndx(i_2564028, 0, (s_2564025).length-1)] >>> 0) >>> 1) == 126)) {
+          if ((((s_2562025[chckIndx(i_2562028, 0, (s_2562025).length-1)] >>> 0) >>> 1) == 126)) {
           F.line = 50;
-          i_2564028 = addInt(i_2564028, 6);
+          i_2562028 = addInt(i_2562028, 6);
           }
           else {
             F.line = 51;
-          i_2564028 = addInt(i_2564028, 1);
+          i_2562028 = addInt(i_2562028, 1);
           }
           }}}}}
           F.line = 52;
-          result_2564026 = addInt(result_2564026, 1);
+          result_2562026 = addInt(result_2562026, 1);
         }
     } while(false);
   framePtr = F.prev;
 
-  return result_2564026;
+  return result_2562026;
 
 }
 function alignString_10425222(s_10425224, minimumWidth_10425225, align_10425226, fill_10425227) {
@@ -4345,21 +4565,21 @@ function nsuToUpperAsciiStr(s_9435037) {
       F.line = 217;
       var iHEX60gensym11_9440009 = 0;
       F.line = 66;
-      var colontmp__10715644 = 0;
+      var colontmp__10720654 = 0;
       F.line = 217;
-      colontmp__10715644 = subInt((s_9435037).length, 1);
+      colontmp__10720654 = subInt((s_9435037).length, 1);
       F.line = 77;
-      var res_10715645 = 0;
+      var res_10720655 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_10715645 <= colontmp__10715644)) break L3;
+          if (!(res_10720655 <= colontmp__10720654)) break L3;
             F.line = 266;
-            iHEX60gensym11_9440009 = res_10715645;
+            iHEX60gensym11_9440009 = res_10720655;
             F.line = 218;
             result_9435038[chckIndx(iHEX60gensym11_9440009, 0, (result_9435038).length-1)] = nsuToUpperAsciiChar(s_9435037[chckIndx(iHEX60gensym11_9440009, 0, (s_9435037).length-1)]);
             F.line = 80;
-            res_10715645 = addInt(res_10715645, 1);
+            res_10720655 = addInt(res_10720655, 1);
           }
       } while(false);
     } while(false);
@@ -4491,18 +4711,18 @@ function HEX24_10550049(c_10550051) {
 
   var F={procname:"colorvisualization.$",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 71;
-    F.line = 71;
+    F.line = 73;
+    F.line = 73;
     var fmtRes_10550053 = [mnewString(0)];
-    F.line = 71;
+    F.line = 73;
     formatValue_10555002(fmtRes_10550053, 0, c_10550051.h, makeNimstrLit(">5.1f"));
-    F.line = 71;
+    F.line = 73;
     fmtRes_10550053[0].push.apply(fmtRes_10550053[0], makeNimstrLit("\xC2\xB0, "));;
-    F.line = 71;
+    F.line = 73;
     formatValue_10555002(fmtRes_10550053, 0, c_10550051.s, makeNimstrLit(">5.3f"));
-    F.line = 71;
+    F.line = 73;
     fmtRes_10550053[0].push.apply(fmtRes_10550053[0], makeNimstrLit(", "));;
-    F.line = 71;
+    F.line = 73;
     formatValue_10555002(fmtRes_10550053, 0, c_10550051.l, makeNimstrLit(">5.3f"));
     result_10550052 = nimCopy(null, nsuReplaceStr(fmtRes_10550053[0], makeNimstrLit(" "), makeNimstrLit("&nbsp;")), NTI1188013);
   framePtr = F.prev;
@@ -4510,48 +4730,72 @@ function HEX24_10550049(c_10550051) {
   return result_10550052;
 
 }
-function runeLenAt_2564127(s_2564129, i_2564130) {
-  var result_2564131 = 0;
+function HEX24_10570106(c_10570108) {
+  var result_10570109 = [];
+
+  var F={procname:"colorvisualization.$",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
+  framePtr = F;
+    F.line = 76;
+    F.line = 76;
+    var fmtRes_10570110 = [mnewString(0)];
+    F.line = 76;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.l, makeNimstrLit(">7.3f"));
+    F.line = 76;
+    fmtRes_10570110[0].push.apply(fmtRes_10570110[0], makeNimstrLit(", "));;
+    F.line = 76;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.a, makeNimstrLit(">7.3f"));
+    F.line = 76;
+    fmtRes_10570110[0].push.apply(fmtRes_10570110[0], makeNimstrLit(", "));;
+    F.line = 76;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.b, makeNimstrLit(">7.3f"));
+    result_10570109 = nimCopy(null, nsuReplaceStr(fmtRes_10570110[0], makeNimstrLit(" "), makeNimstrLit("&nbsp;")), NTI1188013);
+  framePtr = F.prev;
+
+  return result_10570109;
+
+}
+function runeLenAt_2562127(s_2562129, i_2562130) {
+  var result_2562131 = 0;
 
   var F={procname:"unicode.runeLenAt",prev:framePtr,filename:"/home/grfork/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
   framePtr = F;
-    if ((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] <= 127)) {
+    if ((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] <= 127)) {
     F.line = 64;
-    result_2564131 = 1;
+    result_2562131 = 1;
     }
     else {
-    if ((((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] >>> 0) >>> 5) == 6)) {
+    if ((((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] >>> 0) >>> 5) == 6)) {
     F.line = 65;
-    result_2564131 = 2;
+    result_2562131 = 2;
     }
     else {
-    if ((((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] >>> 0) >>> 4) == 14)) {
+    if ((((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] >>> 0) >>> 4) == 14)) {
     F.line = 66;
-    result_2564131 = 3;
+    result_2562131 = 3;
     }
     else {
-    if ((((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] >>> 0) >>> 3) == 30)) {
+    if ((((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] >>> 0) >>> 3) == 30)) {
     F.line = 67;
-    result_2564131 = 4;
+    result_2562131 = 4;
     }
     else {
-    if ((((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] >>> 0) >>> 2) == 62)) {
+    if ((((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] >>> 0) >>> 2) == 62)) {
     F.line = 68;
-    result_2564131 = 5;
+    result_2562131 = 5;
     }
     else {
-    if ((((s_2564129[chckIndx(i_2564130, 0, (s_2564129).length-1)] >>> 0) >>> 1) == 126)) {
+    if ((((s_2562129[chckIndx(i_2562130, 0, (s_2562129).length-1)] >>> 0) >>> 1) == 126)) {
     F.line = 69;
-    result_2564131 = 6;
+    result_2562131 = 6;
     }
     else {
       F.line = 70;
-      result_2564131 = 1;
+      result_2562131 = 1;
     }
     }}}}}
   framePtr = F.prev;
 
-  return result_2564131;
+  return result_2562131;
 
 }
 function runeOffset_3185259(s_3185261, pos_3185262, start_3185263) {
@@ -4569,7 +4813,7 @@ function runeOffset_3185259(s_3185261, pos_3185262, start_3185263) {
         L2: while (true) {
         if (!(i_3185266 < pos_3185262)) break L2;
           F.line = 324;
-          o_3185267 = addInt(o_3185267, chckRange(runeLenAt_2564127(s_3185261, o_3185267), 0, 2147483647));
+          o_3185267 = addInt(o_3185267, chckRange(runeLenAt_2562127(s_3185261, o_3185267), 0, 2147483647));
           if (((s_3185261).length <= o_3185267)) {
           F.line = 326;
           result_3185264 = -1;
@@ -4633,17 +4877,17 @@ function toHexImpl_9760241(x_9760243, len_9760244, handleNegative_9760245) {
       F.line = 947;
       var j_9760255 = 0;
       F.line = 6;
-      var colontmp__10715663 = 0;
+      var colontmp__10720674 = 0;
       F.line = 947;
-      colontmp__10715663 = subInt(len_9760244, 1);
+      colontmp__10720674 = subInt(len_9760244, 1);
       F.line = 28;
-      var res_10715664 = colontmp__10715663;
+      var res_10720675 = colontmp__10720674;
       L2: do {
         F.line = 29;
           L3: while (true) {
-          if (!(0 <= res_10715664)) break L3;
+          if (!(0 <= res_10720675)) break L3;
             F.line = 947;
-            j_9760255 = res_10715664;
+            j_9760255 = res_10720675;
             F.line = 948;
             result_9760246[chckIndx(j_9760255, 0, (result_9760246).length-1)] = makeNimstrLit("0123456789ABCDEF")[chckIndx((n_9760248 & 15), 0, (makeNimstrLit("0123456789ABCDEF")).length-1)];
             F.line = 949;
@@ -4654,7 +4898,7 @@ function toHexImpl_9760241(x_9760243, len_9760244, handleNegative_9760245) {
             }
             
             F.line = 31;
-            res_10715664 = subInt(res_10715664, 1);
+            res_10720675 = subInt(res_10720675, 1);
           }
       } while(false);
     } while(false);
@@ -4680,22 +4924,22 @@ function toHex_10541387(c_10541389) {
 
   var F={procname:"colorvisualization.toHex",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 61;
-    F.line = 62;
-    var r_10541392 = (((c_10541389.r * 2.5600000000000000e+02))|0);
     F.line = 63;
-    var g_10541394 = (((c_10541389.g * 2.5600000000000000e+02))|0);
     F.line = 64;
+    var r_10541392 = (((c_10541389.r * 2.5600000000000000e+02))|0);
+    F.line = 65;
+    var g_10541394 = (((c_10541389.g * 2.5600000000000000e+02))|0);
+    F.line = 66;
     var b_10541396 = (((c_10541389.b * 2.5600000000000000e+02))|0);
-    F.line = 65;
+    F.line = 67;
     var fmtRes_10541400 = [mnewString(0)];
-    F.line = 65;
+    F.line = 67;
     fmtRes_10541400[0].push.apply(fmtRes_10541400[0], makeNimstrLit("#"));;
-    F.line = 65;
+    F.line = 67;
     formatValue_10470080(fmtRes_10541400, 0, nsuToHex(r_10541392, 2), []);
-    F.line = 65;
+    F.line = 67;
     formatValue_10470080(fmtRes_10541400, 0, nsuToHex(g_10541394, 2), []);
-    F.line = 65;
+    F.line = 67;
     formatValue_10470080(fmtRes_10541400, 0, nsuToHex(b_10541396, 2), []);
     result_10541390 = nimCopy(null, fmtRes_10541400[0], NTI1188013);
   framePtr = F.prev;
@@ -4703,423 +4947,439 @@ function toHex_10541387(c_10541389) {
   return result_10541390;
 
 }
-function tableFind_10715182(t_10715187, key_10715188) {
-  var result_10715190 = {Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})};
+function tableFind_10720186(t_10720191, key_10720192) {
+  var result_10720194 = {Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})};
 
   var F={procname:"colorvisualization.tableFind",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     L1: do {
-      F.line = 324;
-      var index_10715240 = 0;
-      F.line = 324;
-      var elem_10715241 = {Field0: [], Field1: {Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}};
+      F.line = 339;
+      var index_10720244 = 0;
+      F.line = 339;
+      var elem_10720245 = {Field0: [], Field1: {Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}};
       F.line = 98;
-      var i_10715673 = 0;
+      var i_10720684 = 0;
       L2: do {
         F.line = 99;
           L3: while (true) {
-          if (!(i_10715673 < (t_10715187).length)) break L3;
-            F.line = 324;
-            index_10715240 = i_10715673;
+          if (!(i_10720684 < (t_10720191).length)) break L3;
+            F.line = 339;
+            index_10720244 = i_10720684;
             F.line = 100;
-            nimCopy(elem_10715241, t_10715187[chckIndx(i_10715673, 0, (t_10715187).length-1)], NTI10715185);
-            if (eqStrings(elem_10715241["Field0"], key_10715188)) {
-            F.line = 325;
-            nimCopy(result_10715190, elem_10715241["Field1"], NTI10715189);
+            nimCopy(elem_10720245, t_10720191[chckIndx(i_10720684, 0, (t_10720191).length-1)], NTI10720189);
+            if (eqStrings(elem_10720245["Field0"], key_10720192)) {
+            F.line = 340;
+            nimCopy(result_10720194, elem_10720245["Field1"], NTI10720193);
             break BeforeRet;
             }
             
             F.line = 101;
-            i_10715673 = addInt(i_10715673, 1);
+            i_10720684 = addInt(i_10720684, 1);
           }
       } while(false);
     } while(false);
   } while (false);
   framePtr = F.prev;
 
-  return result_10715190;
+  return result_10720194;
 
 }
-function luminance_10695103(c_10695105) {
+function luminance_10700103(c_10700105) {
     var Tmp1;
     var Tmp2;
     var Tmp3;
 
-  var result_10695106 = 0.0;
+  var result_10700106 = 0.0;
 
   var F={procname:"colorvisualization.luminance",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 212;
-    F.line = 213;
-    if ((3.9279999999999998e-01 < c_10695105.r)) {
-    Tmp1 = Math.pow(((c_10695105.r + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    F.line = 217;
+    F.line = 218;
+    if ((3.9279999999999998e-01 < c_10700105.r)) {
+    Tmp1 = Math.pow(((c_10700105.r + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
     else {
-    Tmp1 = (c_10695105.r / 1.2920000000000000e+01);
+    Tmp1 = (c_10700105.r / 1.2920000000000000e+01);
     }
     
-    var r_10700001 = Tmp1;
-    F.line = 214;
-    if ((3.9279999999999998e-01 < c_10695105.g)) {
-    Tmp2 = Math.pow(((c_10695105.g + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    var r_10705001 = Tmp1;
+    F.line = 219;
+    if ((3.9279999999999998e-01 < c_10700105.g)) {
+    Tmp2 = Math.pow(((c_10700105.g + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
     else {
-    Tmp2 = (c_10695105.g / 1.2920000000000000e+01);
+    Tmp2 = (c_10700105.g / 1.2920000000000000e+01);
     }
     
-    var g_10705001 = Tmp2;
-    F.line = 215;
-    if ((3.9279999999999998e-01 < c_10695105.b)) {
-    Tmp3 = Math.pow(((c_10695105.b + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
+    var g_10710001 = Tmp2;
+    F.line = 220;
+    if ((3.9279999999999998e-01 < c_10700105.b)) {
+    Tmp3 = Math.pow(((c_10700105.b + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
     else {
-    Tmp3 = (c_10695105.b / 1.2920000000000000e+01);
+    Tmp3 = (c_10700105.b / 1.2920000000000000e+01);
     }
     
-    var b_10710001 = Tmp3;
-    result_10695106 = (((2.1260000000000001e-01 * r_10700001) + (7.1519999999999995e-01 * g_10705001)) + (7.2200000000000000e-02 * b_10710001));
+    var b_10715001 = Tmp3;
+    result_10700106 = (((2.1260000000000001e-01 * r_10705001) + (7.1519999999999995e-01 * g_10710001)) + (7.2200000000000000e-02 * b_10715001));
   framePtr = F.prev;
 
-  return result_10695106;
+  return result_10700106;
 
 }
-function contrastRatio_10710015(m_10710017, p_10710018) {
+function contrastRatio_10715015(m_10715017, p_10715018) {
     var Tmp1;
 
-  var result_10710019 = 0.0;
+  var result_10715019 = 0.0;
 
   var F={procname:"colorvisualization.contrastRatio",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 221;
-    var luminance1_10710020 = luminance_10695103(m_10710017);
-    F.line = 222;
-    var luminance2_10710021 = luminance_10695103(p_10710018);
-    F.line = 224;
-    if ((luminance2_10710021 < luminance1_10710020)) {
-    Tmp1 = ((luminance1_10710020 + 5.0000000000000003e-02) / (luminance2_10710021 + 5.0000000000000003e-02));
+    F.line = 226;
+    var luminance1_10715020 = luminance_10700103(m_10715017);
+    F.line = 227;
+    var luminance2_10715021 = luminance_10700103(p_10715018);
+    F.line = 229;
+    if ((luminance2_10715021 < luminance1_10715020)) {
+    Tmp1 = ((luminance1_10715020 + 5.0000000000000003e-02) / (luminance2_10715021 + 5.0000000000000003e-02));
     }
     else {
-    Tmp1 = ((luminance2_10710021 + 5.0000000000000003e-02) / (luminance1_10710020 + 5.0000000000000003e-02));
+    Tmp1 = ((luminance2_10715021 + 5.0000000000000003e-02) / (luminance1_10715020 + 5.0000000000000003e-02));
     }
     
-    result_10710019 = Tmp1;
-    F.line = 226;
-    result_10710019 = round_10635332(result_10710019, 1);
+    result_10715019 = Tmp1;
+    F.line = 231;
+    result_10715019 = round_10640332(result_10715019, 1);
   framePtr = F.prev;
 
-  return result_10710019;
+  return result_10715019;
 
 }
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
-F.line = 230;
-var appCalculator_10715019 = [document.getElementById("app-calculator")];
-F.line = 231;
-var table_10715020 = [document.createElement("table")];
-F.line = 232;
-var tr_10715021 = [document.createElement("tr")];
-F.line = 233;
-var td_10715022 = [document.createElement("td")];
+F.line = 235;
+var appCalculator_10720019 = [document.getElementById("app-calculator")];
+F.line = 236;
+var table_10720020 = [document.createElement("table")];
+F.line = 237;
+var tr_10720021 = [document.createElement("tr")];
+F.line = 238;
+var td_10720022 = [document.createElement("td")];
 L1: do {
-  F.line = 237;
-  var paletteHtmlTable_10715024 = [table_10715020[0].cloneNode(false)];
-  F.line = 238;
-  var stats_10715027 = [[makeNimstrLit("Old RGB"), makeNimstrLit("Old HSL"), makeNimstrLit("Old color"), makeNimstrLit("New color"), makeNimstrLit("New HSL"), makeNimstrLit("New RGB")]];
-  F.line = 246;
-  var nameTr_10715028 = [tr_10715021[0].cloneNode(false)];
-  F.line = 247;
-  paletteHtmlTable_10715024[0].id = "palette-table";
-  F.line = 249;
-  nameTr_10715028[0].appendChild(td_10715022[0].cloneNode(false));
+  F.line = 242;
+  var paletteHtmlTable_10720024 = [table_10720020[0].cloneNode(false)];
+  F.line = 243;
+  var stats_10720027 = [[makeNimstrLit("Old RGB"), makeNimstrLit("Old HSL"), makeNimstrLit("Old L*a*b*"), makeNimstrLit("Old color"), makeNimstrLit("New color"), makeNimstrLit("New L*a*b*"), makeNimstrLit("New HSL"), makeNimstrLit("New RGB")]];
+  F.line = 253;
+  var nameTr_10720028 = [tr_10720021[0].cloneNode(false)];
+  F.line = 254;
+  paletteHtmlTable_10720024[0].id = "palette-table";
+  F.line = 256;
+  nameTr_10720028[0].appendChild(td_10720022[0].cloneNode(false));
   L2: do {
-    F.line = 250;
-    var s_10715089 = [[]];
+    F.line = 257;
+    var s_10720089 = [[]];
     F.line = 32;
-    var i_10715479 = 0;
-    if ((i_10715479 <= 5)) {
+    var i_10720479 = 0;
+    if ((i_10720479 <= 7)) {
     L3: do {
       F.line = 34;
         L4: while (true) {
         if (!true) break L4;
-          F.line = 250;
-          s_10715089[0] = stats_10715027[0][chckIndx(i_10715479, 0, (stats_10715027[0]).length-1)];
-          F.line = 251;
-          var td_10715090 = [td_10715022[0].cloneNode(false)];
-          F.line = 252;
-          td_10715090[0].innerText = toJSStr(s_10715089[0]);
-          F.line = 253;
-          nameTr_10715028[0].appendChild(td_10715090[0]);
-          if ((5 <= i_10715479)) {
+          F.line = 257;
+          s_10720089[0] = stats_10720027[0][chckIndx(i_10720479, 0, (stats_10720027[0]).length-1)];
+          F.line = 258;
+          var td_10720090 = [td_10720022[0].cloneNode(false)];
+          F.line = 259;
+          td_10720090[0].innerText = toJSStr(s_10720089[0]);
+          F.line = 260;
+          nameTr_10720028[0].appendChild(td_10720090[0]);
+          if ((7 <= i_10720479)) {
           F.line = 36;
           break L3;
           }
           
           F.line = 37;
-          i_10715479 = addInt(i_10715479, 1);
+          i_10720479 = addInt(i_10720479, 1);
         }
     } while(false);
     }
     
   } while(false);
-  F.line = 254;
-  paletteHtmlTable_10715024[0].appendChild(nameTr_10715028[0]);
+  F.line = 261;
+  paletteHtmlTable_10720024[0].appendChild(nameTr_10720028[0]);
   L5: do {
-    F.line = 256;
-    var name_10715151 = [[]];
-    F.line = 256;
-    var colors_10715152 = [{Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}];
+    F.line = 263;
+    var name_10720151 = [[]];
+    F.line = 263;
+    var colors_10720152 = [{Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}];
     F.line = 32;
-    var i_10715486 = 0;
-    if ((i_10715486 <= 15)) {
+    var i_10720486 = 0;
+    if ((i_10720486 <= 15)) {
     L6: do {
       F.line = 34;
         L7: while (true) {
         if (!true) break L7;
-          F.line = 256;
-          name_10715151[0] = colorsTable_10541255[chckIndx(i_10715486, 0, (colorsTable_10541255).length-1)]["Field0"];
+          F.line = 263;
+          name_10720151[0] = colorsTable_10541255[chckIndx(i_10720486, 0, (colorsTable_10541255).length-1)]["Field0"];
           F.line = 35;
-          nimCopy(colors_10715152[0], colorsTable_10541255[chckIndx(i_10715486, 0, (colorsTable_10541255).length-1)]["Field1"], NTI10541207);
-          F.line = 258;
-          var colontmp__10715520 = nimCopy(null, colors_10715152[0], NTI10541207);
-          F.line = 258;
-          var oldHexColor_10715153 = nimCopy(null, colontmp__10715520["Field0"], NTI1188013);
-          F.line = 258;
-          var newHSLColor_10715154 = nimCopy(null, colontmp__10715520["Field1"], NTI10541030);
-          F.line = 259;
-          var oldRGB_10715155 = hexToRGB_10570106(oldHexColor_10715153);
-          F.line = 260;
-          var oldHSL_10715156 = toHSL_10620343(oldRGB_10715155);
-          F.line = 261;
-          var newHSL_10715157 = nimCopy(null, newHSLColor_10715154, NTI10541030);
-          F.line = 262;
-          var newRGB_10715158 = toRGB_10635309(newHSL_10715157);
-          F.line = 264;
-          var tr_10715159 = [tr_10715021[0].cloneNode(false)];
+          nimCopy(colors_10720152[0], colorsTable_10541255[chckIndx(i_10720486, 0, (colorsTable_10541255).length-1)]["Field1"], NTI10541207);
           F.line = 265;
-          var td1_10715160 = [td_10715022[0].cloneNode(false)];
+          var colontmp__10720520 = nimCopy(null, colors_10720152[0], NTI10541207);
+          F.line = 265;
+          var oldHexColor_10720153 = nimCopy(null, colontmp__10720520["Field0"], NTI1188013);
+          F.line = 265;
+          var newHSLColor_10720154 = nimCopy(null, colontmp__10720520["Field1"], NTI10541030);
           F.line = 266;
-          var td2_10715161 = [td_10715022[0].cloneNode(false)];
+          var oldRGB_10720155 = hexToRGB_10575051(oldHexColor_10720153);
           F.line = 267;
-          var td3_10715162 = [td_10715022[0].cloneNode(false)];
+          var oldHSL_10720156 = toHSL_10625343(oldRGB_10720155);
           F.line = 268;
-          var td4_10715163 = [td_10715022[0].cloneNode(false)];
+          var oldLab_10720157 = toLab_10670029(toXYZ_10640375(oldRGB_10720155));
           F.line = 269;
-          var td5_10715164 = [td_10715022[0].cloneNode(false)];
+          var newHSL_10720158 = nimCopy(null, newHSLColor_10720154, NTI10541030);
           F.line = 270;
-          var td6_10715165 = [td_10715022[0].cloneNode(false)];
+          var newRGB_10720159 = toRGB_10640309(newHSL_10720158);
           F.line = 271;
-          var td7_10715166 = [td_10715022[0].cloneNode(false)];
-          F.line = 272;
-          td1_10715160[0].innerText = toJSStr(name_10715151[0]);
+          var newLab_10720160 = toLab_10670029(toXYZ_10640375(newRGB_10720159));
           F.line = 273;
-          td2_10715161[0].innerText = toJSStr(oldHexColor_10715153);
+          var tr_10720161 = [tr_10720021[0].cloneNode(false)];
           F.line = 274;
-          td3_10715162[0].innerHTML = toJSStr(HEX24_10550049(oldHSL_10715156));
+          var td1_10720162 = [td_10720022[0].cloneNode(false)];
           F.line = 275;
-          td4_10715163[0].style.backgroundColor = toJSStr(oldHexColor_10715153);
+          var td2_10720163 = [td_10720022[0].cloneNode(false)];
           F.line = 276;
-          td5_10715164[0].style.backgroundColor = toJSStr(toHex_10541387(newRGB_10715158));
+          var td3_10720164 = [td_10720022[0].cloneNode(false)];
           F.line = 277;
-          td6_10715165[0].innerHTML = toJSStr(HEX24_10550049(newHSL_10715157));
+          var td4_10720165 = [td_10720022[0].cloneNode(false)];
           F.line = 278;
-          td7_10715166[0].innerText = toJSStr(toHex_10541387(newRGB_10715158));
+          var td5_10720166 = [td_10720022[0].cloneNode(false)];
           F.line = 279;
-          tr_10715159[0].appendChild(td1_10715160[0]);
+          var td6_10720167 = [td_10720022[0].cloneNode(false)];
           F.line = 280;
-          tr_10715159[0].appendChild(td2_10715161[0]);
+          var td7_10720168 = [td_10720022[0].cloneNode(false)];
           F.line = 281;
-          tr_10715159[0].appendChild(td3_10715162[0]);
+          var td8_10720169 = [td_10720022[0].cloneNode(false)];
           F.line = 282;
-          tr_10715159[0].appendChild(td4_10715163[0]);
+          var td9_10720170 = [td_10720022[0].cloneNode(false)];
           F.line = 283;
-          tr_10715159[0].appendChild(td5_10715164[0]);
+          td1_10720162[0].innerText = toJSStr(name_10720151[0]);
           F.line = 284;
-          tr_10715159[0].appendChild(td6_10715165[0]);
+          td2_10720163[0].innerText = toJSStr(oldHexColor_10720153);
           F.line = 285;
-          tr_10715159[0].appendChild(td7_10715166[0]);
+          td3_10720164[0].innerHTML = toJSStr(HEX24_10550049(oldHSL_10720156));
           F.line = 286;
-          paletteHtmlTable_10715024[0].appendChild(tr_10715159[0]);
-          if ((15 <= i_10715486)) {
+          td4_10720165[0].innerHTML = toJSStr(HEX24_10570106(oldLab_10720157));
+          F.line = 287;
+          td5_10720166[0].style.backgroundColor = toJSStr(oldHexColor_10720153);
+          F.line = 288;
+          td6_10720167[0].style.backgroundColor = toJSStr(toHex_10541387(newRGB_10720159));
+          F.line = 289;
+          td7_10720168[0].innerHTML = toJSStr(HEX24_10570106(newLab_10720160));
+          F.line = 290;
+          td8_10720169[0].innerHTML = toJSStr(HEX24_10550049(newHSL_10720158));
+          F.line = 291;
+          td9_10720170[0].innerText = toJSStr(toHex_10541387(newRGB_10720159));
+          F.line = 292;
+          tr_10720161[0].appendChild(td1_10720162[0]);
+          F.line = 293;
+          tr_10720161[0].appendChild(td2_10720163[0]);
+          F.line = 294;
+          tr_10720161[0].appendChild(td3_10720164[0]);
+          F.line = 295;
+          tr_10720161[0].appendChild(td4_10720165[0]);
+          F.line = 296;
+          tr_10720161[0].appendChild(td5_10720166[0]);
+          F.line = 297;
+          tr_10720161[0].appendChild(td6_10720167[0]);
+          F.line = 298;
+          tr_10720161[0].appendChild(td7_10720168[0]);
+          F.line = 299;
+          tr_10720161[0].appendChild(td8_10720169[0]);
+          F.line = 300;
+          tr_10720161[0].appendChild(td9_10720170[0]);
+          F.line = 301;
+          paletteHtmlTable_10720024[0].appendChild(tr_10720161[0]);
+          if ((15 <= i_10720486)) {
           F.line = 36;
           break L6;
           }
           
           F.line = 37;
-          i_10715486 = addInt(i_10715486, 1);
+          i_10720486 = addInt(i_10720486, 1);
         }
     } while(false);
     }
     
   } while(false);
-  F.line = 288;
-  appCalculator_10715019[0].appendChild(paletteHtmlTable_10715024[0]);
+  F.line = 303;
+  appCalculator_10720019[0].appendChild(paletteHtmlTable_10720024[0]);
 } while(false);
 L8: do {
-  F.line = 292;
-  var contrastPairsHtmlTable_10715168 = [table_10715020[0].cloneNode(false)];
-  F.line = 293;
-  var nameTr_10715169 = [tr_10715021[0].cloneNode(false)];
-  F.line = 294;
-  var oldBgTr_10715170 = [tr_10715021[0].cloneNode(false)];
-  F.line = 295;
-  var oldFgTr_10715171 = [tr_10715021[0].cloneNode(false)];
-  F.line = 296;
-  var oldContrastTr_10715172 = [tr_10715021[0].cloneNode(false)];
-  F.line = 297;
-  var newBgTr_10715173 = [tr_10715021[0].cloneNode(false)];
-  F.line = 298;
-  var newFgTr_10715174 = [tr_10715021[0].cloneNode(false)];
-  F.line = 299;
-  var newContrastTr_10715175 = [tr_10715021[0].cloneNode(false)];
-  F.line = 300;
-  var oldFirstBgTd_10715176 = [td_10715022[0].cloneNode(false)];
-  F.line = 301;
-  var oldFirstFgTd_10715177 = [td_10715022[0].cloneNode(false)];
-  F.line = 302;
-  var oldFirstContrastTd_10715178 = [td_10715022[0].cloneNode(false)];
-  F.line = 303;
-  var newFirstBgTd_10715179 = [td_10715022[0].cloneNode(false)];
-  F.line = 304;
-  var newFirstFgTd_10715180 = [td_10715022[0].cloneNode(false)];
-  F.line = 305;
-  var newFirstContrastTd_10715181 = [td_10715022[0].cloneNode(false)];
-  F.line = 306;
-  contrastPairsHtmlTable_10715168[0].id = "contrast-pairs-table";
+  F.line = 307;
+  var contrastPairsHtmlTable_10720172 = [table_10720020[0].cloneNode(false)];
   F.line = 308;
-  oldFirstBgTd_10715176[0].innerText = "Old background";
+  var nameTr_10720173 = [tr_10720021[0].cloneNode(false)];
   F.line = 309;
-  oldFirstFgTd_10715177[0].innerText = "Old foreground";
+  var oldBgTr_10720174 = [tr_10720021[0].cloneNode(false)];
   F.line = 310;
-  oldFirstContrastTd_10715178[0].innerText = "Old contrast";
+  var oldFgTr_10720175 = [tr_10720021[0].cloneNode(false)];
   F.line = 311;
-  newFirstBgTd_10715179[0].innerText = "New background";
+  var oldContrastTr_10720176 = [tr_10720021[0].cloneNode(false)];
   F.line = 312;
-  newFirstFgTd_10715180[0].innerText = "New foreground";
+  var newBgTr_10720177 = [tr_10720021[0].cloneNode(false)];
   F.line = 313;
-  newFirstContrastTd_10715181[0].innerText = "New contrast";
+  var newFgTr_10720178 = [tr_10720021[0].cloneNode(false)];
+  F.line = 314;
+  var newContrastTr_10720179 = [tr_10720021[0].cloneNode(false)];
   F.line = 315;
-  nameTr_10715169[0].appendChild(td_10715022[0].cloneNode(false));
+  var oldFirstBgTd_10720180 = [td_10720022[0].cloneNode(false)];
   F.line = 316;
-  oldBgTr_10715170[0].appendChild(oldFirstBgTd_10715176[0]);
+  var oldFirstFgTd_10720181 = [td_10720022[0].cloneNode(false)];
   F.line = 317;
-  oldFgTr_10715171[0].appendChild(oldFirstFgTd_10715177[0]);
+  var oldFirstContrastTd_10720182 = [td_10720022[0].cloneNode(false)];
   F.line = 318;
-  oldContrastTr_10715172[0].appendChild(oldFirstContrastTd_10715178[0]);
+  var newFirstBgTd_10720183 = [td_10720022[0].cloneNode(false)];
   F.line = 319;
-  newBgTr_10715173[0].appendChild(newFirstBgTd_10715179[0]);
+  var newFirstFgTd_10720184 = [td_10720022[0].cloneNode(false)];
   F.line = 320;
-  newFgTr_10715174[0].appendChild(newFirstFgTd_10715180[0]);
+  var newFirstContrastTd_10720185 = [td_10720022[0].cloneNode(false)];
   F.line = 321;
-  newContrastTr_10715175[0].appendChild(newFirstContrastTd_10715181[0]);
+  contrastPairsHtmlTable_10720172[0].id = "contrast-pairs-table";
+  F.line = 323;
+  oldFirstBgTd_10720180[0].innerText = "Old background";
+  F.line = 324;
+  oldFirstFgTd_10720181[0].innerText = "Old foreground";
+  F.line = 325;
+  oldFirstContrastTd_10720182[0].innerText = "Old contrast";
+  F.line = 326;
+  newFirstBgTd_10720183[0].innerText = "New background";
+  F.line = 327;
+  newFirstFgTd_10720184[0].innerText = "New foreground";
+  F.line = 328;
+  newFirstContrastTd_10720185[0].innerText = "New contrast";
+  F.line = 330;
+  nameTr_10720173[0].appendChild(td_10720022[0].cloneNode(false));
+  F.line = 331;
+  oldBgTr_10720174[0].appendChild(oldFirstBgTd_10720180[0]);
+  F.line = 332;
+  oldFgTr_10720175[0].appendChild(oldFirstFgTd_10720181[0]);
+  F.line = 333;
+  oldContrastTr_10720176[0].appendChild(oldFirstContrastTd_10720182[0]);
+  F.line = 334;
+  newBgTr_10720177[0].appendChild(newFirstBgTd_10720183[0]);
+  F.line = 335;
+  newFgTr_10720178[0].appendChild(newFirstFgTd_10720184[0]);
+  F.line = 336;
+  newContrastTr_10720179[0].appendChild(newFirstContrastTd_10720185[0]);
   L9: do {
-    F.line = 327;
-    var name_10715332 = [[]];
-    F.line = 327;
-    var colorNames_10715333 = [{Field0: [], Field1: []}];
+    F.line = 342;
+    var name_10720336 = [[]];
+    F.line = 342;
+    var colorNames_10720337 = [{Field0: [], Field1: []}];
     F.line = 32;
-    var i_10715493 = 0;
-    if ((i_10715493 <= 4)) {
+    var i_10720493 = 0;
+    if ((i_10720493 <= 4)) {
     L10: do {
       F.line = 34;
         L11: while (true) {
         if (!true) break L11;
-          F.line = 327;
-          name_10715332[0] = contrastPairsTable_10541268[chckIndx(i_10715493, 0, (contrastPairsTable_10541268).length-1)]["Field0"];
+          F.line = 342;
+          name_10720336[0] = contrastPairsTable_10541268[chckIndx(i_10720493, 0, (contrastPairsTable_10541268).length-1)]["Field0"];
           F.line = 35;
-          nimCopy(colorNames_10715333[0], contrastPairsTable_10541268[chckIndx(i_10715493, 0, (contrastPairsTable_10541268).length-1)]["Field1"], NTI10541258);
-          F.line = 329;
-          var colontmp__10715669 = nimCopy(null, colorNames_10715333[0], NTI10541258);
-          F.line = 329;
-          var bgName_10715334 = nimCopy(null, colontmp__10715669["Field0"], NTI1188013);
-          F.line = 329;
-          var fgName_10715335 = nimCopy(null, colontmp__10715669["Field1"], NTI1188013);
-          F.line = 330;
-          var colontmp__10715670 = tableFind_10715182([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 2.1000000000000000e+02, s: 1.4299999999999999e-01, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], bgName_10715334);
-          F.line = 330;
-          var oldBgHexColor_10715336 = nimCopy(null, colontmp__10715670["Field0"], NTI1188013);
-          F.line = 330;
-          var newBgHSLColor_10715337 = nimCopy(null, colontmp__10715670["Field1"], NTI10541030);
-          F.line = 331;
-          var colontmp__10715675 = tableFind_10715182([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 2.1000000000000000e+02, s: 1.4299999999999999e-01, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], fgName_10715335);
-          F.line = 331;
-          var oldfgHexColor_10715338 = nimCopy(null, colontmp__10715675["Field0"], NTI1188013);
-          F.line = 331;
-          var newfgHSLColor_10715339 = nimCopy(null, colontmp__10715675["Field1"], NTI10541030);
-          F.line = 332;
-          var newBgHexColor_10715340 = toHex_10541387(toRGB_10635309(newBgHSLColor_10715337));
-          F.line = 333;
-          var newFgHexColor_10715341 = toHex_10541387(toRGB_10635309(newfgHSLColor_10715339));
-          F.line = 335;
-          var nameTd_10715342 = [td_10715022[0].cloneNode(false)];
-          F.line = 336;
-          var oldBgTd_10715343 = [td_10715022[0].cloneNode(false)];
-          F.line = 337;
-          var oldFgTd_10715344 = [td_10715022[0].cloneNode(false)];
-          F.line = 338;
-          var oldContrastTd_10715345 = [td_10715022[0].cloneNode(false)];
-          F.line = 339;
-          var newBgTd_10715346 = [td_10715022[0].cloneNode(false)];
-          F.line = 340;
-          var newFgTd_10715347 = [td_10715022[0].cloneNode(false)];
-          F.line = 341;
-          var newContrastTd_10715348 = [td_10715022[0].cloneNode(false)];
-          F.line = 343;
-          nameTd_10715342[0].innerText = toJSStr(name_10715332[0]);
+          nimCopy(colorNames_10720337[0], contrastPairsTable_10541268[chckIndx(i_10720493, 0, (contrastPairsTable_10541268).length-1)]["Field1"], NTI10541258);
           F.line = 344;
-          oldBgTd_10715343[0].style.backgroundColor = toJSStr(oldBgHexColor_10715336);
+          var colontmp__10720680 = nimCopy(null, colorNames_10720337[0], NTI10541258);
+          F.line = 344;
+          var bgName_10720338 = nimCopy(null, colontmp__10720680["Field0"], NTI1188013);
+          F.line = 344;
+          var fgName_10720339 = nimCopy(null, colontmp__10720680["Field1"], NTI1188013);
           F.line = 345;
-          oldFgTd_10715344[0].style.backgroundColor = toJSStr(oldfgHexColor_10715338);
+          var colontmp__10720681 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], bgName_10720338);
+          F.line = 345;
+          var oldBgHexColor_10720340 = nimCopy(null, colontmp__10720681["Field0"], NTI1188013);
+          F.line = 345;
+          var newBgHSLColor_10720341 = nimCopy(null, colontmp__10720681["Field1"], NTI10541030);
+          F.line = 346;
+          var colontmp__10720686 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], fgName_10720339);
+          F.line = 346;
+          var oldfgHexColor_10720342 = nimCopy(null, colontmp__10720686["Field0"], NTI1188013);
+          F.line = 346;
+          var newfgHSLColor_10720343 = nimCopy(null, colontmp__10720686["Field1"], NTI10541030);
           F.line = 347;
-          oldContrastTd_10715345[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10710015(hexToRGB_10570106(oldBgHexColor_10715336), hexToRGB_10570106(oldfgHexColor_10715338)))));
+          var newBgHexColor_10720344 = toHex_10541387(toRGB_10640309(newBgHSLColor_10720341));
           F.line = 348;
-          newBgTd_10715346[0].style.backgroundColor = toJSStr(newBgHexColor_10715340);
-          F.line = 349;
-          newFgTd_10715347[0].style.backgroundColor = toJSStr(newFgHexColor_10715341);
+          var newFgHexColor_10720345 = toHex_10541387(toRGB_10640309(newfgHSLColor_10720343));
+          F.line = 350;
+          var nameTd_10720346 = [td_10720022[0].cloneNode(false)];
           F.line = 351;
-          newContrastTd_10715348[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10710015(hexToRGB_10570106(newBgHexColor_10715340), hexToRGB_10570106(newFgHexColor_10715341)))));
+          var oldBgTd_10720347 = [td_10720022[0].cloneNode(false)];
+          F.line = 352;
+          var oldFgTd_10720348 = [td_10720022[0].cloneNode(false)];
           F.line = 353;
-          nameTr_10715169[0].appendChild(nameTd_10715342[0]);
+          var oldContrastTd_10720349 = [td_10720022[0].cloneNode(false)];
           F.line = 354;
-          oldBgTr_10715170[0].appendChild(oldBgTd_10715343[0]);
+          var newBgTd_10720350 = [td_10720022[0].cloneNode(false)];
           F.line = 355;
-          oldFgTr_10715171[0].appendChild(oldFgTd_10715344[0]);
+          var newFgTd_10720351 = [td_10720022[0].cloneNode(false)];
           F.line = 356;
-          oldContrastTr_10715172[0].appendChild(oldContrastTd_10715345[0]);
-          F.line = 357;
-          newBgTr_10715173[0].appendChild(newBgTd_10715346[0]);
+          var newContrastTd_10720352 = [td_10720022[0].cloneNode(false)];
           F.line = 358;
-          newFgTr_10715174[0].appendChild(newFgTd_10715347[0]);
+          nameTd_10720346[0].innerText = toJSStr(name_10720336[0]);
           F.line = 359;
-          newContrastTr_10715175[0].appendChild(newContrastTd_10715348[0]);
-          if ((4 <= i_10715493)) {
+          oldBgTd_10720347[0].style.backgroundColor = toJSStr(oldBgHexColor_10720340);
+          F.line = 360;
+          oldFgTd_10720348[0].style.backgroundColor = toJSStr(oldfgHexColor_10720342);
+          F.line = 362;
+          oldContrastTd_10720349[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(oldBgHexColor_10720340), hexToRGB_10575051(oldfgHexColor_10720342)))));
+          F.line = 363;
+          newBgTd_10720350[0].style.backgroundColor = toJSStr(newBgHexColor_10720344);
+          F.line = 364;
+          newFgTd_10720351[0].style.backgroundColor = toJSStr(newFgHexColor_10720345);
+          F.line = 366;
+          newContrastTd_10720352[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(newBgHexColor_10720344), hexToRGB_10575051(newFgHexColor_10720345)))));
+          F.line = 368;
+          nameTr_10720173[0].appendChild(nameTd_10720346[0]);
+          F.line = 369;
+          oldBgTr_10720174[0].appendChild(oldBgTd_10720347[0]);
+          F.line = 370;
+          oldFgTr_10720175[0].appendChild(oldFgTd_10720348[0]);
+          F.line = 371;
+          oldContrastTr_10720176[0].appendChild(oldContrastTd_10720349[0]);
+          F.line = 372;
+          newBgTr_10720177[0].appendChild(newBgTd_10720350[0]);
+          F.line = 373;
+          newFgTr_10720178[0].appendChild(newFgTd_10720351[0]);
+          F.line = 374;
+          newContrastTr_10720179[0].appendChild(newContrastTd_10720352[0]);
+          if ((4 <= i_10720493)) {
           F.line = 36;
           break L10;
           }
           
           F.line = 37;
-          i_10715493 = addInt(i_10715493, 1);
+          i_10720493 = addInt(i_10720493, 1);
         }
     } while(false);
     }
     
   } while(false);
-  F.line = 361;
-  contrastPairsHtmlTable_10715168[0].appendChild(nameTr_10715169[0]);
-  F.line = 362;
-  contrastPairsHtmlTable_10715168[0].appendChild(oldBgTr_10715170[0]);
-  F.line = 363;
-  contrastPairsHtmlTable_10715168[0].appendChild(oldFgTr_10715171[0]);
-  F.line = 364;
-  contrastPairsHtmlTable_10715168[0].appendChild(oldContrastTr_10715172[0]);
-  F.line = 365;
-  contrastPairsHtmlTable_10715168[0].appendChild(newBgTr_10715173[0]);
-  F.line = 366;
-  contrastPairsHtmlTable_10715168[0].appendChild(newFgTr_10715174[0]);
-  F.line = 367;
-  contrastPairsHtmlTable_10715168[0].appendChild(newContrastTr_10715175[0]);
-  F.line = 368;
-  appCalculator_10715019[0].appendChild(contrastPairsHtmlTable_10715168[0]);
+  F.line = 376;
+  contrastPairsHtmlTable_10720172[0].appendChild(nameTr_10720173[0]);
+  F.line = 377;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldBgTr_10720174[0]);
+  F.line = 378;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldFgTr_10720175[0]);
+  F.line = 379;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldContrastTr_10720176[0]);
+  F.line = 380;
+  contrastPairsHtmlTable_10720172[0].appendChild(newBgTr_10720177[0]);
+  F.line = 381;
+  contrastPairsHtmlTable_10720172[0].appendChild(newFgTr_10720178[0]);
+  F.line = 382;
+  contrastPairsHtmlTable_10720172[0].appendChild(newContrastTr_10720179[0]);
+  F.line = 383;
+  appCalculator_10720019[0].appendChild(contrastPairsHtmlTable_10720172[0]);
 } while(false);
 framePtr = F.prev;
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};

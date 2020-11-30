@@ -1,5 +1,7 @@
-import dom, strutils, strformat
+import dom
 from math import round, `mod`, pow, sqrt
+from strformat import fmt
+from strutils import replace, HexDigits, toHex, parseHexInt
 
 type
   RGB* = object
@@ -15,7 +17,7 @@ type
   XYZ* = object
     x*, y*, z*: float
     wp*: WhitePoint
-  LaB* = object
+  Lab* = object
     l*: range[0.0..100.0]
     a*, b*: float
     wp*: WhitePoint
@@ -32,7 +34,7 @@ func findReferenceValues(wp: WhitePoint): ReferenceValue =
 
 const
   colorsTable = {
-    "colorLight": ("#f8f9fa", HSL(h: 210.0, s: 0.143, l: 0.973)),
+    "colorLight": ("#f8f9fa", HSL(h: 0.0, s: 0.0, l: 0.973)),
     "colorLightMedium": ("#d4d4d4", HSL(l: 0.828)),
     "colorMedium": ("#c4c4c4", HSL(l: 0.766)),
     "colorMediumDark": ("#999999", HSL(l: 0.598)),
@@ -69,6 +71,9 @@ func `$`*(c: RGB): string =
 
 func `$`*(c: HSL): string =
   fmt"{c.h.float:>5.1f}°, {c.s.float:>5.3f}, {c.l.float:>5.3f}".replace(" ", "&nbsp;")
+
+func `$`*(c: Lab): string =
+  fmt"{c.l.float:>7.3f}, {c.a:>7.3f}, {c.b:>7.3f}".replace(" ", "&nbsp;")
 
 func hexToRGB*(s: string): RGB =
   if s.len != 7 or
@@ -160,7 +165,7 @@ func toRGB*(c: XYZ): RGB =
   result.b = b.round(3)
 
 # http://www.easyrgb.com/en/math.php
-func toLaB*(c: XYZ): LaB =
+func toLab*(c: XYZ): Lab =
   let rv = findReferenceValues(c.wp)
   var
     x = c.x / rv.x
@@ -177,7 +182,7 @@ func toLaB*(c: XYZ): LaB =
   result.b = round(result.b, 3)
 
 # http://www.easyrgb.com/en/math.php
-func toXYZ*(c: LaB): XYZ =
+func toXYZ*(c: Lab): XYZ =
   let rv = findReferenceValues(c.wp)
   var
     y = (c.l + 16) / 116.0
@@ -199,14 +204,14 @@ func toXYZ*(c: LaB): XYZ =
 
 # http://www.easyrgb.com/en/math.php
 # Euclidian distance
-func deltaE*(m, p: LaB): float =
+func deltaE*(m, p: Lab): float =
   let
     ld = m.l - p.l
     ad = m.a - p.a
     bd = m.b - p.b
   sqrt(ld*ld + ad*ad + bd*bd).round(1)
 
-func deltaE*(m, p: RGB): float = deltaE(m.toXYZ.toLaB, p.toXYZ.toLaB)
+func deltaE*(m, p: RGB): float = deltaE(m.toXYZ.toLab, p.toXYZ.toLab)
 
 func luminance(c: RGB): float =
   let
@@ -238,8 +243,10 @@ when isMainModule:
       stats = [
         "Old RGB",
         "Old HSL",
+        "Old L*a*b*",
         "Old color",
         "New color",
+        "New L*a*b*",
         "New HSL",
         "New RGB",
       ]
@@ -258,8 +265,10 @@ when isMainModule:
         (oldHexColor, newHSLColor) = colors
         oldRGB = hexToRGB(oldHexColor)
         oldHSL = oldRGB.toHSL
+        oldLab = oldRGB.toXYZ.toLab
         newHSL = newHSLColor
-        newRGB = newHSL.toRGB()
+        newRGB = newHSL.toRGB
+        newLab = newRGB.toXYZ.toLab
       var
         tr = tr.cloneNode(false)
         td1 = td.cloneNode(false)
@@ -269,13 +278,17 @@ when isMainModule:
         td5 = td.cloneNode(false)
         td6 = td.cloneNode(false)
         td7 = td.cloneNode(false)
+        td8 = td.cloneNode(false)
+        td9 = td.cloneNode(false)
       td1.innerText = name
       td2.innerText = oldHexColor
       td3.innerHtml = $oldHSL
-      td4.style.backgroundColor = oldHexColor
-      td5.style.backgroundColor = newRGB.toHex()
-      td6.innerHtml = $newHSL
-      td7.innerText = newRGB.toHex()
+      td4.innerHtml = $oldLab
+      td5.style.backgroundColor = oldHexColor
+      td6.style.backgroundColor = newRGB.toHex()
+      td7.innerHtml = $newLab
+      td8.innerHtml = $newHSL
+      td9.innerText = newRGB.toHex()
       tr.appendChild(td1)
       tr.appendChild(td2)
       tr.appendChild(td3)
@@ -283,6 +296,8 @@ when isMainModule:
       tr.appendChild(td5)
       tr.appendChild(td6)
       tr.appendChild(td7)
+      tr.appendChild(td8)
+      tr.appendChild(td9)
       paletteHtmlTable.appendChild(tr)
 
     appCalculator.appendChild(paletteHtmlTable)
