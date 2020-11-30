@@ -387,7 +387,7 @@ function addInt(a_1460419, b_1460420) {
 
   
 }
-          var colorsTable_10541255 = [{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}];
+          var colorsTable_10541255 = [{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.1999999999999995e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 2.3200000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 5.0000000000000000e+00, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 5.0000000000000000e+00, s: 5.9999999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}];
 var ConstSet2 = setConstr([48, 57], [65, 70], [97, 102]);
 var ConstSet3 = setConstr([48, 57], [65, 70], [97, 102]);
 var ConstSet4 = setConstr([48, 57], [65, 70], [97, 102]);
@@ -522,7 +522,7 @@ function nimCharToStr(x_1375674) {
 }
 var ConstSet17 = setConstr([65, 90]);
 var ConstSet18 = setConstr([97, 122]);
-          var contrastPairsTable_10541268 = [{Field0: makeNimstrLit("navbar"), Field1: {Field0: makeNimstrLit("colorNavbarBackground"), Field1: makeNimstrLit("colorNavbarText")}}, {Field0: makeNimstrLit("body"), Field1: {Field0: makeNimstrLit("colorLight"), Field1: makeNimstrLit("colorTypographyBlack")}}, {Field0: makeNimstrLit("success"), Field1: {Field0: makeNimstrLit("colorSuccessBackground"), Field1: makeNimstrLit("colorSuccessText")}}, {Field0: makeNimstrLit("warning"), Field1: {Field0: makeNimstrLit("colorWarningBackground"), Field1: makeNimstrLit("colorWarningText")}}, {Field0: makeNimstrLit("buttons"), Field1: {Field0: makeNimstrLit("colorClickableBlue"), Field1: makeNimstrLit("colorDecorativeBlue")}}];
+          var contrastPairsTable_10541280 = [{Field0: makeNimstrLit("navbar"), Field1: {Field0: makeNimstrLit("colorNavbarBackground"), Field1: makeNimstrLit("colorNavbarText")}}, {Field0: makeNimstrLit("body"), Field1: {Field0: makeNimstrLit("colorLight"), Field1: makeNimstrLit("colorTypographyBlack")}}, {Field0: makeNimstrLit("success"), Field1: {Field0: makeNimstrLit("colorSuccessBackground"), Field1: makeNimstrLit("colorSuccessText")}}, {Field0: makeNimstrLit("warning"), Field1: {Field0: makeNimstrLit("colorWarningBackground"), Field1: makeNimstrLit("colorWarningText")}}, {Field0: makeNimstrLit("buttons"), Field1: {Field0: makeNimstrLit("colorClickableBlue"), Field1: makeNimstrLit("colorDecorativeBlue")}}, {Field0: makeNimstrLit("grey 1"), Field1: {Field0: makeNimstrLit("colorLight"), Field1: makeNimstrLit("colorLightMedium")}}, {Field0: makeNimstrLit("grey 2"), Field1: {Field0: makeNimstrLit("colorLightMedium"), Field1: makeNimstrLit("colorMedium")}}, {Field0: makeNimstrLit("grey 3"), Field1: {Field0: makeNimstrLit("colorMedium"), Field1: makeNimstrLit("colorMediumDark")}}, {Field0: makeNimstrLit("grey 4"), Field1: {Field0: makeNimstrLit("colorMediumDark"), Field1: makeNimstrLit("colorDark")}}, {Field0: makeNimstrLit("success bg"), Field1: {Field0: makeNimstrLit("colorLight"), Field1: makeNimstrLit("colorSuccessBackground")}}, {Field0: makeNimstrLit("warning bg"), Field1: {Field0: makeNimstrLit("colorLight"), Field1: makeNimstrLit("colorWarningBackground")}}];
 function eqStrings(a_1460222, b_1460223) {
         if (a_1460222 == b_1460223) return true;
     if (a_1460222 === null && b_1460223.length == 0) return true;
@@ -3250,11 +3250,11 @@ function hexToRGB_10575051(s_10575053) {
 
   var F={procname:"colorvisualization.hexToRGB",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 79;
+    F.line = 85;
       if (!(((s_10575053).length == 7))) Tmp8 = true; else {        Tmp8 = !((s_10575053[chckIndx(0, 0, (s_10575053).length-1)] == 35));      }      if (Tmp8) Tmp7 = true; else {        Tmp7 = !((ConstSet2[s_10575053[chckIndx(1, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp7) Tmp6 = true; else {        Tmp6 = !((ConstSet3[s_10575053[chckIndx(2, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp6) Tmp5 = true; else {        Tmp5 = !((ConstSet4[s_10575053[chckIndx(3, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp5) Tmp4 = true; else {        Tmp4 = !((ConstSet5[s_10575053[chckIndx(4, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp4) Tmp3 = true; else {        Tmp3 = !((ConstSet6[s_10575053[chckIndx(5, 0, (s_10575053).length-1)]] != undefined));      }      if (Tmp3) Tmp2 = true; else {        Tmp2 = !((ConstSet7[s_10575053[chckIndx(6, 0, (s_10575053).length-1)]] != undefined));      }    if (Tmp2) {
     if (true) {
-    F.line = 87;
-    failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(87, 12) `false` "));
+    F.line = 93;
+    failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(93, 12) `false` "));
     }
     
     Tmp1 = {r: 0.0, g: 0.0, b: 0.0};
@@ -3367,22 +3367,22 @@ function toHSL_10625343(c_10625345) {
 
   var F={procname:"colorvisualization.toHSL",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 98;
+    F.line = 104;
     var maxValue_10625383 = max_10625350([nimCopy(null, c_10625345.r, NTI10541039), nimCopy(null, c_10625345.g, NTI10541039), nimCopy(null, c_10625345.b, NTI10541039)]);
-    F.line = 99;
+    F.line = 105;
     var minValue_10625420 = min_10625387([nimCopy(null, c_10625345.r, NTI10541039), nimCopy(null, c_10625345.g, NTI10541039), nimCopy(null, c_10625345.b, NTI10541039)]);
-    F.line = 100;
+    F.line = 106;
     result_10625346.l = chckRange(((minValue_10625420 + maxValue_10625383) / 2.0000000000000000e+00), 0.0, 1.0000000000000000e+00);
     if ((maxValue_10625383 == minValue_10625420)) {
-    F.line = 102;
+    F.line = 108;
     result_10625346.s = 0;
-    F.line = 103;
+    F.line = 109;
     result_10625346.h = 0;
     }
     else {
-      F.line = 105;
+      F.line = 111;
       var chroma_10625421 = (maxValue_10625383 - minValue_10625420);
-      F.line = 107;
+      F.line = 113;
       if ((5.0000000000000000e-01 <= result_10625346.l)) {
       Tmp1 = (chroma_10625421 / ((2.0000000000000000e+00 - maxValue_10625383) - minValue_10625420));
       }
@@ -3391,7 +3391,7 @@ function toHSL_10625343(c_10625345) {
       }
       
       result_10625346.s = chckRange(Tmp1, 0.0, 1.0000000000000000e+00);
-      F.line = 112;
+      F.line = 118;
       if ((maxValue_10625383 == c_10625345.r)) {
       if ((c_10625345.g < c_10625345.b)) {
       Tmp3 = 6.0000000000000000e+00;
@@ -3412,21 +3412,21 @@ function toHSL_10625343(c_10625345) {
       }
       else {
         if (true) {
-        F.line = 115;
-        failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(115, 20) `false` "));
+        F.line = 121;
+        failedAssertImpl_1305480(makeNimstrLit("/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim(121, 20) `false` "));
         }
         
       Tmp2 = 0.0;
       }
       }}
       result_10625346.h = chckRange(Tmp2, 0.0, 3.6000000000000000e+02);
-      F.line = 116;
+      F.line = 122;
       HEX2AHEX3D_10640201(result_10625346, "h", 60);
-      F.line = 117;
+      F.line = 123;
       result_10625346.h = round_10640221(chckRange(result_10625346.h, 0.0, 3.6000000000000000e+02), 1);
-      F.line = 118;
+      F.line = 124;
       result_10625346.s = round_10640241(chckRange(result_10625346.s, 0.0, 1.0000000000000000e+00), 3);
-      F.line = 119;
+      F.line = 125;
       result_10625346.l = round_10640241(chckRange(result_10625346.l, 0.0, 1.0000000000000000e+00), 3);
     }
     
@@ -3516,15 +3516,15 @@ function toLab_10670029(c_10670031) {
 
   var F={procname:"colorvisualization.toLab",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 169;
+    F.line = 175;
     var rv_10670033 = findReferenceValues_10541072(c_10670031.wp);
-    F.line = 171;
+    F.line = 177;
     var x_10670034 = (c_10670031.x / rv_10670033.x);
-    F.line = 172;
+    F.line = 178;
     var y_10670035 = (c_10670031.y / rv_10670033.y);
-    F.line = 173;
+    F.line = 179;
     var z_10670036 = (c_10670031.z / rv_10670033.z);
-    F.line = 174;
+    F.line = 180;
     if ((8.8559999999999993e-03 < x_10670034)) {
     Tmp1 = Math.pow(x_10670034, 3.3333333333333331e-01);
     }
@@ -3533,7 +3533,7 @@ function toLab_10670029(c_10670031) {
     }
     
     x_10670034 = Tmp1;
-    F.line = 175;
+    F.line = 181;
     if ((8.8559999999999993e-03 < y_10670035)) {
     Tmp2 = Math.pow(y_10670035, 3.3333333333333331e-01);
     }
@@ -3542,7 +3542,7 @@ function toLab_10670029(c_10670031) {
     }
     
     y_10670035 = Tmp2;
-    F.line = 176;
+    F.line = 182;
     if ((8.8559999999999993e-03 < z_10670036)) {
     Tmp3 = Math.pow(z_10670036, 3.3333333333333331e-01);
     }
@@ -3551,17 +3551,17 @@ function toLab_10670029(c_10670031) {
     }
     
     z_10670036 = Tmp3;
-    F.line = 177;
+    F.line = 183;
     result_10670032.l = chckRange(((1.1600000000000000e+02 * y_10670035) - 1.6000000000000000e+01), 0.0, 1.0000000000000000e+02);
-    F.line = 178;
+    F.line = 184;
     result_10670032.a = (5.0000000000000000e+02 * (x_10670034 - y_10670035));
-    F.line = 179;
+    F.line = 185;
     result_10670032.b = (2.0000000000000000e+02 * (y_10670035 - z_10670036));
-    F.line = 180;
+    F.line = 186;
     result_10670032.l = round_10685004(chckRange(result_10670032.l, 0.0, 1.0000000000000000e+02), 3);
-    F.line = 181;
+    F.line = 187;
     result_10670032.a = round_10640332(result_10670032.a, 3);
-    F.line = 182;
+    F.line = 188;
     result_10670032.b = round_10640332(result_10670032.b, 3);
   framePtr = F.prev;
 
@@ -3586,13 +3586,13 @@ function toXYZ_10640375(c_10640377) {
 
   var F={procname:"colorvisualization.toXYZ",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 134;
+    F.line = 140;
     var r_10640379 = [c_10640377.r];
-    F.line = 135;
+    F.line = 141;
     var g_10640380 = [c_10640377.g];
-    F.line = 136;
+    F.line = 142;
     var b_10640381 = [c_10640377.b];
-    F.line = 137;
+    F.line = 143;
     if ((4.0450000000000000e-02 < r_10640379[0])) {
     Tmp1 = Math.pow(((r_10640379[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -3601,7 +3601,7 @@ function toXYZ_10640375(c_10640377) {
     }
     
     r_10640379[0] = Tmp1;
-    F.line = 138;
+    F.line = 144;
     if ((4.0450000000000000e-02 < g_10640380[0])) {
     Tmp2 = Math.pow(((g_10640380[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -3610,7 +3610,7 @@ function toXYZ_10640375(c_10640377) {
     }
     
     g_10640380[0] = Tmp2;
-    F.line = 139;
+    F.line = 145;
     if ((4.0450000000000000e-02 < b_10640381[0])) {
     Tmp3 = Math.pow(((b_10640381[0] + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -3619,25 +3619,25 @@ function toXYZ_10640375(c_10640377) {
     }
     
     b_10640381[0] = Tmp3;
-    F.line = 140;
-    HEX2AHEX3D_10290001(r_10640379, 0, 1.0000000000000000e+02);
-    F.line = 141;
-    HEX2AHEX3D_10290001(g_10640380, 0, 1.0000000000000000e+02);
-    F.line = 142;
-    HEX2AHEX3D_10290001(b_10640381, 0, 1.0000000000000000e+02);
-    F.line = 143;
-    result_10640378.x = (((r_10640379[0] * 4.1239999999999999e-01) + (g_10640380[0] * 3.5759999999999997e-01)) + (b_10640381[0] * 1.8049999999999999e-01));
-    F.line = 144;
-    result_10640378.y = (((r_10640379[0] * 2.1260000000000001e-01) + (g_10640380[0] * 7.1519999999999995e-01)) + (b_10640381[0] * 7.2200000000000000e-02));
-    F.line = 145;
-    result_10640378.z = (((r_10640379[0] * 1.9300000000000001e-02) + (g_10640380[0] * 1.1920000000000000e-01)) + (b_10640381[0] * 9.5050000000000001e-01));
     F.line = 146;
-    result_10640378.x = round_10640332(result_10640378.x, 3);
+    HEX2AHEX3D_10290001(r_10640379, 0, 1.0000000000000000e+02);
     F.line = 147;
-    result_10640378.y = round_10640332(result_10640378.y, 3);
+    HEX2AHEX3D_10290001(g_10640380, 0, 1.0000000000000000e+02);
     F.line = 148;
-    result_10640378.z = round_10640332(result_10640378.z, 3);
+    HEX2AHEX3D_10290001(b_10640381, 0, 1.0000000000000000e+02);
     F.line = 149;
+    result_10640378.x = (((r_10640379[0] * 4.1239999999999999e-01) + (g_10640380[0] * 3.5759999999999997e-01)) + (b_10640381[0] * 1.8049999999999999e-01));
+    F.line = 150;
+    result_10640378.y = (((r_10640379[0] * 2.1260000000000001e-01) + (g_10640380[0] * 7.1519999999999995e-01)) + (b_10640381[0] * 7.2200000000000000e-02));
+    F.line = 151;
+    result_10640378.z = (((r_10640379[0] * 1.9300000000000001e-02) + (g_10640380[0] * 1.1920000000000000e-01)) + (b_10640381[0] * 9.5050000000000001e-01));
+    F.line = 152;
+    result_10640378.x = round_10640332(result_10640378.x, 3);
+    F.line = 153;
+    result_10640378.y = round_10640332(result_10640378.y, 3);
+    F.line = 154;
+    result_10640378.z = round_10640332(result_10640378.z, 3);
+    F.line = 155;
     result_10640378.wp = 0;
   framePtr = F.prev;
 
@@ -3687,8 +3687,8 @@ function toRGB_10640309(c_10640311) {
 
       var F={procname:"toRGB.f",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
       framePtr = F;
-        F.line = 124;
-        F.line = 124;
+        F.line = 130;
+        F.line = 130;
         var k_10640317 = (n_10640315 + (c_10640311.h / 3.0000000000000000e+01)) % 1.2000000000000000e+01;
         result_10640316 = (c_10640311.l - ((c_10640311.s * min_1270014(c_10640311.l, (1.0000000000000000e+00 - c_10640311.l))) * max_1280014(-1.0000000000000000e+00, min_1270014((k_10640317 - 3.0000000000000000e+00), min_1270014((9.0000000000000000e+00 - k_10640317), 1.0000000000000000e+00)))));
       framePtr = F.prev;
@@ -3701,11 +3701,11 @@ function toRGB_10640309(c_10640311) {
 
   var F={procname:"colorvisualization.toRGB",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 127;
+    F.line = 133;
     result_10640312.r = chckRange(round_10640332(f_10640313(0.0), 3), 0.0, 1.0000000000000000e+00);
-    F.line = 128;
+    F.line = 134;
     result_10640312.g = chckRange(round_10640332(f_10640313(8.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
-    F.line = 129;
+    F.line = 135;
     result_10640312.b = chckRange(round_10640332(f_10640313(4.0000000000000000e+00), 3), 0.0, 1.0000000000000000e+00);
   framePtr = F.prev;
 
@@ -4711,19 +4711,19 @@ function HEX24_10550049(c_10550051) {
 
   var F={procname:"colorvisualization.$",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 73;
-    F.line = 73;
+    F.line = 79;
+    F.line = 79;
     var fmtRes_10550053 = [mnewString(0)];
-    F.line = 73;
+    F.line = 79;
     formatValue_10555002(fmtRes_10550053, 0, c_10550051.h, makeNimstrLit(">5.1f"));
-    F.line = 73;
+    F.line = 79;
     fmtRes_10550053[0].push.apply(fmtRes_10550053[0], makeNimstrLit("\xC2\xB0, "));;
-    F.line = 73;
-    formatValue_10555002(fmtRes_10550053, 0, c_10550051.s, makeNimstrLit(">5.3f"));
-    F.line = 73;
+    F.line = 79;
+    formatValue_10555002(fmtRes_10550053, 0, c_10550051.s, makeNimstrLit(">3.1f"));
+    F.line = 79;
     fmtRes_10550053[0].push.apply(fmtRes_10550053[0], makeNimstrLit(", "));;
-    F.line = 73;
-    formatValue_10555002(fmtRes_10550053, 0, c_10550051.l, makeNimstrLit(">5.3f"));
+    F.line = 79;
+    formatValue_10555002(fmtRes_10550053, 0, c_10550051.l, makeNimstrLit(">3.1f"));
     result_10550052 = nimCopy(null, nsuReplaceStr(fmtRes_10550053[0], makeNimstrLit(" "), makeNimstrLit("&nbsp;")), NTI1188013);
   framePtr = F.prev;
 
@@ -4735,19 +4735,19 @@ function HEX24_10570106(c_10570108) {
 
   var F={procname:"colorvisualization.$",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 76;
-    F.line = 76;
+    F.line = 82;
+    F.line = 82;
     var fmtRes_10570110 = [mnewString(0)];
-    F.line = 76;
-    formatValue_10555002(fmtRes_10570110, 0, c_10570108.l, makeNimstrLit(">7.3f"));
-    F.line = 76;
+    F.line = 82;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.l, makeNimstrLit(">5.1f"));
+    F.line = 82;
     fmtRes_10570110[0].push.apply(fmtRes_10570110[0], makeNimstrLit(", "));;
-    F.line = 76;
-    formatValue_10555002(fmtRes_10570110, 0, c_10570108.a, makeNimstrLit(">7.3f"));
-    F.line = 76;
+    F.line = 82;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.a, makeNimstrLit(">5.1f"));
+    F.line = 82;
     fmtRes_10570110[0].push.apply(fmtRes_10570110[0], makeNimstrLit(", "));;
-    F.line = 76;
-    formatValue_10555002(fmtRes_10570110, 0, c_10570108.b, makeNimstrLit(">7.3f"));
+    F.line = 82;
+    formatValue_10555002(fmtRes_10570110, 0, c_10570108.b, makeNimstrLit(">5.1f"));
     result_10570109 = nimCopy(null, nsuReplaceStr(fmtRes_10570110[0], makeNimstrLit(" "), makeNimstrLit("&nbsp;")), NTI1188013);
   framePtr = F.prev;
 
@@ -4919,32 +4919,32 @@ function nsuToHex(x_9760297, len_9760298) {
   return result_9760299;
 
 }
-function toHex_10541387(c_10541389) {
-  var result_10541390 = [];
+function toHex_10541399(c_10541401) {
+  var result_10541402 = [];
 
   var F={procname:"colorvisualization.toHex",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 63;
-    F.line = 64;
-    var r_10541392 = (((c_10541389.r * 2.5600000000000000e+02))|0);
-    F.line = 65;
-    var g_10541394 = (((c_10541389.g * 2.5600000000000000e+02))|0);
-    F.line = 66;
-    var b_10541396 = (((c_10541389.b * 2.5600000000000000e+02))|0);
-    F.line = 67;
-    var fmtRes_10541400 = [mnewString(0)];
-    F.line = 67;
-    fmtRes_10541400[0].push.apply(fmtRes_10541400[0], makeNimstrLit("#"));;
-    F.line = 67;
-    formatValue_10470080(fmtRes_10541400, 0, nsuToHex(r_10541392, 2), []);
-    F.line = 67;
-    formatValue_10470080(fmtRes_10541400, 0, nsuToHex(g_10541394, 2), []);
-    F.line = 67;
-    formatValue_10470080(fmtRes_10541400, 0, nsuToHex(b_10541396, 2), []);
-    result_10541390 = nimCopy(null, fmtRes_10541400[0], NTI1188013);
+    F.line = 69;
+    F.line = 70;
+    var r_10541404 = (((c_10541401.r * 2.5600000000000000e+02))|0);
+    F.line = 71;
+    var g_10541406 = (((c_10541401.g * 2.5600000000000000e+02))|0);
+    F.line = 72;
+    var b_10541408 = (((c_10541401.b * 2.5600000000000000e+02))|0);
+    F.line = 73;
+    var fmtRes_10541412 = [mnewString(0)];
+    F.line = 73;
+    fmtRes_10541412[0].push.apply(fmtRes_10541412[0], makeNimstrLit("#"));;
+    F.line = 73;
+    formatValue_10470080(fmtRes_10541412, 0, nsuToHex(r_10541404, 2), []);
+    F.line = 73;
+    formatValue_10470080(fmtRes_10541412, 0, nsuToHex(g_10541406, 2), []);
+    F.line = 73;
+    formatValue_10470080(fmtRes_10541412, 0, nsuToHex(b_10541408, 2), []);
+    result_10541402 = nimCopy(null, fmtRes_10541412[0], NTI1188013);
   framePtr = F.prev;
 
-  return result_10541390;
+  return result_10541402;
 
 }
 function tableFind_10720186(t_10720191, key_10720192) {
@@ -4954,9 +4954,9 @@ function tableFind_10720186(t_10720191, key_10720192) {
   framePtr = F;
   BeforeRet: do {
     L1: do {
-      F.line = 339;
+      F.line = 345;
       var index_10720244 = 0;
-      F.line = 339;
+      F.line = 345;
       var elem_10720245 = {Field0: [], Field1: {Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}};
       F.line = 98;
       var i_10720684 = 0;
@@ -4964,12 +4964,12 @@ function tableFind_10720186(t_10720191, key_10720192) {
         F.line = 99;
           L3: while (true) {
           if (!(i_10720684 < (t_10720191).length)) break L3;
-            F.line = 339;
+            F.line = 345;
             index_10720244 = i_10720684;
             F.line = 100;
             nimCopy(elem_10720245, t_10720191[chckIndx(i_10720684, 0, (t_10720191).length-1)], NTI10720189);
             if (eqStrings(elem_10720245["Field0"], key_10720192)) {
-            F.line = 340;
+            F.line = 346;
             nimCopy(result_10720194, elem_10720245["Field1"], NTI10720193);
             break BeforeRet;
             }
@@ -4994,8 +4994,8 @@ function luminance_10700103(c_10700105) {
 
   var F={procname:"colorvisualization.luminance",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 217;
-    F.line = 218;
+    F.line = 223;
+    F.line = 224;
     if ((3.9279999999999998e-01 < c_10700105.r)) {
     Tmp1 = Math.pow(((c_10700105.r + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -5004,7 +5004,7 @@ function luminance_10700103(c_10700105) {
     }
     
     var r_10705001 = Tmp1;
-    F.line = 219;
+    F.line = 225;
     if ((3.9279999999999998e-01 < c_10700105.g)) {
     Tmp2 = Math.pow(((c_10700105.g + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -5013,7 +5013,7 @@ function luminance_10700103(c_10700105) {
     }
     
     var g_10710001 = Tmp2;
-    F.line = 220;
+    F.line = 226;
     if ((3.9279999999999998e-01 < c_10700105.b)) {
     Tmp3 = Math.pow(((c_10700105.b + 5.5000000000000000e-02) / 1.0549999999999999e+00), 2.3999999999999999e+00);
     }
@@ -5035,11 +5035,11 @@ function contrastRatio_10715015(m_10715017, p_10715018) {
 
   var F={procname:"colorvisualization.contrastRatio",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
   framePtr = F;
-    F.line = 226;
+    F.line = 232;
     var luminance1_10715020 = luminance_10700103(m_10715017);
-    F.line = 227;
+    F.line = 233;
     var luminance2_10715021 = luminance_10700103(p_10715018);
-    F.line = 229;
+    F.line = 235;
     if ((luminance2_10715021 < luminance1_10715020)) {
     Tmp1 = ((luminance1_10715020 + 5.0000000000000003e-02) / (luminance2_10715021 + 5.0000000000000003e-02));
     }
@@ -5048,7 +5048,7 @@ function contrastRatio_10715015(m_10715017, p_10715018) {
     }
     
     result_10715019 = Tmp1;
-    F.line = 231;
+    F.line = 237;
     result_10715019 = round_10640332(result_10715019, 1);
   framePtr = F.prev;
 
@@ -5057,27 +5057,27 @@ function contrastRatio_10715015(m_10715017, p_10715018) {
 }
 var F={procname:"module colorvisualization",prev:framePtr,filename:"/home/grfork/playground/nim/colorvisualization/src/colorvisualization.nim",line:0};
 framePtr = F;
-F.line = 235;
+F.line = 241;
 var appCalculator_10720019 = [document.getElementById("app-calculator")];
-F.line = 236;
+F.line = 242;
 var table_10720020 = [document.createElement("table")];
-F.line = 237;
+F.line = 243;
 var tr_10720021 = [document.createElement("tr")];
-F.line = 238;
+F.line = 244;
 var td_10720022 = [document.createElement("td")];
 L1: do {
-  F.line = 242;
+  F.line = 248;
   var paletteHtmlTable_10720024 = [table_10720020[0].cloneNode(false)];
-  F.line = 243;
+  F.line = 249;
   var stats_10720027 = [[makeNimstrLit("Old RGB"), makeNimstrLit("Old HSL"), makeNimstrLit("Old L*a*b*"), makeNimstrLit("Old color"), makeNimstrLit("New color"), makeNimstrLit("New L*a*b*"), makeNimstrLit("New HSL"), makeNimstrLit("New RGB")]];
-  F.line = 253;
+  F.line = 259;
   var nameTr_10720028 = [tr_10720021[0].cloneNode(false)];
-  F.line = 254;
+  F.line = 260;
   paletteHtmlTable_10720024[0].id = "palette-table";
-  F.line = 256;
+  F.line = 262;
   nameTr_10720028[0].appendChild(td_10720022[0].cloneNode(false));
   L2: do {
-    F.line = 257;
+    F.line = 263;
     var s_10720089 = [[]];
     F.line = 32;
     var i_10720479 = 0;
@@ -5086,13 +5086,13 @@ L1: do {
       F.line = 34;
         L4: while (true) {
         if (!true) break L4;
-          F.line = 257;
+          F.line = 263;
           s_10720089[0] = stats_10720027[0][chckIndx(i_10720479, 0, (stats_10720027[0]).length-1)];
-          F.line = 258;
+          F.line = 264;
           var td_10720090 = [td_10720022[0].cloneNode(false)];
-          F.line = 259;
+          F.line = 265;
           td_10720090[0].innerText = toJSStr(s_10720089[0]);
-          F.line = 260;
+          F.line = 266;
           nameTr_10720028[0].appendChild(td_10720090[0]);
           if ((7 <= i_10720479)) {
           F.line = 36;
@@ -5106,12 +5106,12 @@ L1: do {
     }
     
   } while(false);
-  F.line = 261;
+  F.line = 267;
   paletteHtmlTable_10720024[0].appendChild(nameTr_10720028[0]);
   L5: do {
-    F.line = 263;
+    F.line = 269;
     var name_10720151 = [[]];
-    F.line = 263;
+    F.line = 269;
     var colors_10720152 = [{Field0: [], Field1: ({h: 0.0, s: 0.0, l: 0.0})}];
     F.line = 32;
     var i_10720486 = 0;
@@ -5120,85 +5120,85 @@ L1: do {
       F.line = 34;
         L7: while (true) {
         if (!true) break L7;
-          F.line = 263;
+          F.line = 269;
           name_10720151[0] = colorsTable_10541255[chckIndx(i_10720486, 0, (colorsTable_10541255).length-1)]["Field0"];
           F.line = 35;
           nimCopy(colors_10720152[0], colorsTable_10541255[chckIndx(i_10720486, 0, (colorsTable_10541255).length-1)]["Field1"], NTI10541207);
-          F.line = 265;
-          var colontmp__10720520 = nimCopy(null, colors_10720152[0], NTI10541207);
-          F.line = 265;
-          var oldHexColor_10720153 = nimCopy(null, colontmp__10720520["Field0"], NTI1188013);
-          F.line = 265;
-          var newHSLColor_10720154 = nimCopy(null, colontmp__10720520["Field1"], NTI10541030);
-          F.line = 266;
-          var oldRGB_10720155 = hexToRGB_10575051(oldHexColor_10720153);
-          F.line = 267;
-          var oldHSL_10720156 = toHSL_10625343(oldRGB_10720155);
-          F.line = 268;
-          var oldLab_10720157 = toLab_10670029(toXYZ_10640375(oldRGB_10720155));
-          F.line = 269;
-          var newHSL_10720158 = nimCopy(null, newHSLColor_10720154, NTI10541030);
-          F.line = 270;
-          var newRGB_10720159 = toRGB_10640309(newHSL_10720158);
           F.line = 271;
-          var newLab_10720160 = toLab_10670029(toXYZ_10640375(newRGB_10720159));
+          var colontmp__10720520 = nimCopy(null, colors_10720152[0], NTI10541207);
+          F.line = 271;
+          var oldHexColor_10720153 = nimCopy(null, colontmp__10720520["Field0"], NTI1188013);
+          F.line = 271;
+          var newHSLColor_10720154 = nimCopy(null, colontmp__10720520["Field1"], NTI10541030);
+          F.line = 272;
+          var oldRGB_10720155 = hexToRGB_10575051(oldHexColor_10720153);
           F.line = 273;
-          var tr_10720161 = [tr_10720021[0].cloneNode(false)];
+          var oldHSL_10720156 = toHSL_10625343(oldRGB_10720155);
           F.line = 274;
-          var td1_10720162 = [td_10720022[0].cloneNode(false)];
+          var oldLab_10720157 = toLab_10670029(toXYZ_10640375(oldRGB_10720155));
           F.line = 275;
-          var td2_10720163 = [td_10720022[0].cloneNode(false)];
+          var newHSL_10720158 = nimCopy(null, newHSLColor_10720154, NTI10541030);
           F.line = 276;
-          var td3_10720164 = [td_10720022[0].cloneNode(false)];
+          var newRGB_10720159 = toRGB_10640309(newHSL_10720158);
           F.line = 277;
-          var td4_10720165 = [td_10720022[0].cloneNode(false)];
-          F.line = 278;
-          var td5_10720166 = [td_10720022[0].cloneNode(false)];
+          var newLab_10720160 = toLab_10670029(toXYZ_10640375(newRGB_10720159));
           F.line = 279;
-          var td6_10720167 = [td_10720022[0].cloneNode(false)];
+          var tr_10720161 = [tr_10720021[0].cloneNode(false)];
           F.line = 280;
-          var td7_10720168 = [td_10720022[0].cloneNode(false)];
+          var td1_10720162 = [td_10720022[0].cloneNode(false)];
           F.line = 281;
-          var td8_10720169 = [td_10720022[0].cloneNode(false)];
+          var td2_10720163 = [td_10720022[0].cloneNode(false)];
           F.line = 282;
-          var td9_10720170 = [td_10720022[0].cloneNode(false)];
+          var td3_10720164 = [td_10720022[0].cloneNode(false)];
           F.line = 283;
-          td1_10720162[0].innerText = toJSStr(name_10720151[0]);
+          var td4_10720165 = [td_10720022[0].cloneNode(false)];
           F.line = 284;
-          td2_10720163[0].innerText = toJSStr(oldHexColor_10720153);
+          var td5_10720166 = [td_10720022[0].cloneNode(false)];
           F.line = 285;
-          td3_10720164[0].innerHTML = toJSStr(HEX24_10550049(oldHSL_10720156));
+          var td6_10720167 = [td_10720022[0].cloneNode(false)];
           F.line = 286;
-          td4_10720165[0].innerHTML = toJSStr(HEX24_10570106(oldLab_10720157));
+          var td7_10720168 = [td_10720022[0].cloneNode(false)];
           F.line = 287;
-          td5_10720166[0].style.backgroundColor = toJSStr(oldHexColor_10720153);
+          var td8_10720169 = [td_10720022[0].cloneNode(false)];
           F.line = 288;
-          td6_10720167[0].style.backgroundColor = toJSStr(toHex_10541387(newRGB_10720159));
+          var td9_10720170 = [td_10720022[0].cloneNode(false)];
           F.line = 289;
-          td7_10720168[0].innerHTML = toJSStr(HEX24_10570106(newLab_10720160));
+          td1_10720162[0].innerText = toJSStr(name_10720151[0]);
           F.line = 290;
-          td8_10720169[0].innerHTML = toJSStr(HEX24_10550049(newHSL_10720158));
+          td2_10720163[0].innerText = toJSStr(oldHexColor_10720153);
           F.line = 291;
-          td9_10720170[0].innerText = toJSStr(toHex_10541387(newRGB_10720159));
+          td3_10720164[0].innerHTML = toJSStr(HEX24_10550049(oldHSL_10720156));
           F.line = 292;
-          tr_10720161[0].appendChild(td1_10720162[0]);
+          td4_10720165[0].innerHTML = toJSStr(HEX24_10570106(oldLab_10720157));
           F.line = 293;
-          tr_10720161[0].appendChild(td2_10720163[0]);
+          td5_10720166[0].style.backgroundColor = toJSStr(oldHexColor_10720153);
           F.line = 294;
-          tr_10720161[0].appendChild(td3_10720164[0]);
+          td6_10720167[0].style.backgroundColor = toJSStr(toHex_10541399(newRGB_10720159));
           F.line = 295;
-          tr_10720161[0].appendChild(td4_10720165[0]);
+          td7_10720168[0].innerHTML = toJSStr(HEX24_10570106(newLab_10720160));
           F.line = 296;
-          tr_10720161[0].appendChild(td5_10720166[0]);
+          td8_10720169[0].innerHTML = toJSStr(HEX24_10550049(newHSL_10720158));
           F.line = 297;
-          tr_10720161[0].appendChild(td6_10720167[0]);
+          td9_10720170[0].innerText = toJSStr(toHex_10541399(newRGB_10720159));
           F.line = 298;
-          tr_10720161[0].appendChild(td7_10720168[0]);
+          tr_10720161[0].appendChild(td1_10720162[0]);
           F.line = 299;
-          tr_10720161[0].appendChild(td8_10720169[0]);
+          tr_10720161[0].appendChild(td2_10720163[0]);
           F.line = 300;
-          tr_10720161[0].appendChild(td9_10720170[0]);
+          tr_10720161[0].appendChild(td3_10720164[0]);
           F.line = 301;
+          tr_10720161[0].appendChild(td4_10720165[0]);
+          F.line = 302;
+          tr_10720161[0].appendChild(td5_10720166[0]);
+          F.line = 303;
+          tr_10720161[0].appendChild(td6_10720167[0]);
+          F.line = 304;
+          tr_10720161[0].appendChild(td7_10720168[0]);
+          F.line = 305;
+          tr_10720161[0].appendChild(td8_10720169[0]);
+          F.line = 306;
+          tr_10720161[0].appendChild(td9_10720170[0]);
+          F.line = 307;
           paletteHtmlTable_10720024[0].appendChild(tr_10720161[0]);
           if ((15 <= i_10720486)) {
           F.line = 36;
@@ -5212,147 +5212,147 @@ L1: do {
     }
     
   } while(false);
-  F.line = 303;
+  F.line = 309;
   appCalculator_10720019[0].appendChild(paletteHtmlTable_10720024[0]);
 } while(false);
 L8: do {
-  F.line = 307;
-  var contrastPairsHtmlTable_10720172 = [table_10720020[0].cloneNode(false)];
-  F.line = 308;
-  var nameTr_10720173 = [tr_10720021[0].cloneNode(false)];
-  F.line = 309;
-  var oldBgTr_10720174 = [tr_10720021[0].cloneNode(false)];
-  F.line = 310;
-  var oldFgTr_10720175 = [tr_10720021[0].cloneNode(false)];
-  F.line = 311;
-  var oldContrastTr_10720176 = [tr_10720021[0].cloneNode(false)];
-  F.line = 312;
-  var newBgTr_10720177 = [tr_10720021[0].cloneNode(false)];
   F.line = 313;
-  var newFgTr_10720178 = [tr_10720021[0].cloneNode(false)];
+  var contrastPairsHtmlTable_10720172 = [table_10720020[0].cloneNode(false)];
   F.line = 314;
-  var newContrastTr_10720179 = [tr_10720021[0].cloneNode(false)];
+  var nameTr_10720173 = [tr_10720021[0].cloneNode(false)];
   F.line = 315;
-  var oldFirstBgTd_10720180 = [td_10720022[0].cloneNode(false)];
+  var oldBgTr_10720174 = [tr_10720021[0].cloneNode(false)];
   F.line = 316;
-  var oldFirstFgTd_10720181 = [td_10720022[0].cloneNode(false)];
+  var oldFgTr_10720175 = [tr_10720021[0].cloneNode(false)];
   F.line = 317;
-  var oldFirstContrastTd_10720182 = [td_10720022[0].cloneNode(false)];
+  var oldContrastTr_10720176 = [tr_10720021[0].cloneNode(false)];
   F.line = 318;
-  var newFirstBgTd_10720183 = [td_10720022[0].cloneNode(false)];
+  var newBgTr_10720177 = [tr_10720021[0].cloneNode(false)];
   F.line = 319;
-  var newFirstFgTd_10720184 = [td_10720022[0].cloneNode(false)];
+  var newFgTr_10720178 = [tr_10720021[0].cloneNode(false)];
   F.line = 320;
-  var newFirstContrastTd_10720185 = [td_10720022[0].cloneNode(false)];
+  var newContrastTr_10720179 = [tr_10720021[0].cloneNode(false)];
   F.line = 321;
-  contrastPairsHtmlTable_10720172[0].id = "contrast-pairs-table";
+  var oldFirstBgTd_10720180 = [td_10720022[0].cloneNode(false)];
+  F.line = 322;
+  var oldFirstFgTd_10720181 = [td_10720022[0].cloneNode(false)];
   F.line = 323;
-  oldFirstBgTd_10720180[0].innerText = "Old background";
+  var oldFirstContrastTd_10720182 = [td_10720022[0].cloneNode(false)];
   F.line = 324;
-  oldFirstFgTd_10720181[0].innerText = "Old foreground";
+  var newFirstBgTd_10720183 = [td_10720022[0].cloneNode(false)];
   F.line = 325;
-  oldFirstContrastTd_10720182[0].innerText = "Old contrast";
+  var newFirstFgTd_10720184 = [td_10720022[0].cloneNode(false)];
   F.line = 326;
-  newFirstBgTd_10720183[0].innerText = "New background";
+  var newFirstContrastTd_10720185 = [td_10720022[0].cloneNode(false)];
   F.line = 327;
-  newFirstFgTd_10720184[0].innerText = "New foreground";
-  F.line = 328;
-  newFirstContrastTd_10720185[0].innerText = "New contrast";
+  contrastPairsHtmlTable_10720172[0].id = "contrast-pairs-table";
+  F.line = 329;
+  oldFirstBgTd_10720180[0].innerText = "Old background";
   F.line = 330;
-  nameTr_10720173[0].appendChild(td_10720022[0].cloneNode(false));
+  oldFirstFgTd_10720181[0].innerText = "Old foreground";
   F.line = 331;
-  oldBgTr_10720174[0].appendChild(oldFirstBgTd_10720180[0]);
+  oldFirstContrastTd_10720182[0].innerText = "Old contrast";
   F.line = 332;
-  oldFgTr_10720175[0].appendChild(oldFirstFgTd_10720181[0]);
+  newFirstBgTd_10720183[0].innerText = "New background";
   F.line = 333;
-  oldContrastTr_10720176[0].appendChild(oldFirstContrastTd_10720182[0]);
+  newFirstFgTd_10720184[0].innerText = "New foreground";
   F.line = 334;
-  newBgTr_10720177[0].appendChild(newFirstBgTd_10720183[0]);
-  F.line = 335;
-  newFgTr_10720178[0].appendChild(newFirstFgTd_10720184[0]);
+  newFirstContrastTd_10720185[0].innerText = "New contrast";
   F.line = 336;
+  nameTr_10720173[0].appendChild(td_10720022[0].cloneNode(false));
+  F.line = 337;
+  oldBgTr_10720174[0].appendChild(oldFirstBgTd_10720180[0]);
+  F.line = 338;
+  oldFgTr_10720175[0].appendChild(oldFirstFgTd_10720181[0]);
+  F.line = 339;
+  oldContrastTr_10720176[0].appendChild(oldFirstContrastTd_10720182[0]);
+  F.line = 340;
+  newBgTr_10720177[0].appendChild(newFirstBgTd_10720183[0]);
+  F.line = 341;
+  newFgTr_10720178[0].appendChild(newFirstFgTd_10720184[0]);
+  F.line = 342;
   newContrastTr_10720179[0].appendChild(newFirstContrastTd_10720185[0]);
   L9: do {
-    F.line = 342;
+    F.line = 348;
     var name_10720336 = [[]];
-    F.line = 342;
+    F.line = 348;
     var colorNames_10720337 = [{Field0: [], Field1: []}];
     F.line = 32;
     var i_10720493 = 0;
-    if ((i_10720493 <= 4)) {
+    if ((i_10720493 <= 10)) {
     L10: do {
       F.line = 34;
         L11: while (true) {
         if (!true) break L11;
-          F.line = 342;
-          name_10720336[0] = contrastPairsTable_10541268[chckIndx(i_10720493, 0, (contrastPairsTable_10541268).length-1)]["Field0"];
-          F.line = 35;
-          nimCopy(colorNames_10720337[0], contrastPairsTable_10541268[chckIndx(i_10720493, 0, (contrastPairsTable_10541268).length-1)]["Field1"], NTI10541258);
-          F.line = 344;
-          var colontmp__10720680 = nimCopy(null, colorNames_10720337[0], NTI10541258);
-          F.line = 344;
-          var bgName_10720338 = nimCopy(null, colontmp__10720680["Field0"], NTI1188013);
-          F.line = 344;
-          var fgName_10720339 = nimCopy(null, colontmp__10720680["Field1"], NTI1188013);
-          F.line = 345;
-          var colontmp__10720681 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], bgName_10720338);
-          F.line = 345;
-          var oldBgHexColor_10720340 = nimCopy(null, colontmp__10720681["Field0"], NTI1188013);
-          F.line = 345;
-          var newBgHSLColor_10720341 = nimCopy(null, colontmp__10720681["Field1"], NTI10541030);
-          F.line = 346;
-          var colontmp__10720686 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.2799999999999996e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 4.9500000000000000e-01, l: 6.2100000000000000e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.3940000000000001e+02, s: 6.8899999999999995e-01, l: 2.0100000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 3.5450000000000000e+02, s: 6.7300000000000004e-01, l: 9.0400000000000003e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 3.5439999999999998e+02, s: 6.0599999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], fgName_10720339);
-          F.line = 346;
-          var oldfgHexColor_10720342 = nimCopy(null, colontmp__10720686["Field0"], NTI1188013);
-          F.line = 346;
-          var newfgHSLColor_10720343 = nimCopy(null, colontmp__10720686["Field1"], NTI10541030);
-          F.line = 347;
-          var newBgHexColor_10720344 = toHex_10541387(toRGB_10640309(newBgHSLColor_10720341));
           F.line = 348;
-          var newFgHexColor_10720345 = toHex_10541387(toRGB_10640309(newfgHSLColor_10720343));
+          name_10720336[0] = contrastPairsTable_10541280[chckIndx(i_10720493, 0, (contrastPairsTable_10541280).length-1)]["Field0"];
+          F.line = 35;
+          nimCopy(colorNames_10720337[0], contrastPairsTable_10541280[chckIndx(i_10720493, 0, (contrastPairsTable_10541280).length-1)]["Field1"], NTI10541258);
           F.line = 350;
-          var nameTd_10720346 = [td_10720022[0].cloneNode(false)];
+          var colontmp__10720680 = nimCopy(null, colorNames_10720337[0], NTI10541258);
+          F.line = 350;
+          var bgName_10720338 = nimCopy(null, colontmp__10720680["Field0"], NTI1188013);
+          F.line = 350;
+          var fgName_10720339 = nimCopy(null, colontmp__10720680["Field1"], NTI1188013);
           F.line = 351;
-          var oldBgTd_10720347 = [td_10720022[0].cloneNode(false)];
+          var colontmp__10720681 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.1999999999999995e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 2.3200000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 5.0000000000000000e+00, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 5.0000000000000000e+00, s: 5.9999999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], bgName_10720338);
+          F.line = 351;
+          var oldBgHexColor_10720340 = nimCopy(null, colontmp__10720681["Field0"], NTI1188013);
+          F.line = 351;
+          var newBgHSLColor_10720341 = nimCopy(null, colontmp__10720681["Field1"], NTI10541030);
           F.line = 352;
-          var oldFgTd_10720348 = [td_10720022[0].cloneNode(false)];
+          var colontmp__10720686 = tableFind_10720186([{Field0: makeNimstrLit("colorLight"), Field1: {Field0: makeNimstrLit("#f8f9fa"), Field1: {h: 0.0, s: 0.0, l: 9.7299999999999998e-01}}}, {Field0: makeNimstrLit("colorLightMedium"), Field1: {Field0: makeNimstrLit("#d4d4d4"), Field1: {h: 0.0, s: 0.0, l: 8.1999999999999995e-01}}}, {Field0: makeNimstrLit("colorMedium"), Field1: {Field0: makeNimstrLit("#c4c4c4"), Field1: {h: 0.0, s: 0.0, l: 7.6600000000000001e-01}}}, {Field0: makeNimstrLit("colorMediumDark"), Field1: {Field0: makeNimstrLit("#999999"), Field1: {h: 0.0, s: 0.0, l: 5.9799999999999998e-01}}}, {Field0: makeNimstrLit("colorDark"), Field1: {Field0: makeNimstrLit("#727272"), Field1: {h: 0.0, s: 0.0, l: 4.4500000000000001e-01}}}, {Field0: makeNimstrLit("colorClickableBlue"), Field1: {Field0: makeNimstrLit("#3497e4"), Field1: {h: 2.0630000000000001e+02, s: 7.5900000000000001e-01, l: 5.4700000000000004e-01}}}, {Field0: makeNimstrLit("colorDecorativeBlue"), Field1: {Field0: makeNimstrLit("#17a2d2"), Field1: {h: 1.9540000000000001e+02, s: 8.0300000000000005e-01, l: 4.5500000000000002e-01}}}, {Field0: makeNimstrLit("colorNavbarBackground"), Field1: {Field0: makeNimstrLit("#001629"), Field1: {h: 2.0780000000000001e+02, s: 1.0000000000000000e+00, l: 8.0000000000000002e-02}}}, {Field0: makeNimstrLit("colorNavbarText"), Field1: {Field0: makeNimstrLit("#e9e9e9"), Field1: {h: 0.0, s: 0.0, l: 9.1000000000000003e-01}}}, {Field0: makeNimstrLit("colorTypographyBlack"), Field1: {Field0: makeNimstrLit("#212529"), Field1: {h: 2.1000000000000000e+02, s: 1.0800000000000000e-01, l: 1.4499999999999999e-01}}}, {Field0: makeNimstrLit("colorSuccessBackground"), Field1: {Field0: makeNimstrLit("#6fcf97"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorSuccessText"), Field1: {Field0: makeNimstrLit("#105727"), Field1: {h: 1.4500000000000000e+02, s: 6.9999999999999996e-01, l: 2.3200000000000001e-01}}}, {Field0: makeNimstrLit("colorWarningBackground"), Field1: {Field0: makeNimstrLit("#f8d7da"), Field1: {h: 5.0000000000000000e+00, s: 6.9999999999999996e-01, l: 9.0000000000000002e-01}}}, {Field0: makeNimstrLit("colorWarningText"), Field1: {Field0: makeNimstrLit("#721c24"), Field1: {h: 5.0000000000000000e+00, s: 5.9999999999999998e-01, l: 2.7700000000000002e-01}}}, {Field0: makeNimstrLit("colorButtonSecondary"), Field1: {Field0: makeNimstrLit("#5a6268"), Field1: {h: 2.0569999999999999e+02, s: 7.1999999999999995e-02, l: 3.7900000000000000e-01}}}, {Field0: makeNimstrLit("colorButtonDisabled"), Field1: {Field0: makeNimstrLit("#dcddde"), Field1: {h: 2.1000000000000000e+02, s: 2.9000000000000001e-02, l: 8.6299999999999999e-01}}}], fgName_10720339);
+          F.line = 352;
+          var oldfgHexColor_10720342 = nimCopy(null, colontmp__10720686["Field0"], NTI1188013);
+          F.line = 352;
+          var newfgHSLColor_10720343 = nimCopy(null, colontmp__10720686["Field1"], NTI10541030);
           F.line = 353;
-          var oldContrastTd_10720349 = [td_10720022[0].cloneNode(false)];
+          var newBgHexColor_10720344 = toHex_10541399(toRGB_10640309(newBgHSLColor_10720341));
           F.line = 354;
-          var newBgTd_10720350 = [td_10720022[0].cloneNode(false)];
-          F.line = 355;
-          var newFgTd_10720351 = [td_10720022[0].cloneNode(false)];
+          var newFgHexColor_10720345 = toHex_10541399(toRGB_10640309(newfgHSLColor_10720343));
           F.line = 356;
-          var newContrastTd_10720352 = [td_10720022[0].cloneNode(false)];
+          var nameTd_10720346 = [td_10720022[0].cloneNode(false)];
+          F.line = 357;
+          var oldBgTd_10720347 = [td_10720022[0].cloneNode(false)];
           F.line = 358;
-          nameTd_10720346[0].innerText = toJSStr(name_10720336[0]);
+          var oldFgTd_10720348 = [td_10720022[0].cloneNode(false)];
           F.line = 359;
-          oldBgTd_10720347[0].style.backgroundColor = toJSStr(oldBgHexColor_10720340);
+          var oldContrastTd_10720349 = [td_10720022[0].cloneNode(false)];
           F.line = 360;
-          oldFgTd_10720348[0].style.backgroundColor = toJSStr(oldfgHexColor_10720342);
+          var newBgTd_10720350 = [td_10720022[0].cloneNode(false)];
+          F.line = 361;
+          var newFgTd_10720351 = [td_10720022[0].cloneNode(false)];
           F.line = 362;
-          oldContrastTd_10720349[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(oldBgHexColor_10720340), hexToRGB_10575051(oldfgHexColor_10720342)))));
-          F.line = 363;
-          newBgTd_10720350[0].style.backgroundColor = toJSStr(newBgHexColor_10720344);
+          var newContrastTd_10720352 = [td_10720022[0].cloneNode(false)];
           F.line = 364;
-          newFgTd_10720351[0].style.backgroundColor = toJSStr(newFgHexColor_10720345);
+          nameTd_10720346[0].innerText = toJSStr(name_10720336[0]);
+          F.line = 365;
+          oldBgTd_10720347[0].style.backgroundColor = toJSStr(oldBgHexColor_10720340);
           F.line = 366;
-          newContrastTd_10720352[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(newBgHexColor_10720344), hexToRGB_10575051(newFgHexColor_10720345)))));
+          oldFgTd_10720348[0].style.backgroundColor = toJSStr(oldfgHexColor_10720342);
           F.line = 368;
-          nameTr_10720173[0].appendChild(nameTd_10720346[0]);
+          oldContrastTd_10720349[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(oldBgHexColor_10720340), hexToRGB_10575051(oldfgHexColor_10720342)))));
           F.line = 369;
-          oldBgTr_10720174[0].appendChild(oldBgTd_10720347[0]);
+          newBgTd_10720350[0].style.backgroundColor = toJSStr(newBgHexColor_10720344);
           F.line = 370;
-          oldFgTr_10720175[0].appendChild(oldFgTd_10720348[0]);
-          F.line = 371;
-          oldContrastTr_10720176[0].appendChild(oldContrastTd_10720349[0]);
+          newFgTd_10720351[0].style.backgroundColor = toJSStr(newFgHexColor_10720345);
           F.line = 372;
-          newBgTr_10720177[0].appendChild(newBgTd_10720350[0]);
-          F.line = 373;
-          newFgTr_10720178[0].appendChild(newFgTd_10720351[0]);
+          newContrastTd_10720352[0].innerText = toJSStr(cstrToNimstr(nimFloatToString(contrastRatio_10715015(hexToRGB_10575051(newBgHexColor_10720344), hexToRGB_10575051(newFgHexColor_10720345)))));
           F.line = 374;
+          nameTr_10720173[0].appendChild(nameTd_10720346[0]);
+          F.line = 375;
+          oldBgTr_10720174[0].appendChild(oldBgTd_10720347[0]);
+          F.line = 376;
+          oldFgTr_10720175[0].appendChild(oldFgTd_10720348[0]);
+          F.line = 377;
+          oldContrastTr_10720176[0].appendChild(oldContrastTd_10720349[0]);
+          F.line = 378;
+          newBgTr_10720177[0].appendChild(newBgTd_10720350[0]);
+          F.line = 379;
+          newFgTr_10720178[0].appendChild(newFgTd_10720351[0]);
+          F.line = 380;
           newContrastTr_10720179[0].appendChild(newContrastTd_10720352[0]);
-          if ((4 <= i_10720493)) {
+          if ((10 <= i_10720493)) {
           F.line = 36;
           break L10;
           }
@@ -5364,21 +5364,21 @@ L8: do {
     }
     
   } while(false);
-  F.line = 376;
-  contrastPairsHtmlTable_10720172[0].appendChild(nameTr_10720173[0]);
-  F.line = 377;
-  contrastPairsHtmlTable_10720172[0].appendChild(oldBgTr_10720174[0]);
-  F.line = 378;
-  contrastPairsHtmlTable_10720172[0].appendChild(oldFgTr_10720175[0]);
-  F.line = 379;
-  contrastPairsHtmlTable_10720172[0].appendChild(oldContrastTr_10720176[0]);
-  F.line = 380;
-  contrastPairsHtmlTable_10720172[0].appendChild(newBgTr_10720177[0]);
-  F.line = 381;
-  contrastPairsHtmlTable_10720172[0].appendChild(newFgTr_10720178[0]);
   F.line = 382;
-  contrastPairsHtmlTable_10720172[0].appendChild(newContrastTr_10720179[0]);
+  contrastPairsHtmlTable_10720172[0].appendChild(nameTr_10720173[0]);
   F.line = 383;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldBgTr_10720174[0]);
+  F.line = 384;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldFgTr_10720175[0]);
+  F.line = 385;
+  contrastPairsHtmlTable_10720172[0].appendChild(oldContrastTr_10720176[0]);
+  F.line = 386;
+  contrastPairsHtmlTable_10720172[0].appendChild(newBgTr_10720177[0]);
+  F.line = 387;
+  contrastPairsHtmlTable_10720172[0].appendChild(newFgTr_10720178[0]);
+  F.line = 388;
+  contrastPairsHtmlTable_10720172[0].appendChild(newContrastTr_10720179[0]);
+  F.line = 389;
   appCalculator_10720019[0].appendChild(contrastPairsHtmlTable_10720172[0]);
 } while(false);
 framePtr = F.prev;

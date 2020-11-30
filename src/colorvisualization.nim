@@ -35,7 +35,7 @@ func findReferenceValues(wp: WhitePoint): ReferenceValue =
 const
   colorsTable = {
     "colorLight": ("#f8f9fa", HSL(h: 0.0, s: 0.0, l: 0.973)),
-    "colorLightMedium": ("#d4d4d4", HSL(l: 0.828)),
+    "colorLightMedium": ("#d4d4d4", HSL(l: 0.82)),
     "colorMedium": ("#c4c4c4", HSL(l: 0.766)),
     "colorMediumDark": ("#999999", HSL(l: 0.598)),
     "colorDark": ("#727272", HSL(l: 0.445)),
@@ -44,10 +44,10 @@ const
     "colorNavbarBackground": ("#001629", HSL(h: 207.8, s: 1.0, l: 0.08)),
     "colorNavbarText": ("#e9e9e9", HSL(l: 0.91)),
     "colorTypographyBlack": ("#212529", HSL(h: 210.0, s: 0.108, l: 0.145)),
-    "colorSuccessBackground": ("#6fcf97", HSL(h: 145.0, s: 0.495, l: 0.621)),
-    "colorSuccessText": ("#105727", HSL(h: 139.4, s: 0.689, l: 0.201)),
-    "colorWarningBackground": ("#f8d7da", HSL(h: 354.5, s: 0.673, l: 0.904)),
-    "colorWarningText": ("#721c24", HSL(h: 354.4, s: 0.606, l: 0.277)),
+    "colorSuccessBackground": ("#6fcf97", HSL(h: 145.0, s: 0.7, l: 0.9)),
+    "colorSuccessText": ("#105727", HSL(h: 145.0, s: 0.7, l: 0.232)),
+    "colorWarningBackground": ("#f8d7da", HSL(h: 5.0, s: 0.7, l: 0.9)),
+    "colorWarningText": ("#721c24", HSL(h: 5.0, s: 0.6, l: 0.277)),
     "colorButtonSecondary": ("#5a6268", HSL(h: 205.7, s: 0.072, l: 0.379)),
     "colorButtonDisabled": ("#dcddde", HSL(h: 210.0, s: 0.029, l: 0.863)),
   }
@@ -57,6 +57,12 @@ const
     "success": ("colorSuccessBackground", "colorSuccessText"),
     "warning": ("colorWarningBackground", "colorWarningText"),
     "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
+    "grey 1": ("colorLight", "colorLightMedium"),
+    "grey 2": ("colorLightMedium", "colorMedium"),
+    "grey 3": ("colorMedium", "colorMediumDark"),
+    "grey 4": ("colorMediumDark", "colorDark"),
+    "success bg": ("colorLight", "colorSuccessBackground"),
+    "warning bg": ("colorLight", "colorWarningBackground"),
   }
 
 func toHex*(c: RGB): string =
@@ -67,13 +73,13 @@ func toHex*(c: RGB): string =
   fmt"#{toHex(r, 2)}{toHex(g, 2)}{toHex(b, 2)}"
 
 func `$`*(c: RGB): string =
-  fmt"{c.r:>5.3f}, {c.g:>5.3f}, {c.b:>5.3f}".replace(" ", "&nbsp;")
+  fmt"{c.r:>3.1f}, {c.g:>3.1f}, {c.b:>3.1f}".replace(" ", "&nbsp;")
 
 func `$`*(c: HSL): string =
-  fmt"{c.h.float:>5.1f}°, {c.s.float:>5.3f}, {c.l.float:>5.3f}".replace(" ", "&nbsp;")
+  fmt"{c.h.float:>5.1f}°, {c.s.float:>3.1f}, {c.l.float:>3.1f}".replace(" ", "&nbsp;")
 
 func `$`*(c: Lab): string =
-  fmt"{c.l.float:>7.3f}, {c.a:>7.3f}, {c.b:>7.3f}".replace(" ", "&nbsp;")
+  fmt"{c.l.float:>5.1f}, {c.a:>5.1f}, {c.b:>5.1f}".replace(" ", "&nbsp;")
 
 func hexToRGB*(s: string): RGB =
   if s.len != 7 or
