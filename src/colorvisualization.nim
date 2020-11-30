@@ -36,9 +36,9 @@ const
   colorsTable = {
     "colorLight": ("#f8f9fa", HSL(h: 0.0, s: 0.0, l: 0.973)),
     "colorLightMedium": ("#d4d4d4", HSL(l: 0.82)),
-    "colorMedium": ("#c4c4c4", HSL(l: 0.766)),
-    "colorMediumDark": ("#999999", HSL(l: 0.598)),
-    "colorDark": ("#727272", HSL(l: 0.445)),
+    "colorMedium": ("#c4c4c4", HSL(l: 0.566)),
+    "colorMediumDark": ("#999999", HSL(l: 0.456)),
+    "colorDark": ("#727272", HSL(l: 0.266)),
     "colorClickableBlue": ("#3497e4", HSL(h: 206.3, s: 0.759, l: 0.547)),
     "colorDecorativeBlue": ("#17a2d2", HSL(h: 195.4, s: 0.803, l: 0.455)),
     "colorNavbarBackground": ("#001629", HSL(h: 207.8, s: 1.0, l: 0.08)),
