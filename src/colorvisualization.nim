@@ -34,22 +34,22 @@ func findReferenceValues(wp: WhitePoint): ReferenceValue =
 
 const
   colorsTable = {
-    "colorLight": ("#f8f9fa", HSL(h: 0.0, s: 0.0, l: 0.973)),
-    "colorLightMedium": ("#d4d4d4", HSL(l: 0.82)),
-    "colorMedium": ("#c4c4c4", HSL(l: 0.566)),
-    "colorMediumDark": ("#999999", HSL(l: 0.456)),
-    "colorDark": ("#727272", HSL(l: 0.266)),
-    "colorClickableBlue": ("#3497e4", HSL(h: 206.3, s: 0.759, l: 0.547)),
-    "colorDecorativeBlue": ("#17a2d2", HSL(h: 195.4, s: 0.803, l: 0.455)),
-    "colorNavbarBackground": ("#001629", HSL(h: 207.8, s: 1.0, l: 0.08)),
-    "colorNavbarText": ("#e9e9e9", HSL(l: 0.91)),
-    "colorTypographyBlack": ("#212529", HSL(h: 210.0, s: 0.108, l: 0.145)),
-    "colorSuccessBackground": ("#6fcf97", HSL(h: 145.0, s: 0.7, l: 0.9)),
-    "colorSuccessText": ("#105727", HSL(h: 145.0, s: 0.7, l: 0.232)),
-    "colorWarningBackground": ("#f8d7da", HSL(h: 5.0, s: 0.7, l: 0.9)),
-    "colorWarningText": ("#721c24", HSL(h: 5.0, s: 0.6, l: 0.277)),
-    "colorButtonSecondary": ("#5a6268", HSL(h: 205.7, s: 0.072, l: 0.379)),
-    "colorButtonDisabled": ("#dcddde", HSL(h: 210.0, s: 0.029, l: 0.863)),
+    "colorLight": ("#f8f9fa", "#f9f9f9"),
+    "colorLightMedium": ("#d4d4d4", "#b0b0b0"),
+    "colorMedium": ("#c4c4c4", "#787878"),
+    "colorMediumDark": ("#999999", "#474747"),
+    "colorDark": ("#727272", "#121212"),
+    "colorClickableBlue": ("#3497e4", "#3396e4"),
+    "colorDecorativeBlue": ("#17a2d2", "#17a2d1"),
+    "colorNavbarBackground": ("#001629", "#001628"),
+    "colorNavbarText": ("#e9e9e9", "#e8e8e8"),
+    "colorTypographyBlack": ("#212529", "#212529"),
+    "colorSuccessBackground": ("#6fcf97", "#d4f8e3"),
+    "colorSuccessText": ("#105727", "#116434"),
+    "colorWarningBackground": ("#f8d7da", "#f8d7d4"),
+    "colorWarningText": ("#721c24", "#71231c"),
+    "colorButtonSecondary": ("#5a6268", "#5a6267"),
+    "colorButtonDisabled": ("#dcddde", "#dbdcdd"),
   }
   contrastPairsTable = {
     "navbar": ("colorNavbarBackground", "colorNavbarText"),
@@ -268,12 +268,12 @@ when isMainModule:
 
     for (name, colors) in colorsTable:
       let
-        (oldHexColor, newHSLColor) = colors
+        (oldHexColor, newHexColor) = colors
         oldRGB = hexToRGB(oldHexColor)
         oldHSL = oldRGB.toHSL
         oldLab = oldRGB.toXYZ.toLab
-        newHSL = newHSLColor
-        newRGB = newHSL.toRGB
+        newRGB = hexToRGB(newHexColor)
+        newHSL = newRGB.toHSL
         newLab = newRGB.toXYZ.toLab
       var
         tr = tr.cloneNode(false)
@@ -341,17 +341,15 @@ when isMainModule:
     newFgTr.appendChild(newFirstFgTd)
     newContrastTr.appendChild(newFirstContrastTd)
 
-    func tableFind(t: openArray[(string, (string, HSL))], key: string): (string, HSL) =
+    func tableFind(t: openArray[(string, (string, string))], key: string): (string, string) =
       for index, elem in t.pairs():
         if elem[0] == key: return elem[1]
 
     for (name, colorNames) in contrastPairsTable:
       let
         (bgName, fgName) = colorNames
-        (oldBgHexColor, newBgHSLColor) = colorsTable.tableFind(bgName)
-        (oldfgHexColor, newfgHSLColor) = colorsTable.tableFind(fgName)
-        newBgHexColor = newBgHSLColor.toRGB.toHex
-        newFgHexColor = newFgHSLColor.toRGB.toHex
+        (oldBgHexColor, newBgHexColor) = colorsTable.tableFind(bgName)
+        (oldfgHexColor, newfgHexColor) = colorsTable.tableFind(fgName)
       var
         nameTd = td.cloneNode(false)
         oldBgTd = td.cloneNode(false)
