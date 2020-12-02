@@ -31,39 +31,6 @@ func findReferenceValues(wp: WhitePoint): ReferenceValue =
   for rv in referenceValues:
     if rv.wp == wp: return rv
 
-const
-  colorsTable = {
-    "colorLight": ("#f8f9fa", "#f9f9f9"),
-    "colorLightMedium": ("#d4d4d4", "#b0b0b0"),
-    "colorMedium": ("#c4c4c4", "#787878"),
-    "colorMediumDark": ("#999999", "#474747"),
-    "colorDark": ("#727272", "#121212"),
-    "colorClickableBlue": ("#3497e4", "#3396e4"),
-    "colorDecorativeBlue": ("#17a2d2", "#17a2d1"),
-    "colorNavbarBackground": ("#001629", "#001628"),
-    "colorNavbarText": ("#e9e9e9", "#e8e8e8"),
-    "colorTypographyBlack": ("#212529", "#212529"),
-    "colorSuccessBackground": ("#6fcf97", "#d4f8e3"),
-    "colorSuccessText": ("#105727", "#116434"),
-    "colorWarningBackground": ("#f8d7da", "#f8d7d4"),
-    "colorWarningText": ("#721c24", "#71231c"),
-    "colorButtonSecondary": ("#5a6268", "#5a6267"),
-    "colorButtonDisabled": ("#dcddde", "#dbdcdd"),
-  }
-  contrastPairsTable = {
-    "navbar": ("colorNavbarBackground", "colorNavbarText"),
-    "body": ("colorLight", "colorTypographyBlack"),
-    "success": ("colorSuccessBackground", "colorSuccessText"),
-    "warning": ("colorWarningBackground", "colorWarningText"),
-    "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
-    "grey 1": ("colorLight", "colorLightMedium"),
-    "grey 2": ("colorLightMedium", "colorMedium"),
-    "grey 3": ("colorMedium", "colorMediumDark"),
-    "grey 4": ("colorMediumDark", "colorDark"),
-    "success bg": ("colorLight", "colorSuccessBackground"),
-    "warning bg": ("colorLight", "colorWarningBackground"),
-  }
-
 func toHex*(c: RGB): string =
   let
     r = int(c.r * 256)
@@ -207,7 +174,7 @@ func luminance(c: RGB): float =
   0.2126 * r + 0.7152 * g + 0.0722 * b
 
 # https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
-func contrastRatio(m, p: RGB): float =
+func contrastRatio*(m, p: RGB): float =
   let
     luminance1 = m.luminance
     luminance2 = p.luminance
@@ -223,7 +190,43 @@ func contrastRatio(m, p: RGB): float =
 ###############
 
 when isMainModule:
+  when not defined(js):
+    {.error: "Only JS target is supported.".}
+
   import dom
+
+  const
+    colorsTable = {
+      "colorLight": ("#f8f9fa", "#f9f9f9"),
+      "colorLightMedium": ("#d4d4d4", "#b0b0b0"),
+      "colorMedium": ("#c4c4c4", "#787878"),
+      "colorMediumDark": ("#999999", "#474747"),
+      "colorDark": ("#727272", "#121212"),
+      "colorClickableBlue": ("#3497e4", "#3396e4"),
+      "colorDecorativeBlue": ("#17a2d2", "#17a2d1"),
+      "colorNavbarBackground": ("#001629", "#001628"),
+      "colorNavbarText": ("#e9e9e9", "#e8e8e8"),
+      "colorTypographyBlack": ("#212529", "#212529"),
+      "colorSuccessBackground": ("#6fcf97", "#d4f8e3"),
+      "colorSuccessText": ("#105727", "#116434"),
+      "colorWarningBackground": ("#f8d7da", "#f8d7d4"),
+      "colorWarningText": ("#721c24", "#71231c"),
+      "colorButtonSecondary": ("#5a6268", "#5a6267"),
+      "colorButtonDisabled": ("#dcddde", "#dbdcdd"),
+    }
+    contrastPairsTable = {
+      "navbar": ("colorNavbarBackground", "colorNavbarText"),
+      "body": ("colorLight", "colorTypographyBlack"),
+      "success": ("colorSuccessBackground", "colorSuccessText"),
+      "warning": ("colorWarningBackground", "colorWarningText"),
+      "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
+      "grey 1": ("colorLight", "colorLightMedium"),
+      "grey 2": ("colorLightMedium", "colorMedium"),
+      "grey 3": ("colorMedium", "colorMediumDark"),
+      "grey 4": ("colorMediumDark", "colorDark"),
+      "success bg": ("colorLight", "colorSuccessBackground"),
+      "warning bg": ("colorLight", "colorWarningBackground"),
+    }
 
   func htmlize(c: RGB): string =
     fmt"{c.r.float:>3.1f}, {c.g.float:>3.1f}, {c.b.float:>3.1f}"
