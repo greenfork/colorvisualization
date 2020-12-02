@@ -1,3 +1,5 @@
+{.experimental: "strictFuncs".}
+
 from math import `mod`, pow, sqrt
 from strformat import fmt
 from strutils import replace, HexDigits, toHex, parseHexInt
