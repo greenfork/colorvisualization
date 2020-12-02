@@ -199,37 +199,36 @@ when isMainModule:
 
   const
     colorsTable = {
-      "colorLight": ("#f8f9fa", "#f9f9f9"),
-      "colorLightMedium": ("#d4d4d4", "#b0b0b0"),
-      "colorMedium": ("#c4c4c4", "#787878"),
-      "colorMediumDark": ("#999999", "#474747"),
-      "colorDark": ("#727272", "#121212"),
-      "colorClickableBlue": ("#3497e4", "#3396e4"),
-      "colorDecorativeBlue": ("#17a2d2", "#17a2d1"),
-      "colorNavbarBackground": ("#001629", "#001628"),
-      "colorNavbarText": ("#e9e9e9", "#e8e8e8"),
+      "colorLight": ("#f9f9f9", "#f9f9f9"),
+      "colorLightMedium": ("#b0b0b0", "#b0b0b0"),
+      "colorMedium": ("#787878", "#787878"),
+      "colorMediumDark": ("#474747", "#474747"),
+      "colorDark": ("#121212", "#121212"),
+      "colorClickableBlue": ("#3396e4", "#3396e4"),
+      "colorDecorativeBlue": ("#17a8d1", "#17a8d1"),
+      "colorNavbarBackground": ("#001628", "#001628"),
+      "colorNavbarText": ("#e8e8e8", "#e8e8e8"),
       "colorBackground": ("#ffffff", "#ffffff"),
-      "colorTypographyBlack": ("#212529", "#212529"),
-      "colorSuccessBackground": ("#6fcf97", "#d4f8e3"),
-      "colorSuccessText": ("#105727", "#116434"),
-      "colorWarningBackground": ("#f8d7da", "#f8d7d4"),
-      "colorWarningText": ("#721c24", "#71231c"),
-      "colorButtonSecondary": ("#5a6268", "#5a6267"),
-      "colorButtonDisabled": ("#dcddde", "#dbdcdd"),
+      "colorSuccessBackground": ("#d4f8e3", "#d4f8e3"),
+      "colorSuccessText": ("#116434", "#116434"),
+      "colorWarningBackground": ("#f8d7d4", "#f8d7d4"),
+      "colorWarningText": ("#71231c", "#71231c"),
     }
     contrastPairsTable = {
       "navbar": ("colorNavbarBackground", "colorNavbarText"),
-      "body": ("colorBackground", "colorTypographyBlack"),
+      "body": ("colorBackground", "colorDark"),
       "success": ("colorSuccessBackground", "colorSuccessText"),
       "warning": ("colorWarningBackground", "colorWarningText"),
-      "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
+      "success bg": ("colorBackground", "colorSuccessBackground"),
+      "warning bg": ("colorBackground", "colorWarningBackground"),
       "grey 1": ("colorLight", "colorLightMedium"),
       "grey 2": ("colorLightMedium", "colorMedium"),
       "grey 3": ("colorMedium", "colorMediumDark"),
       "grey 4": ("colorMediumDark", "colorDark"),
-      "success bg": ("colorBackground", "colorSuccessBackground"),
-      "warning bg": ("colorBackground", "colorWarningBackground"),
     }
+    compareColors = false
+    ## Setting this to false will hide "old" variant
+    ## of a color which is the first element in ColorsTable.
 
   func htmlize(c: RGB): string =
     fmt"{c.r.float:>3.1f}, {c.g.float:>3.1f}, {c.b.float:>3.1f}"
@@ -263,9 +262,10 @@ when isMainModule:
     paletteHtmlTable.id = "palette-table"
 
     nameTr.appendChild(td.cloneNode(false))
-    for s in stats:
+    for i in 0..<stats.len:
       var td = td.cloneNode(false)
-      td.innerText = s
+      td.innerText = stats[i]
+      if not compareColors and i < stats.len div 2: td.style.display = "none"
       nameTr.appendChild(td)
     paletteHtmlTable.appendChild(nameTr)
 
@@ -294,6 +294,11 @@ when isMainModule:
       td3.innerHtml = oldHSL.htmlize
       td4.innerHtml = oldLab.htmlize
       td5.style.backgroundColor = oldHexColor
+      if not compareColors:
+        td2.style.display = "none"
+        td3.style.display = "none"
+        td4.style.display = "none"
+        td5.style.display = "none"
       td6.style.backgroundColor = newRGB.toHex()
       td7.innerHtml = newLab.htmlize
       td8.innerHtml = newHSL.htmlize
@@ -340,6 +345,10 @@ when isMainModule:
     oldBgTr.appendChild(oldFirstBgTd)
     oldFgTr.appendChild(oldFirstFgTd)
     oldContrastTr.appendChild(oldFirstContrastTd)
+    if not compareColors:
+      oldBgTr.style.display = "none"
+      oldFgTr.style.display = "none"
+      oldContrastTr.style.display = "none"
     newBgTr.appendChild(newFirstBgTd)
     newFgTr.appendChild(newFirstFgTd)
     newContrastTr.appendChild(newFirstContrastTd)
