@@ -235,6 +235,12 @@ func contrastRatio(m, p: RGB): float =
     else: (luminance2 + 0.05) / (luminance1 + 0.05)
   result = result.round(1)
 
+
+
+###############
+# Main module #
+###############
+
 when isMainModule:
   import dom
 
