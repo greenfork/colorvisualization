@@ -12,9 +12,9 @@ type
     s*, l*: range[0.0..1.0]
   WhitePoint* = enum # only d65 is currently used
     d65, d55, d50, a, c, e, icc
-  ReferenceValue* = object
-    x*, y*, z*: float
-    wp*: WhitePoint
+  ReferenceValue = object
+    x, y, z: float
+    wp: WhitePoint
   XYZ* = object
     x*, y*, z*: float
     wp*: WhitePoint
