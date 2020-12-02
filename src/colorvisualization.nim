@@ -1,4 +1,3 @@
-import dom
 from math import round, `mod`, pow, sqrt
 from strformat import fmt
 from strutils import replace, HexDigits, toHex, parseHexInt
@@ -221,9 +220,9 @@ func deltaE*(m, p: RGB): float = deltaE(m.toXYZ.toLab, p.toXYZ.toLab)
 
 func luminance(c: RGB): float =
   let
-    r = if c.r > 0.3928: pow((c.r + 0.055) / 1.055, 2.4) else: c.r / 12.92
-    g = if c.g > 0.3928: pow((c.g + 0.055) / 1.055, 2.4) else: c.g / 12.92
-    b = if c.b > 0.3928: pow((c.b + 0.055) / 1.055, 2.4) else: c.b / 12.92
+    r = if c.r > 0.03928: pow((c.r + 0.055) / 1.055, 2.4) else: c.r / 12.92
+    g = if c.g > 0.03928: pow((c.g + 0.055) / 1.055, 2.4) else: c.g / 12.92
+    b = if c.b > 0.03928: pow((c.b + 0.055) / 1.055, 2.4) else: c.b / 12.92
   0.2126 * r + 0.7152 * g + 0.0722 * b
 
 # https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
@@ -237,6 +236,8 @@ func contrastRatio(m, p: RGB): float =
   result = result.round(1)
 
 when isMainModule:
+  import dom
+
   var
     appCalculator = document.getElementById("app-calculator")
     table = document.createElement("table")
