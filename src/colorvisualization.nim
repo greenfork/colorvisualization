@@ -285,12 +285,12 @@ when isMainModule:
         td9 = td.cloneNode(false)
       td1.innerText = name
       td2.innerText = oldHexColor
-      td3.innerHtml = $oldHSL
-      td4.innerHtml = $oldLab
+      td3.innerHtml = oldHSL.htmlize
+      td4.innerHtml = oldLab.htmlize
       td5.style.backgroundColor = oldHexColor
       td6.style.backgroundColor = newRGB.toHex()
-      td7.innerHtml = $newLab
-      td8.innerHtml = $newHSL
+      td7.innerHtml = newLab.htmlize
+      td8.innerHtml = newHSL.htmlize
       td9.innerText = newRGB.toHex()
       tr.appendChild(td1)
       tr.appendChild(td2)
@@ -347,6 +347,10 @@ when isMainModule:
         (bgName, fgName) = colorNames
         (oldBgHexColor, newBgHexColor) = colorsTable.tableFind(bgName)
         (oldfgHexColor, newfgHexColor) = colorsTable.tableFind(fgName)
+        oldContrast =
+          contrastRatio(oldBgHexColor.hexToRGB, oldFgHexColor.hexToRGB)
+        newContrast =
+          contrastRatio(newBgHexColor.hexToRGB, newFgHexColor.hexToRGB)
       var
         nameTd = td.cloneNode(false)
         oldBgTd = td.cloneNode(false)
@@ -359,12 +363,10 @@ when isMainModule:
       nameTd.innerText = name
       oldBgTd.style.backgroundColor = oldBgHexColor
       oldFgTd.style.backgroundColor = oldFgHexColor
-      oldContrastTd.innerText =
-        $contrastRatio(oldBgHexColor.hexToRGB, oldFgHexColor.hexToRGB)
+      oldContrastTd.innerText = fmt("{oldContrast:3.1f}")
       newBgTd.style.backgroundColor = newBgHexColor
       newFgTd.style.backgroundColor = newFgHexColor
-      newContrastTd.innerText =
-        $contrastRatio(newBgHexColor.hexToRGB, newFgHexColor.hexToRGB)
+      newContrastTd.innerText = fmt("{newContrast:3.1f}")
 
       nameTr.appendChild(nameTd)
       oldBgTr.appendChild(oldBgTd)
