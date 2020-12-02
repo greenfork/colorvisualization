@@ -208,6 +208,7 @@ when isMainModule:
       "colorDecorativeBlue": ("#17a2d2", "#17a2d1"),
       "colorNavbarBackground": ("#001629", "#001628"),
       "colorNavbarText": ("#e9e9e9", "#e8e8e8"),
+      "colorBackground": ("#ffffff", "#ffffff"),
       "colorTypographyBlack": ("#212529", "#212529"),
       "colorSuccessBackground": ("#6fcf97", "#d4f8e3"),
       "colorSuccessText": ("#105727", "#116434"),
@@ -218,7 +219,7 @@ when isMainModule:
     }
     contrastPairsTable = {
       "navbar": ("colorNavbarBackground", "colorNavbarText"),
-      "body": ("colorLight", "colorTypographyBlack"),
+      "body": ("colorBackground", "colorTypographyBlack"),
       "success": ("colorSuccessBackground", "colorSuccessText"),
       "warning": ("colorWarningBackground", "colorWarningText"),
       "buttons": ("colorClickableBlue", "colorDecorativeBlue"),
@@ -226,8 +227,8 @@ when isMainModule:
       "grey 2": ("colorLightMedium", "colorMedium"),
       "grey 3": ("colorMedium", "colorMediumDark"),
       "grey 4": ("colorMediumDark", "colorDark"),
-      "success bg": ("colorLight", "colorSuccessBackground"),
-      "warning bg": ("colorLight", "colorWarningBackground"),
+      "success bg": ("colorBackground", "colorSuccessBackground"),
+      "warning bg": ("colorBackground", "colorWarningBackground"),
     }
 
   func htmlize(c: RGB): string =
